@@ -23,9 +23,16 @@
     1px 1px 0 #5e537b;
 }
 
-.label {
+.labelLeft {
   font-size: 20px;
   margin: 7px;
+  text-align: left;
+}
+
+.labelRight {
+  font-size: 20px;
+  margin: 7px;
+  text-align: right;
 }
 
 .project {
@@ -40,4 +47,16 @@
 
 .header {
   height: 100px;
+}
+
+.Caveat {
+  font-family: 'Caveat', cursive;
+}
+
+.Merriweather {
+  font-family: 'Merriweather', serif;
+}
+
+.OpenSans {
+  font-family: 'Open Sans', sans-serif;
 }
