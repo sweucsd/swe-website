@@ -5,7 +5,7 @@ import Sponsors from './pages/Sponsors';
 function App() {
   return (
     <body>
-      {/* <GetInvolved /> */}
+      {/*<GetInvolved /> */}
       <Sponsors />
     </body>
   );
