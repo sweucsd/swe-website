@@ -108,3 +108,16 @@ td {
 .OpenSans {
   font-family: 'Open Sans', sans-serif;
 }
+
+#outreach-title-right {
+  text-align: right;
+  display: block;
+}
+
+#outreach-title-left {
+  text-align: left;
+  display: block;
+}
+
+
+  
