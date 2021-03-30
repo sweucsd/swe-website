@@ -1,5 +1,15 @@
 import '../App.css';
 import solid_black_square from '../assets/solid_black_square.png';
+import Boeing_Logo from '../assets/Boeing_Logo.png';
+import Brain_Corp_Logo from '../assets/Brain_Corp_Logo.jpeg';
+import Campos_EPC_Logo from '../assets/Campos_EPC_Logo.jpg';
+import Lawrence_Liv_Nat_Lab from '../assets/Lawrence_Liv_Nat_Lab_logo.jpeg';
+import Lockheed_Martin_logo from '../assets/Lockheed_Martin_Logo.jpeg';
+import Northrop_Grumman_Logo from '../assets/Northrop_Grumman_Logo.svg.png';
+import Nuvasive from '../assets/Nuvasive_logo.jpeg';
+import splunk from '../assets/splunk_logo.jpg';
+import TESC_logo from '../assets/TESC_logo.png';
+
 
 function Sponsors() {
   return (
@@ -12,30 +22,44 @@ function Sponsors() {
               <table id="sponsors_table">
                 <tr>
                   <td>
-                    <h1 class='sponsor_names'>Slack</h1>
-                    <img src={solid_black_square} style={{width: 200, float: 'left' }} alt='' />
+                    <h1 class='sponsor_names'></h1>
+                    <img src={Boeing_Logo} style={{width: 200, float: 'left' }} alt='' />
                   </td>
                   <td>
-                    <h1 class='sponsor_names'>Slack</h1>
-                    <img src={solid_black_square} style={{width: 200, float: 'left' }} alt='' />
+                    <h1 class='sponsor_names'></h1>
+                    <img src={Brain_Corp_Logo} style={{width: 200, float: 'left' }} alt='' />
                   </td>
                   <td>
-                    <h1 class='sponsor_names'>Slack</h1>
-                    <img src={solid_black_square} style={{width: 200, float: 'left' }} alt='' />
+                    <h1 class='sponsor_names'></h1>
+                    <img src={Campos_EPC_Logo} style={{width: 200, float: 'left' }} alt='' />
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <h1 class='sponsor_names'>Slack</h1>
-                    <img src={solid_black_square} style={{width: 200, float: 'left' }} alt='' />
+                    <h1 class='sponsor_names'></h1>
+                    <img src={Lawrence_Liv_Nat_Lab} style={{width: 200, float: 'left' }} alt='' />
                   </td>
                   <td>
-                    <h1 class='sponsor_names'>Slack</h1>
-                    <img src={solid_black_square} style={{width: 200, float: 'left' }} alt='' />
+                    <h1 class='sponsor_names'></h1>
+                    <img src={Lockheed_Martin_logo} style={{width: 200, float: 'left' }} alt='' />
                   </td>
                   <td>
-                    <h1 class='sponsor_names'>Slack</h1>
-                    <img src={solid_black_square} style={{width: 200, float: 'left' }} alt='' />
+                    <h1 class='sponsor_names'></h1>
+                    <img src={Northrop_Grumman_Logo} style={{width: 200, float: 'left' }} alt='' />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h1 class='sponsor_names'></h1>
+                    <img src={Nuvasive} style={{width: 200, float: 'left' }} alt='' />
+                  </td>
+                  <td>
+                    <h1 class='sponsor_names'></h1>
+                    <img src={splunk} style={{width: 200, float: 'left' }} alt='' />
+                  </td>
+                  <td>
+                    <h1 class='sponsor_names'></h1>
+                    <img src={TESC_logo} style={{width: 200, float: 'left' }} alt='' />
                   </td>
                 </tr>
               </table>

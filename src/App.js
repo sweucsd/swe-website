@@ -7,8 +7,8 @@ function App() {
   return (
     <body>
       {/*<GetInvolved />*/}
-      {/*<Sponsors />*/}
-      <Outreach />
+      <Sponsors />
+      {/*<Outreach />*/}
     </body>
   );
 }
