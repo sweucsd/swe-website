@@ -6,7 +6,7 @@ function GetInvolved() {
   const description = 'UC San Diego Society of Women Engineers informs, nurtures, and encourages women to attain high levels of education and professional achievement. Our members serve as role models to pre-college and engineering students.'
   const projects = [
     { name: 'SWEbsite Design', description: description },
-    { name: 'ANOTHE PROJECT', description: description },
+    { name: 'ANOTHER PROJECT', description: description },
     { name: 'SWEbsite Design', description: description },
     { name: 'SWEbsite Design', description: description },
     { name: 'SWEbsite Design2', description: 'description2' },

@@ -6,9 +6,9 @@ import Outreach from './pages/Outreach';
 function App() {
   return (
     <body>
-      {/*<GetInvolved />*/}
-      <Sponsors />
-      {/*<Outreach />*/}
+      <GetInvolved />
+      {/*<Sponsors />*/}
+      <Outreach />
     </body>
   );
 }
