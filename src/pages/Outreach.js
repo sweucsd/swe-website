@@ -15,7 +15,7 @@ function Outreach() {
       <div className="EnvisionContainer">
         <img src={Gears} style={{ width: 200, float: 'left', position: 'absolute' }} alt='' />
         <h1 id='outreach-title-left'>Envision</h1>
-        <img class="BorderClass" src={solid_black_square} style={{ position: 'absolute', bottom: 20, borderStyle: 'solid', borderColor: '#c4c4c4', borderWidth: 20, borderRadius:25, width: 700, height:400, marginTop: 20, boxShadow: '20px -20px #5e537b' }} alt='' />
+        <img class="BorderClass" src={solid_black_square} style={{ position: 'absolute', bottom: 0, borderStyle: 'solid', borderColor: '#c4c4c4', borderWidth: 20, borderRadius:25, width: 700, height:400, marginTop: 20, boxShadow: '20px -20px #5e537b' }} alt='' />
         <p>Hello! This is text.</p>
       </div>
     </body>

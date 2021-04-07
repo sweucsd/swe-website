@@ -6,7 +6,7 @@ import Outreach from './pages/Outreach';
 function App() {
   return (
     <body>
-      <GetInvolved />
+      {/*<GetInvolved />*/}
       {/*<Sponsors />*/}
       <Outreach />
     </body>
