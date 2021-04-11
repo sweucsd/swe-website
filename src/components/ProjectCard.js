@@ -13,6 +13,7 @@ function ProjectCard(props) {
         <div className="projectContainer">
           <p className={align}>{props.name}</p>
           <div className="project Merriweather">{props.description}</div>
+          
       </div>
     </body>
   );

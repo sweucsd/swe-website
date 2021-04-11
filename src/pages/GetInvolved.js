@@ -2,6 +2,7 @@ import '../App.css';
 import ProjectCard from '../components/ProjectCard';
 import Gears from '../assets/swe_gears_2.png';
 
+
 function GetInvolved() {
   const description = 'UC San Diego Society of Women Engineers informs, nurtures, and encourages women to attain high levels of education and professional achievement. Our members serve as role models to pre-college and engineering students.'
   const projects = [

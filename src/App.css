@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -63,6 +65,7 @@
   border-radius: 10px;
   */
 }
+
 td {
   padding: 70px 70px 70px 70px;
 }
@@ -128,22 +131,43 @@ td {
 
 .EdgeContainer {
   margin-left: 70px;
-  margin-right: 70px;
+  /*margin-right: 70px;*/
   margin-bottom: 0px;
   position: relative;
   top: 50px;
-  left: 10px;
+  /*left: 10px;*/
 
 }
 
 .EnvisionContainer {
   margin-top: auto;
   margin-left: 70px;
-  margin-right: 70px;
+  /*margin-right: 70px;*/
   float: right;
   position: relative;
   top: 900px;
 }
 
-
+.imgDesign {
+  border-Style: solid;
+  border-Color: #c4c4c4;
+  border-Width: 20px;
+  border-radius: 25px;
+  width: 300px;
+  height:200px;
+  box-shadow: -20px -20px #5e537b;
+  text-align: left;
+}
   
+.Left {
+  text-align: left;
+  background-color: white;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.Right {
+  text-align: right;
+  background-color: white;
+  padding: 10px;
+}
