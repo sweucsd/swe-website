@@ -13,8 +13,7 @@ function Card(props) {
     <body>
         <div className="projectContainer">
           <p className={align}>{props.name}</p>
-            <div className="Left Merriweather">{props.description}</div>
-            <div className="Right Merriweather">{props.description}</div>
+            {props.right ? <div className="Left Merriweather">{props.description}</div> : <div className="Right Merriweather">{props.description}</div>}
           
           
       </div>
