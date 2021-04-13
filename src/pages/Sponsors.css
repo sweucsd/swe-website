@@ -1,0 +1,35 @@
+.header {
+  margin: 50px;
+}
+
+.sponsorstitle {
+  color: #5e537b;
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 100px;
+  margin-bottom: 70px;
+  text-shadow:
+    -1px -1px 0 #5e537b,
+    1px -1px 0 #5e537b,
+    -1px 1px 0 #5e537b,
+    1px 1px 0 #5e537b;
+}
+
+.SponsorshipContainer {
+  background-color: #FFFFFF;
+  padding: 30px;
+  display: grid;
+  margin: 40px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: 1fr;
+  grid-gap: 62px;
+}
+
+.sponsor_names {
+  color: #000000;
+  float: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
