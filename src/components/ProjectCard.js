@@ -1,4 +1,4 @@
-import '../App.css';
+import './ProjectCard.css';
 
 function ProjectCard(props) {
   let align;

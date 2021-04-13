@@ -1,4 +1,4 @@
-import '../App.css';
+import './GetInvolved.css';
 import ProjectCard from '../components/ProjectCard';
 import Gears from '../assets/swe_gears_2.png';
 
@@ -22,7 +22,7 @@ function GetInvolved() {
           <img src={Gears} style={{ width: 150, float: 'right' }} alt='' />
         </div>
         {projects.map((project, index) => {
-          if (index % 2 == 0) {
+          if (index % 2 === 0) {
             return <ProjectCard name={project.name} description={project.description} right={false} />
           }
           else {

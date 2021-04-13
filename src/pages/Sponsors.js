@@ -1,5 +1,4 @@
-import '../App.css';
-import solid_black_square from '../assets/solid_black_square.png';
+import './Sponsors.css';
 import Boeing_Logo from '../assets/Boeing_Logo.png';
 import Brain_Corp_Logo from '../assets/Brain_Corp_Logo.jpeg';
 import Campos_EPC_Logo from '../assets/Campos_EPC_Logo.jpg';
@@ -14,60 +13,39 @@ import TESC_logo from '../assets/TESC_logo.png';
 function Sponsors() {
   return (
     <body>
-      <div className="SponsorshipContainer">
-            <div className="header">
-              <h1 className="sponsorstitle OpenSans">Sponsors</h1>
-              
-              <div className="SponsorshipContainer">
-              <table id="sponsors_table">
-                <tr>
-                  <td>
-                    <h1 class='sponsor_names'></h1>
-                    <img src={Boeing_Logo} style={{width: 200, float: 'left' }} alt='' />
-                  </td>
-                  <td>
-                    <h1 class='sponsor_names'></h1>
-                    <img src={Brain_Corp_Logo} style={{width: 200, float: 'left' }} alt='' />
-                  </td>
-                  <td>
-                    <h1 class='sponsor_names'></h1>
-                    <img src={Campos_EPC_Logo} style={{width: 200, float: 'left' }} alt='' />
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <h1 class='sponsor_names'></h1>
-                    <img src={Lawrence_Liv_Nat_Lab} style={{width: 200, float: 'left' }} alt='' />
-                  </td>
-                  <td>
-                    <h1 class='sponsor_names'></h1>
-                    <img src={Lockheed_Martin_logo} style={{width: 200, float: 'left' }} alt='' />
-                  </td>
-                  <td>
-                    <h1 class='sponsor_names'></h1>
-                    <img src={Northrop_Grumman_Logo} style={{width: 200, float: 'left' }} alt='' />
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <h1 class='sponsor_names'></h1>
-                    <img src={Nuvasive} style={{width: 200, float: 'left' }} alt='' />
-                  </td>
-                  <td>
-                    <h1 class='sponsor_names'></h1>
-                    <img src={splunk} style={{width: 200, float: 'left' }} alt='' />
-                  </td>
-                  <td>
-                    <h1 class='sponsor_names'></h1>
-                    <img src={TESC_logo} style={{width: 200, float: 'left' }} alt='' />
-                  </td>
-                </tr>
-              </table>
-              </div>
-            </div>
-
+      <div className="header">
+        <h1 className="sponsorstitle OpenSans">Sponsors</h1>
+        <div className="SponsorshipContainer">
+          <div>
+            <img src={Boeing_Logo} style={{ width: 200 }} alt='' />
+          </div>
+          <div>
+            <img src={Brain_Corp_Logo} style={{ width: 200 }} alt='' />
+          </div>
+          <div>
+            <img src={Campos_EPC_Logo} style={{ width: 200 }} alt='' />
+          </div>
+          <div>
+            <img src={Lawrence_Liv_Nat_Lab} style={{ width: 200 }} alt='' />
+          </div>
+          <div>
+            <img src={Lockheed_Martin_logo} style={{ width: 200 }} alt='' />
+          </div>
+          <div>
+            <img src={Northrop_Grumman_Logo} style={{ width: 200 }} alt='' />
+          </div>
+          <div>
+            <img src={Nuvasive} style={{ width: 200 }} alt='' />
+          </div>
+          <div>
+            <img src={splunk} style={{ width: 200 }} alt='' />
+          </div>
+          <div>
+            <img src={TESC_logo} style={{ width: 200 }} alt='' />
+          </div>
+        </div>
       </div>
-    </body>
+    </body >
   );
 }
 

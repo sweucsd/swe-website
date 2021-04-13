@@ -1,6 +1,7 @@
 import './App.css';
 import GetInvolved from './pages/GetInvolved';
 import Sponsors from './pages/Sponsors';
+import Calendar from './pages/Calendar';
 import Outreach from './pages/Outreach';
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <body>
       {/*<GetInvolved />*/}
       {/*<Sponsors />*/}
-      <Outreach />
+      {/*<Calendar />*/}
+      {<Outreach />}
     </body>
   );
 }
