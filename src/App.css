@@ -120,8 +120,8 @@
   border-Color: #c4c4c4;
   border-Width: 20px;
   border-radius: 25px;
-  width: 300px;
-  height:200px;
+  width: 50%;
+  height:auto;
   box-shadow: -20px -20px #5e537b;
   text-align: left;
 }
