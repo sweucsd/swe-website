@@ -15,8 +15,8 @@ function GetInvolved() {
   ]
 
   return (
-    <div className="container">
-      <div className="header">
+    <div className="projContainer">
+      <div className="projHeader">
         <h1 className="projTitle OpenSans">Projects</h1>
         <img src={Gears} style={{ width: 150, float: 'right' }} alt='' />
       </div>
