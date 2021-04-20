@@ -1,4 +1,4 @@
-import '../App.css';
+import './Outreach.css';
 import Card from '../components/Card';
 import solid_black_square from '../assets/solid_black_square.png';
 import Gears from '../assets/swe_gears_2.png';
