@@ -3,10 +3,10 @@ import './ProjectCard.css';
 function ProjectCard(props) {
   let align;
   if (props.right === true) {
-    align = 'labelRight';
+    align = 'projLabelRight';
   }
   else {
-    align = 'labelLeft';
+    align = 'projLabelLeft';
   }
   return (
     <body>

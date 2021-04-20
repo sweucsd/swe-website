@@ -15,26 +15,24 @@ function GetInvolved() {
   ]
 
   return (
-    <body>
-      <div className="container">
-        <div className="header">
-          <h1 className="title OpenSans">Projects</h1>
-          <img src={Gears} style={{ width: 150, float: 'right' }} alt='' />
-        </div>
-        {projects.map((project, index) => {
-          if (index % 2 === 0) {
-            return <ProjectCard name={project.name} description={project.description} right={false} />
-          }
-          else {
-            return <ProjectCard name={project.name} description={project.description} right={true} />
-          }
-        }
-
-
-        )}
-
+    <div className="container">
+      <div className="header">
+        <h1 className="projTitle OpenSans">Projects</h1>
+        <img src={Gears} style={{ width: 150, float: 'right' }} alt='' />
       </div>
-    </body>
+      {projects.map((project, index) => {
+        if (index % 2 === 0) {
+          return <ProjectCard name={project.name} description={project.description} right={false} />
+        }
+        else {
+          return <ProjectCard name={project.name} description={project.description} right={true} />
+        }
+      }
+
+
+      )}
+
+    </div>
   );
 }
 
