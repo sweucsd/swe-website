@@ -23,7 +23,47 @@
   background-color: #d8d2ea;
  }
 
- .calendarBody {
+.calendarBody {
   background-color: #d8d2ea;
   padding: 30px;
- }
+}
+
+.titleText {
+  font-family: 'Open Sans';
+  font-size: 50px;
+  text-align: center;
+  color: #5e537b;
+}
+
+.icon {
+  width: 150px;
+  height: auto;
+  padding: 20px;
+  filter: invert(34%) sepia(8%) saturate(2093%) hue-rotate(215deg) brightness(93%) contrast(84%);
+}
+
+.iconContainer {
+  flex: 1;
+}
+ 
+.iconsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: space-between;
+  text-align: center;
+  margin: 50px 70px;
+}
+
+.iconLabels {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Caveat';
+  font-size: 20px;
+  color: #5e537b;
+}
+
+.divider {
+  border: 1px solid #dfc536;
+  width: 150px;
+}
