@@ -1,0 +1,43 @@
+.image {
+  width: 100%;
+  height: auto;
+  /*background: no-repeat center center fixed;*/
+  min-width: 1024px;
+}
+
+.overlay {
+  position:relative;
+}
+
+.overlay:before {
+  content:"";
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  background: #5e537b;
+  opacity: 80%;
+  z-index: 1;
+}
+
+.text {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: #ffffff;
+}
+
+.title {
+  font-size: 7.5vw;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 2.5vw;
+  font-family: 'Open Sans', sans-serif;
+}

@@ -10,6 +10,7 @@ import Sponsors from '../pages/Sponsors';
 import Calendar from '../pages/Calendar';
 import Outreach from '../pages/Outreach';
 import Logo from '../assets/swe_logo.png';
+import Header from './Header';
 
 function Navbar() {
   return (
@@ -23,6 +24,7 @@ function Navbar() {
           <NavLink exact className="link" to="/outreach">Outreach</NavLink>
           <NavLink exact className="link" to="/sponsors">Sponsors</NavLink>
         </nav>
+        <Header />
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
