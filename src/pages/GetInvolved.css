@@ -8,7 +8,7 @@
 }
 
 .projTitle {
-  color: #dfc536;
+  color: var(--gold);
   float: left;
   margin-top: 50px;
   text-shadow:

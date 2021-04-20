@@ -1,4 +1,16 @@
+.outreachContainer {
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.labelLeft { /* edge */
+  font-size: 30px;
+  margin: 7px;
+  text-align: left;
+  padding-left: 200px;
+}
 
 .outreachContainer {
     margin: 100px 80px;
@@ -48,21 +60,24 @@
     width: 100%;
     height: auto;
     border-style: solid;
-    border-color: #c4c4c4;
+    border-color: var(--gray);
     border-width: 15px;
     border-radius: 25px;
     margin: 10px;
-    box-shadow: -20px -20px #5e537b;
+    box-shadow: -15px -15px var(--purple);
   }
 
   .rightImgDesign {
     width: 100%;
     height: auto;
     border-style: solid;
-    border-color: #c4c4c4;
+    border-color: var(--gray);
     border-width: 15px;
     border-radius: 25px;
     margin: 10px;
-    box-shadow: 20px -20px #5e537b;
+    box-shadow: 15px -15px var(--purple);
   }
-  
+
+.Merriweather {
+  font-family: 'Merriweather', sans-serif;
+}

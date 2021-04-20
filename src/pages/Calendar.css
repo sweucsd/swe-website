@@ -32,10 +32,10 @@
   font-family: 'Open Sans';
   font-size: 50px;
   text-align: center;
-  color: #5e537b;
+  color: var(--purple);
 }
 
-.icon {
+.eventIcon {
   width: 150px;
   height: auto;
   padding: 20px;
@@ -60,10 +60,10 @@
   margin: 0px;
   font-family: 'Caveat';
   font-size: 20px;
-  color: #5e537b;
+  color: var(--purple);
 }
 
 .divider {
-  border: 1px solid #dfc536;
+  border: 1px solid var(--gold);
   width: 150px;
 }

@@ -3,16 +3,16 @@
 }
 
 .sponsorstitle {
-  color: #5e537b;
+  color: var(--purple);
   margin-top: 50px;
   margin-left: 40px;
   margin-right: 100px;
   margin-bottom: 70px;
   text-shadow:
-    -1px -1px 0 #5e537b,
-    1px -1px 0 #5e537b,
-    -1px 1px 0 #5e537b,
-    1px 1px 0 #5e537b;
+    -1px -1px 0 var(--purple),
+    1px -1px 0 var(--purple),
+    -1px 1px 0 var(--purple),
+    1px 1px 0 var(--purple);
 }
 
 .SponsorshipContainer {

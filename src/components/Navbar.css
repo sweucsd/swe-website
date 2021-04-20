@@ -16,7 +16,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  color: #5e537b;
+  color: var(--purple);
   padding: 14px 25px;
   text-decoration: none;
   font-size: 17px;
@@ -24,12 +24,12 @@
 
 /* Change the color of links on hover */
 .link:hover {
-  color: #dfc536;
+  color: var(--gold);
 }
 
 /* Add an active class to highlight the current page */
 .link.active {
-  color: #dfc536;
+  color: var(--gold);
 }
 
 /* Hide the link that should open and close the topnav on small screens */

@@ -9,8 +9,11 @@ import GetInvolved from '../pages/GetInvolved';
 import Sponsors from '../pages/Sponsors';
 import Calendar from '../pages/Calendar';
 import Outreach from '../pages/Outreach';
+import About from '../pages/About';
+import Home from '../pages/Home';
 import Logo from '../assets/swe_logo.png';
 import Header from './Header';
+
 
 function Navbar() {
   return (
@@ -18,7 +21,8 @@ function Navbar() {
       <div>
         <nav className="topNav">
           <NavLink exact to="/"><img className="logo" src={Logo} alt="logo" /></NavLink>
-          <NavLink exact className="link" to="/">Home</NavLink>
+          <NavLink exact className="link" to="/home">Home</NavLink>
+          <NavLink exact className="link" to="/about">About</NavLink>
           <NavLink exact className="link" to="/events">Events</NavLink>
           <NavLink exact className="link" to="/involvement">Get Involved</NavLink>
           <NavLink exact className="link" to="/outreach">Outreach</NavLink>
@@ -42,6 +46,12 @@ function Navbar() {
           </Route>
           <Route exact path="/outreach">
             <Outreach />
+          </Route>
+          <Route exact path="/About">
+            <About />
+          </Route>
+          <Route exact path="/Home">
+            <Home />
           </Route>
         </Switch>
       </div>

@@ -43,7 +43,7 @@
     border-Color: #c4c4c4;
     border-Width: 20px;
     border-radius: 25px;
-    box-shadow: -20px -20px #5e537b;
+    box-shadow: -20px -20px var(--purple);
     margin: 10px;*/
     border-Style: solid;
     border-Color: #c4c4c4;
