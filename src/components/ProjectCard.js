@@ -12,7 +12,7 @@ function ProjectCard(props) {
     <body>
         <div className="projectContainer">
           <p className={align}>{props.name}</p>
-          <div className="project Merriweather">{props.description}</div>
+          <div className="project">{props.description}</div>
           
       </div>
     </body>

@@ -1,19 +1,84 @@
+.clickable {
+  color: var(--gold);
+  background-color: transparent;
+  display: inline;
+  padding: 0px;
+  margin: 0px;
+}
+
 .projContainer {
   background-color: #d8d2ea;
-  padding: 30px;
+  padding: 50px 10%;
 }
 
 .projHeader {
   height: 100px;
+  margin-bottom: 80px;
 }
 
 .projTitle {
   color: var(--gold);
   float: left;
-  margin-top: 50px;
+  margin-top: 60px;
   text-shadow:
-    -1px -1px 0 #5e537b,
-    1px -1px 0 #5e537b,
-    -1px 1px 0 #5e537b,
-    1px 1px 0 #5e537b;
+    -1px -1px 0 var(--purple),
+    1px -1px 0 var(--purple),
+    -1px 1px 0 var(--purple),
+    1px 1px 0 var(--purple);
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.projSubtitle {
+  color: var(--purple);
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.membershipLi {
+  color: #d8d2ea;
+  text-shadow:
+    -1px -1px 0 var(--purple),
+    1px -1px 0 var(--purple),
+    -1px 1px 0 var(--purple),
+    1px 1px 0 var(--purple);
+  -webkit-text-shadow: 2px 2px 2px var(--purple);
+  font-family: "Open Sans";
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.membershipSubLi {
+  color: var(--purple);
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.membershipContainer {
+  background-color: white;
+  padding: 100px 10%;
+}
+
+.membershipTitle {
+  color: var(--purple);
+  font-family: "Open Sans";
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.membershipSubtitle {
+  color: var(--dark-gray);
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.membershipBody {
+  padding-top: 10px;
+  color: var(--dark-gray);
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
 }

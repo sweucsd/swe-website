@@ -1,4 +1,5 @@
 import './Navbar.css';
+import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
@@ -21,14 +22,14 @@ function Navbar() {
       <div>
         <nav className="topNav">
           <NavLink exact to="/"><img className="logo" src={Logo} alt="logo" /></NavLink>
-          <NavLink exact className="link" to="/home">Home</NavLink>
+          <NavLink exact className="link" to="/">Home</NavLink>
           <NavLink exact className="link" to="/about">About</NavLink>
           <NavLink exact className="link" to="/events">Events</NavLink>
           <NavLink exact className="link" to="/involvement">Get Involved</NavLink>
           <NavLink exact className="link" to="/outreach">Outreach</NavLink>
           <NavLink exact className="link" to="/sponsors">Sponsors</NavLink>
         </nav>
-        <Header />
+        <Header/>
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
