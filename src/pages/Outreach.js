@@ -1,6 +1,6 @@
 import './Outreach.css';
 import Card from '../components/Card';
-import solid_black_square from '../assets/solid_black_square.png';
+import solid_black_square from '../assets/cover.jpg';
 import Gears from '../assets/swe_gears_2.png';
 const description = <img class='imgDesign' src={solid_black_square} alt=''/>
 const projects = [
