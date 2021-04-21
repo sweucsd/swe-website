@@ -1,4 +1,4 @@
-.header {
+.sponsorsHeader {
   margin: 50px;
 }
 
@@ -15,6 +15,10 @@
     1px 1px 0 var(--purple);
 }
 
+.sponsorImgContainer {
+  text-align: center;
+}
+
 .SponsorshipContainer {
   background-color: #FFFFFF;
   padding: 30px;
@@ -23,13 +27,4 @@
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-template-rows: 1fr;
   grid-gap: 62px;
-}
-
-.sponsor_names {
-  color: #000000;
-  float: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
 }

@@ -1,7 +1,8 @@
 .image {
   width: 100%;
   height: auto;
-  /*background: no-repeat center center fixed;*/
+  min-height: 700px;
+  object-fit: cover;
   /*min-width: 1024px;*/
 }
 

@@ -5,9 +5,67 @@
   justify-content: space-between;
   background-color: white;
   overflow: hidden;
-  padding: 10px 50px;
+  padding: 10px 3%;
   align-items: center;
 
+}
+
+.sideNav {
+  display: none;
+}
+
+@media screen and (max-width: 950px) {
+  .sideNav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: flex-start;
+  }
+
+  .sideNav .sideLink {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: var(--purple);
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .sideLink:hover {
+    color: var(--gold);
+  }
+  
+  /* Add an active class to highlight the current page */
+  .sideLink.active {
+    color: var(--gold);
+  }
+
+  .topNav .link {
+    display: none;
+  }
+
+  .topNav .hamburgerContainer {
+    display: inline-block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+  }
+
+  .topNav .hamburgerContainer .hamburger {
+    width: 40px;
+    filter: invert(34%) sepia(8%) saturate(2093%) hue-rotate(215deg) brightness(93%) contrast(84%);
+    height: auto;
+    display: inline-block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+.hamburgerContainer {
+  display: none;
 }
 
 /* Style the links inside the navigation bar */
@@ -30,11 +88,6 @@
 /* Add an active class to highlight the current page */
 .link.active {
   color: var(--gold);
-}
-
-/* Hide the link that should open and close the topnav on small screens */
-.topnav Link .icon {
-  display: none;
 }
 
 .logo {

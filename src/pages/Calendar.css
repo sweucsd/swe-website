@@ -3,7 +3,7 @@
   position: relative;
   padding-bottom: 75%;
   height: 0;
-  overflow: hidden;
+  
 }
 
 .calendar iframe {
@@ -11,6 +11,7 @@
   top:0;
   left: 0;
   width: 100%;
+  min-height: 600px;
   height: 100%;
 }
 

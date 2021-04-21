@@ -1,21 +1,21 @@
 .outreachContainer {
-  margin: 100px;
+  margin: 8%;
 }
 
 .outreachHeader {
   background-color: var(--light-purple);
-  padding: 100px;
+  padding: 8%;
 }
 
 .outreachText {
   font-family: "Merriweather";
   font-size: 25px;
-  color: var(--purple);
+  color: var(--dark-gray);
   background-color: white;
   padding: 25px;
 }
   
 .outreachBorder {
   background-image: url("../assets/swe_bug_pattern_purple.png");
-  padding: 20px;
+  padding: 2%;
 }

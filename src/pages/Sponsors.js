@@ -13,34 +13,34 @@ import TESC_logo from '../assets/TESC_logo.png';
 function Sponsors() {
   return (
     <body>
-      <div className="header">
+      <div className="sponsorsHeader">
         <h1 className="sponsorstitle OpenSans">Sponsors</h1>
         <div className="SponsorshipContainer">
-          <div>
+          <div className="sponsorImgContainer">
             <img src={Boeing_Logo} style={{ width: 200 }} alt='' />
           </div>
-          <div>
+          <div className="sponsorImgContainer">
             <img src={Brain_Corp_Logo} style={{ width: 200 }} alt='' />
           </div>
-          <div>
+          <div className="sponsorImgContainer">
             <img src={Campos_EPC_Logo} style={{ width: 200 }} alt='' />
           </div>
-          <div>
+          <div className="sponsorImgContainer">
             <img src={Lawrence_Liv_Nat_Lab} style={{ width: 200 }} alt='' />
           </div>
-          <div>
+          <div className="sponsorImgContainer">
             <img src={Lockheed_Martin_logo} style={{ width: 200 }} alt='' />
           </div>
-          <div>
+          <div className="sponsorImgContainer">
             <img src={Northrop_Grumman_Logo} style={{ width: 200 }} alt='' />
           </div>
-          <div>
+          <div className="sponsorImgContainer">
             <img src={Nuvasive} style={{ width: 200 }} alt='' />
           </div>
-          <div>
+          <div className="sponsorImgContainer">
             <img src={splunk} style={{ width: 200 }} alt='' />
           </div>
-          <div>
+          <div className="sponsorImgContainer">
             <img src={TESC_logo} style={{ width: 200 }} alt='' />
           </div>
         </div>
