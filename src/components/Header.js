@@ -29,7 +29,7 @@ function Header() {
         },
         '/outreach': {
           title:'Outreach',
-          subtitle: 'Help us inspire young women to pursue STEM'
+          subtitle: 'Help us inspire young women to pursue engineering'
         },
         '/sponsors': {
           title:'Sponsors',

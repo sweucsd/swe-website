@@ -19,13 +19,13 @@
   background-color: #cccccc;
   background-repeat: no-repeat;
   background-size: auto;
-  padding: 100px;
-  background-color: #d8d2ea;
+  padding: 5%;
+  background-color: var(--light-purple);
  }
 
 .calendarBody {
-  background-color: #d8d2ea;
-  padding: 30px;
+  background-color: var(--light-purple);
+  padding: 2.5%;
 }
 
 .titleText {

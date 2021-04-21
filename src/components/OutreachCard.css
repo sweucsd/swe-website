@@ -1,83 +1,87 @@
-.outreachContainer {
-  margin: 30px;
+.outreachCardContainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.labelLeft { /* edge */
-  font-size: 30px;
-  margin: 7px;
-  text-align: left;
-  padding-left: 200px;
+.outreachCard {
+  margin: 100px 0px;
 }
 
-.outreachContainer {
-    margin: 100px 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+.labelLeft { /* edge */
+  color: var(--purple);
+  font-family: "Open Sans";
+  font-size: 40px;
+  font-weight: 700;
+  margin: 7px;
+  text-align: left;
+  padding-left: 50px;
+}
   
-  .labelLeft { /* edge */
-    font-size: 20px;
-    margin: 7px;
-    text-align: left;
-    padding-left: 200px;
-  }
-  
-  .labelRight { /* envision */
-    font-size: 20px;
-    margin: 7px;
-    text-align: right;
-    padding-right: 200px;
-  }
+.labelRight { /* envision */
+  color: var(--purple);
+  font-family: "Open Sans";
+  font-size: 40px;
+  font-weight: 700;
+  margin: 7px;
+  text-align: right;
+  padding-right: 50px;
+}
+
+.outreachDescription {
+  color: var(--purple);
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+}
 
   .imgContainer {
     position: relative;
     display: inline-block;
   }
 
+  .Left {
+    text-align: left;
+  }
+    
+  .Right {
+    text-align: right;
+  }
+
   .Left_gears {
     width: 30%;
     position: absolute;
-    top: 0%;
-    left: 100%;
+    top: -18%;
+    left: 90%;
     z-index: 100;
-    transform: translate(-30%, -30%);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
   }
   
   .Right_gears {
     width: 30%;
     position: absolute;
-    top: 0%;
-    left: 0%;
+    top: -17%;
+    left: -18%;
     z-index: 100;
-    transform: translate(-70%, -40%);
   }
 
   .leftImgDesign {
     width: 100%;
     height: auto;
-    border-style: solid;
+    /*border-style: solid;
     border-color: var(--gray);
-    border-width: 15px;
-    border-radius: 25px;
-    margin: 10px;
-    box-shadow: -15px -15px var(--purple);
+    border-width: 15px;*/
+    border-radius: 15px;
+    box-shadow: -10px -10px var(--purple);
   }
 
   .rightImgDesign {
     width: 100%;
     height: auto;
-    border-style: solid;
+    /*border-style: solid;
     border-color: var(--gray);
-    border-width: 15px;
-    border-radius: 25px;
-    margin: 10px;
-    box-shadow: 15px -15px var(--purple);
+    border-width: 15px;*/
+    border-radius: 15px;
+    box-shadow: 10px -10px var(--purple);
   }
-
-.Merriweather {
-  font-family: 'Merriweather', sans-serif;
-}

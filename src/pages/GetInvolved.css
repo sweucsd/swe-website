@@ -7,7 +7,7 @@
 }
 
 .projContainer {
-  background-color: #d8d2ea;
+  background-color: var(--light-purple);
   padding: 50px 10%;
 }
 
@@ -20,13 +20,9 @@
   color: var(--gold);
   float: left;
   margin-top: 60px;
-  text-shadow:
-    -1px -1px 0 var(--purple),
-    1px -1px 0 var(--purple),
-    -1px 1px 0 var(--purple),
-    1px 1px 0 var(--purple);
-    font-size: 50px;
-    font-weight: 800;
+  -webkit-text-stroke: 1px var(--purple);
+  font-size: 50px;
+  font-weight: 800;
 }
 
 .projSubtitle {
@@ -37,13 +33,8 @@
 }
 
 .membershipLi {
-  color: #d8d2ea;
-  text-shadow:
-    -1px -1px 0 var(--purple),
-    1px -1px 0 var(--purple),
-    -1px 1px 0 var(--purple),
-    1px 1px 0 var(--purple);
-  -webkit-text-shadow: 2px 2px 2px var(--purple);
+  color: var(--light-purple);
+  -webkit-text-stroke: 1px var(--purple);
   font-family: "Open Sans";
   font-size: 40px;
   font-weight: 700;
