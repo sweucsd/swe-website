@@ -7,7 +7,6 @@
   overflow: hidden;
   padding: 10px 3%;
   align-items: center;
-
 }
 
 .sideNav {
@@ -29,7 +28,6 @@
     color: var(--purple);
     padding: 14px 25px;
     text-decoration: none;
-    font-size: 17px;
   }
 
   .sideLink:hover {
@@ -77,7 +75,6 @@
   color: var(--purple);
   padding: 14px 25px;
   text-decoration: none;
-  font-size: 17px;
 }
 
 /* Change the color of links on hover */

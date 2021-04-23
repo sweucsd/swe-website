@@ -8,9 +8,9 @@ import './Calendar.css';
 function Calendar() {
   return (
     <div>
-      <h1 className="titleText">Our Events</h1>
+      <h1 className="h2 titleText">Our Events</h1>
       <hr className="divider"/>
-      <div className="iconsContainer">
+      <div className="em iconsContainer">
         <div className="iconContainer">
           <img className="eventIcon" src={SocialIcon} alt='' />
           <p className="iconLabels">Social Opportunities</p>

@@ -14,7 +14,7 @@ function Sponsors() {
   return (
     <body>
       <div className="sponsorsHeader">
-        <h1 className="sponsorstitle OpenSans">Sponsors</h1>
+        <h1 className="h2 sponsorstitle">Sponsors</h1>
         <div className="SponsorshipContainer">
           <div className="sponsorImgContainer">
             <img src={Boeing_Logo} style={{ width: 200 }} alt='' />

@@ -12,44 +12,51 @@ function Header() {
     () => {
       const titles = {
         '/': {
-          title:'SWE @ UCSD',
+          title: 'SWE @ UCSD',
           subtitle: 'Aspire / Advance / Achieve'
         },
         '/about': {
-          title:'About Us',
+          title: 'About Us',
           subtitle: 'Learn about who we are and what it means to be a SWE Bee!'
         },
         '/events': {
-          title:'SWE Calendar',
+          title: 'SWE Calendar',
           subtitle: 'Subscribe to our calendar to stay notified about our upcoming events!'
         },
         '/involvement': {
-          title:'Get Involved',
+          title: 'Get Involved',
           subtitle: 'Find out how to become active members of our org'
         },
         '/outreach': {
-          title:'Outreach',
+          title: 'Outreach',
           subtitle: 'Help us inspire young women to pursue engineering'
         },
         '/sponsors': {
-          title:'Sponsors',
+          title: 'Sponsors',
           subtitle: 'Thanks to our sponsors for their continued support!'
         }
       }
-      setTitle(titles[location.pathname].title);
-      setSubtitle(titles[location.pathname].subtitle);
+
+      if (location.pathname in titles) {
+        setTitle(titles[location.pathname].title);
+        setSubtitle(titles[location.pathname].subtitle);
+      }
+      else {
+        setTitle('404');
+        setSubtitle('Page Not Found');
+      }
     },
     [location]
   )
-    return (
-        <div className="overlay">
-            <img className="image" src={Cover} alt=''/>
-            <div className="text">
-                <h1 className="title">{title}</h1>
-                <h2 className="subtitle">{subtitle}</h2>
-            </div>
-        </div>
-    );
+  return (
+    <div className="overlay">
+      <img className="image" src={Cover} alt='' />
+      <div className="textContainer">
+        <h1 className="h1">{title}</h1>
+        <h2 className="h4">{subtitle}</h2>
+      </div>
+    </div>
+  );
 }
 
 export default Header;

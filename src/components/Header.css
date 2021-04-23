@@ -3,7 +3,6 @@
   height: auto;
   min-height: 700px;
   object-fit: cover;
-  /*min-width: 1024px;*/
 }
 
 .overlay {
@@ -22,7 +21,7 @@
   z-index: 1;
 }
 
-.text {
+.textContainer {
   position: absolute;
   text-align: center;
   top: 50%;
@@ -30,15 +29,4 @@
   transform: translate(-50%, -50%);
   z-index: 2;
   color: white;
-}
-
-.title {
-  font-size: 7.5vw;
-  font-family: 'Merriweather', serif;
-  font-weight: bold;
-}
-
-.subtitle {
-  font-size: 2.5vw;
-  font-family: 'Open Sans', sans-serif;
 }

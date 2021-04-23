@@ -6,18 +6,95 @@
   --light-purple: #d8d2ea;
 }
 
-.App {
-  text-align: center;
-}
-
-.Caveat {
-  font-family: 'Caveat', cursive;
-}
-
-.Merriweather {
+.h1 {
   font-family: 'Merriweather', serif;
+  font-size: 5rem;
+  font-weight: 900;
 }
 
-.OpenSans {
+.h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.h3 {
   font-family: 'Open Sans', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+.h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.p1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+
+.p2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.em {
+  font-family: 'Caveat', cursive;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 480px) {
+  .h1 {
+    font-size: 3.3rem;
+  }
+  
+  .h2 {
+    font-size: 2.3rem;
+  }
+  
+  .h3 {
+    font-size: 1.9rem;
+  }
+  
+  .h4 {
+    font-size: 1.7rem;
+  }
+  
+  .h5 {
+    font-size: 1.5rem;
+  }
+  
+  .h6 {
+    font-size: 1.2rem;
+  }
+  
+  .p1 {
+    font-size: 1rem;
+  }
+  
+  .p2 {
+    font-size: .95rem;
+  }
+
+  .em {
+    font-size: 1.2rem;
+  }
 }

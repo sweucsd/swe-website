@@ -27,7 +27,7 @@ function Footer() {
           <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSdpJZDjpkxkWwFNvyy9T46Efap0ASpX5Faja3IGrvCL8lCWwQ/viewform">
             <img className="icon" src={connect} alt='' />
           </a>
-          <h5>© Society of Women Engineers at University of California, San Diego</h5>
+          <h5 className="p1">© Society of Women Engineers at University of California, San Diego</h5>
         </div>
     </footer>
   );

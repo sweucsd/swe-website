@@ -21,30 +21,19 @@
   float: left;
   margin-top: 60px;
   -webkit-text-stroke: 1px var(--purple);
-  font-size: 50px;
-  font-weight: 800;
 }
 
 .projSubtitle {
   color: var(--purple);
-  font-family: "Open Sans";
-  font-size: 20px;
-  font-weight: 400;
 }
 
 .membershipLi {
   color: var(--light-purple);
   -webkit-text-stroke: 1px var(--purple);
-  font-family: "Open Sans";
-  font-size: 40px;
-  font-weight: 700;
 }
 
 .membershipSubLi {
   color: var(--purple);
-  font-family: "Open Sans";
-  font-size: 20px;
-  font-weight: 400;
 }
 
 .membershipContainer {
@@ -54,22 +43,13 @@
 
 .membershipTitle {
   color: var(--purple);
-  font-family: "Open Sans";
-  font-size: 50px;
-  font-weight: 800;
 }
 
 .membershipSubtitle {
   color: var(--dark-gray);
-  font-family: "Open Sans";
-  font-size: 30px;
-  font-weight: 700;
 }
 
 .membershipBody {
   padding-top: 10px;
   color: var(--dark-gray);
-  font-family: "Open Sans";
-  font-size: 20px;
-  font-weight: 400;
 }

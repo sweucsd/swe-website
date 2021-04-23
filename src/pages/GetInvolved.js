@@ -15,37 +15,37 @@ function GetInvolved() {
     <div>
       <div className="membershipContainer">
         <div>
-          <h1 className="membershipTitle">SWE @ UCSD Section Membership</h1>
-          <h3 className="membershipSubtitle">How can I become a member?</h3>
+          <h1 className="membershipTitle h2">UCSD Section Membership</h1>
+          <h2 className="membershipSubtitle h4">How can I become a member?</h2>
           <ol>
-            <li className="membershipLi">$5 Membership Fee</li>
+            <li className="h3 membershipLi">$5 Membership Fee</li>
             <ul>
-              <li className="membershipSubLi">Paid to our Treasurer</li>
+              <li className="p1 membershipSubLi">Paid to our Treasurer</li>
             </ul>
-            <li className="membershipLi">6+ Hours of Participation</li>
-            <ul>
-              <li className="membershipSubLi">Attend GBMs, workshops, and other SWE events</li>
-              <li className="membershipSubLi">Get involved with a SWE project (learn more about projects below)</li>
-              <li className="membershipSubLi">Remember to sign in whenever you attend SWE events or meetings in order to log your attendance!</li>
+            <li className="h3 membershipLi">6+ Hours of Participation</li>
+            <ul className="p1 membershipSubLi">
+              <li>Attend GBMs, workshops, and other SWE events</li>
+              <li>Get involved with a SWE project (learn more about projects below)</li>
+              <li>Remember to sign in whenever you attend SWE events or meetings in order to log your attendance!</li>
             </ul>
-            <li className="membershipLi">Become a Collegiate Member</li>
+            <li className="h3 membershipLi">Become a Collegiate Member</li>
             <ul>
-              <li className="membershipSubLi">Standard Collegiate Membership ($20), Collegiate to Career ($50), SWE + SHPE ($24.90), SWE + NSBE ($27.00)</li>
-              <li className="membershipSubLi">Visit <a className="clickable" target="_blank" rel="noopener noreferrer" href="https://swe.org/">swe.org</a> to sign up for collegiate membership</li>
+              <li className="p1 membershipSubLi">Standard Collegiate Membership ($20), Collegiate to Career ($50), SWE + SHPE ($24.90), SWE + NSBE ($27.00)</li>
+              <li className="p1 membershipSubLi">Visit <a className="clickable" target="_blank" rel="noopener noreferrer" href="https://swe.org/">swe.org</a> to sign up for collegiate membership</li>
             </ul>
           </ol>
         </div>
-        <p className="membershipBody">
+        <p className="p2 membershipBody">
         SWE membership at our section comes with a variety of perks, including a free SWE t-shirt, voting rights in board elections, and eligibility to run for board positions.
         However, note that official section membership is not required to attend our events and be involved in our organization. Everyone is welcome!
         </p>
       </div>
       <div className="projContainer">
         <div className="projHeader">
-          <h1 className="projTitle OpenSans">Projects</h1>
+          <h1 className="h2 projTitle">Projects</h1>
           <img src={Gears} style={{ width: 150, float: 'right' }} alt='' />
         </div>
-        <p className="projSubtitle">Projects are a great way to stay involved with the SWE community and earn hours towards membership while gaining hands-on technical experience and meeting fellow SWE Bees. 
+        <p className="p1 projSubtitle">Projects are a great way to stay involved with the SWE community and earn hours towards membership while gaining hands-on technical experience and meeting fellow SWE Bees. 
           Stay subscribed to our newsletter and attend GBMs to hear about future project opportunities.
           Here are some of our current projects:
         </p>

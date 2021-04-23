@@ -3,7 +3,6 @@
 }
 
 .project {
-  text-align: center;
   background-color: white;
   color: var(--dark-gray);
   padding: 30px;
@@ -11,24 +10,16 @@
   border-width: 0px 5px 5px 0px;
   border-color: var(--purple);
   border-radius: 10px;
-  font-family: "Open Sans";
-  font-size: 20px;
 }
 
 .projLabelLeft {
-  font-size: 30px;
   color: var(--purple);
-  font-family: "Open Sans";
-  font-weight: 600;
   margin: 7px;
   text-align: left;
 }
 
 .projLabelRight {
-  font-size: 30px;
   color: var(--purple);
-  font-family: "Open Sans";
-  font-weight: 600;
   margin: 7px;
   text-align: right;
 }

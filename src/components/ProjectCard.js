@@ -11,8 +11,8 @@ function ProjectCard(props) {
   return (
     <body>
         <div className="projectContainer">
-          <p className={align}>{props.name}</p>
-          <div className="project">{props.description}</div>
+          <p className={align + " h5"}>{props.name}</p>
+          <div className="p2 project">{props.description}</div>
           
       </div>
     </body>
