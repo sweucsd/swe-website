@@ -1,7 +1,7 @@
-import SocialIcon from '../assets/social_icon.png';
-import OutreachIcon from '../assets/outreach_icon.png';
-import TechnicalIcon from '../assets/technical_icon.png';
-import ProfessionalIcon from '../assets/professional_icon.png';
+import SocialIcon from '../assets/events/social_icon.png';
+import OutreachIcon from '../assets/events/outreach_icon.png';
+import TechnicalIcon from '../assets/events/technical_icon.png';
+import ProfessionalIcon from '../assets/events/professional_icon.png';
 
 import './Calendar.css';
 

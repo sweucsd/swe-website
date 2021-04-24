@@ -24,14 +24,14 @@ function GetInvolved() {
             </ul>
             <li className="h3 membershipLi">6+ Hours of Participation</li>
             <ul className="p1 membershipSubLi">
-              <li>Attend GBMs, workshops, and other SWE events</li>
+              <li>Attend GBMs, workshops, and other <a href="/events" className="clickableLink">SWE events</a></li>
               <li>Get involved with a SWE project (learn more about projects below)</li>
               <li>Remember to sign in whenever you attend SWE events or meetings in order to log your attendance!</li>
             </ul>
             <li className="h3 membershipLi">Become a Collegiate Member</li>
             <ul>
               <li className="p1 membershipSubLi">Standard Collegiate Membership ($20), Collegiate to Career ($50), SWE + SHPE ($24.90), SWE + NSBE ($27.00)</li>
-              <li className="p1 membershipSubLi">Visit <a className="clickable" target="_blank" rel="noopener noreferrer" href="https://swe.org/">swe.org</a> to sign up for collegiate membership</li>
+              <li className="p1 membershipSubLi">Visit <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://swe.org/">swe.org</a> to sign up for collegiate membership</li>
             </ul>
           </ol>
         </div>

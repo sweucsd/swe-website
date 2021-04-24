@@ -1,10 +1,10 @@
 import React from 'react';
 import './Footer.css';
-import instagram from '../assets/instagram.png';
-import facebook from '../assets/facebook.png';
-import email from '../assets/email.png';
-import slack from '../assets/slack.png';
-import connect from '../assets/link.png';
+import instagram from '../assets/contacts/instagram.png';
+import facebook from '../assets/contacts/facebook.png';
+import email from '../assets/contacts/email.png';
+import slack from '../assets/contacts/slack.png';
+import connect from '../assets/contacts/link.png';
 
 
 

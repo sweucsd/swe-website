@@ -1,9 +1,28 @@
 :root {
-  --purple: #5e537b;
-  --gold: #dfc536;
-  --gray: #aaa9aa;
-  --dark-gray: #52575a;
+  --purple: #5A5377;
+  --gold:  #DBC554;
+  --gray: #A9A8A9;
+  --dark-gray: #545759;
   --light-purple: #d8d2ea;
+}
+
+/* mobile */
+html {
+  font-size: 14px;
+}
+
+/* tablets */
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+/* laptops */
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
 }
 
 .h1 {
@@ -61,40 +80,6 @@
   font-weight: 400;
 }
 
-@media screen and (max-width: 480px) {
-  .h1 {
-    font-size: 3.3rem;
-  }
-  
-  .h2 {
-    font-size: 2.3rem;
-  }
-  
-  .h3 {
-    font-size: 1.9rem;
-  }
-  
-  .h4 {
-    font-size: 1.7rem;
-  }
-  
-  .h5 {
-    font-size: 1.5rem;
-  }
-  
-  .h6 {
-    font-size: 1.2rem;
-  }
-  
-  .p1 {
-    font-size: 1rem;
-  }
-  
-  .p2 {
-    font-size: .95rem;
-  }
-
-  .em {
-    font-size: 1.2rem;
-  }
+.clickableLink {
+  color: var(--gold);
 }

@@ -1,5 +1,7 @@
 .outreachContainer {
   margin: 8%;
+  max-width: 900px;
+
 }
 
 .outreachHeader {

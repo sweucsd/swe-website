@@ -15,9 +15,7 @@ function OutreachCard(props) {
         <div>
           <div className="outreachCardContainerLeft">
             <div className="imgContainer">
-              <div className="Right">
-                <img className='leftImgDesign' src={props.image} alt='' />
-              </div>
+              <img className='leftImgDesign' src={props.image} alt='' />
               <img src={Gears} className="Left_gears" alt='' />
             </div>
             <p className={align + " h3"}>{props.name}</p>
@@ -27,9 +25,7 @@ function OutreachCard(props) {
           <div className="outreachCardContainerRight">
             <div className="imgContainer">
               <img src={Gears} className="Right_gears" alt='' />
-              <div className="Left">
-                <img className='rightImgDesign' src={props.image} alt='' />
-              </div>
+              <img className='rightImgDesign' src={props.image} alt='' />
             </div>
             <p className={align + " h3"}>{props.name}</p>
           </div>

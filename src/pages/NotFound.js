@@ -5,7 +5,7 @@ function NotFound() {
     <div className="notFoundContainer">
       <p className="p1">
         The requested page could not be found. 
-        It could have been moved or deleted.
+        It may have been moved or deleted.
         Try rechecking the url, 
         or return to the homepage <a className="notFoundLink" href="/">here.</a>
       </p>
