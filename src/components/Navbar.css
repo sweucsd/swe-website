@@ -1,4 +1,12 @@
-/* Add a black background color to the top navigation */
+.navContainer {
+  overflow: hidden;
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+  z-index: 3;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+}
+
 .topNav {
   display: flex;
   flex-direction: row;
@@ -7,59 +15,6 @@
   overflow: hidden;
   padding: 10px 3%;
   align-items: center;
-}
-
-.sideNav {
-  display: none;
-}
-
-@media screen and (max-width: 950px) {
-  .sideNav {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    align-content: flex-start;
-  }
-
-  .sideNav .sideLink {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    color: var(--purple);
-    padding: 14px 25px;
-    text-decoration: none;
-  }
-
-  .sideLink:hover {
-    color: var(--gold);
-  }
-  
-  /* Add an active class to highlight the current page */
-  .sideLink.active {
-    color: var(--gold);
-  }
-
-  .topNav .link {
-    display: none;
-  }
-
-  .topNav .hamburgerContainer {
-    display: inline-block;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    background-color: white;
-  }
-
-  .topNav .hamburgerContainer .hamburger {
-    width: 40px;
-    filter: invert(34%) sepia(8%) saturate(2093%) hue-rotate(215deg) brightness(93%) contrast(84%);
-    height: auto;
-    display: inline-block;
-    border: none;
-    outline: none;
-    cursor: pointer;
-  }
 }
 
 .hamburgerContainer {
@@ -92,4 +47,96 @@
   height: auto;
   padding-right: 50px;
   cursor: pointer;
+}
+
+@keyframes expand {
+  from {
+    max-height: 0px;
+  }
+  to {
+    max-height: 1000px;
+  }
+}
+
+@keyframes collapse {
+  from {
+    max-height: 1000px;
+  }
+  to {
+    max-height: 0px;
+  }
+}
+
+.sideNavClosed {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-content: flex-start;
+  max-height: 0px;
+  transition: max-height .2s;
+}
+
+.sideLink {
+  display: none;
+}
+
+@media screen and (max-width: 950px) {
+  .sideNav {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: flex-start;
+    max-height: 1000px;
+    transition: max-height .7s;
+  }
+
+  .sideLink {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: var(--purple);
+    padding: 14px 25px;
+    text-decoration: none;
+  }
+
+  .sideLink:hover {
+    color: var(--gold);
+  }
+  
+  /* Add an active class to highlight the current page */
+  .sideLink.active {
+    color: var(--gold);
+  }
+
+  .link {
+    display: none;
+  }
+
+  .hamburgerContainer {
+    display: inline-block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+  }
+
+  .hamburger {
+    width: 40px;
+    filter: invert(34%) sepia(8%) saturate(2093%) hue-rotate(215deg) brightness(93%) contrast(84%);
+    height: auto;
+    display: inline-block;
+    border: none;
+    outline: none;
+  }
+
+  .closeIcon {
+    width: 27px;
+    filter: invert(34%) sepia(8%) saturate(2093%) hue-rotate(215deg) brightness(93%) contrast(84%);
+    height: auto;
+    display: inline-block;
+    border: none;
+    outline: none;
+  }
 }
