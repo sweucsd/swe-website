@@ -27,6 +27,7 @@ function Navbar() {
   useEffect(
     () => {
       setShowSideNav(false);
+      window.scrollTo(0, 0);
     },
     [location]
   );

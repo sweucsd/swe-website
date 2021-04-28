@@ -12,8 +12,8 @@ import TESC_logo from '../assets/sponsors/TESC_logo.png';
 
 function Sponsors() {
   return (
-    <body>
-      <div className="sponsorsHeader">
+    <div>
+      <div className="sponsorsContainer">
         <h1 className="h2 sponsorstitle">Our Sponsors</h1>
         <div className="SponsorshipContainer">
           <div className="sponsorImgContainer">
@@ -44,8 +44,14 @@ function Sponsors() {
             <img src={TESC_logo} style={{ width: 200 }} alt='' />
           </div>
         </div>
+        <p className="h3 interestTitle">Interested in sponsoring us?</p>
+        <p className="p1 interestBody">
+          Email us at <a className="clickableLink" href="mailto:swe@eng.ucsd.edu">swe@eng.ucsd.edu</a> to 
+          get in contact with our VP External and receive information about how 
+          your company can become involved with our chapter.
+        </p>
       </div>
-    </body >
+    </div >
   );
 }
 

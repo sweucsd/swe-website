@@ -1,0 +1,20 @@
+.sweButton {
+  background-color: var(--purple);
+  font-weight: 600;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sweButton:hover {
+  background-color: var(--purple);
+  opacity: 90%;
+  font-weight: 600;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}

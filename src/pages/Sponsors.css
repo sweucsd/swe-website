@@ -1,13 +1,9 @@
-.sponsorsHeader {
-  margin: 50px;
+.sponsorsContainer {
+  margin: 60px 10%;
 }
 
 .sponsorstitle {
   color: var(--purple);
-  margin-top: 50px;
-  margin-left: 40px;
-  margin-right: 100px;
-  margin-bottom: 70px;
 }
 
 .sponsorImgContainer {
@@ -16,10 +12,17 @@
 
 .SponsorshipContainer {
   background-color: #FFFFFF;
-  padding: 30px;
   display: grid;
-  margin: 40px;
+  margin: 70px 0px;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-template-rows: 1fr;
   grid-gap: 62px;
+}
+
+.interestTitle {
+  color: var(--purple);
+}
+
+.interestBody {
+  color: var(--dark-gray);
 }

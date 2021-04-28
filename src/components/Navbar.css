@@ -49,24 +49,6 @@
   cursor: pointer;
 }
 
-@keyframes expand {
-  from {
-    max-height: 0px;
-  }
-  to {
-    max-height: 1000px;
-  }
-}
-
-@keyframes collapse {
-  from {
-    max-height: 1000px;
-  }
-  to {
-    max-height: 0px;
-  }
-}
-
 .sideNavClosed {
   background-color: white;
   display: flex;
@@ -88,8 +70,9 @@
     flex-direction: column;
     align-items: flex-end;
     align-content: flex-start;
-    max-height: 1000px;
+    max-height: 400px;
     transition: max-height .7s;
+    overflow: auto;
   }
 
   .sideLink {
@@ -138,5 +121,11 @@
     display: inline-block;
     border: none;
     outline: none;
+  }
+}
+
+@media screen and (max-height: 400px) {
+  .sideNav {
+    max-height: 65vh;
   }
 }

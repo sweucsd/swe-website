@@ -50,7 +50,7 @@ function Header() {
   )
   return (
     <div className="overlay">
-      <img className="image" src={Cover} alt='' />
+      <div className="image" src={Cover} alt='' />
       <div className="textContainer">
         <h1 className="h1">{title}</h1>
         <h2 className="h4">{subtitle}</h2>

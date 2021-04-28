@@ -45,3 +45,25 @@
   padding-top: 10px;
   color: var(--dark-gray);
 }
+
+.sweetIdeasContainer {
+  margin-bottom: 40px;
+}
+
+.sweetIdeasTitle {
+  color: var(--gold);
+  -webkit-text-stroke: 1px var(--purple);
+  padding-top: 50px;
+  margin-bottom: 0px;
+}
+
+.sweetIdeasSubtitle {
+  color: var(--purple);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.sweetIdeasBody {
+  color: var(--purple);
+}
