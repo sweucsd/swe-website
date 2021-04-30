@@ -14,7 +14,7 @@
   background-repeat: no-repeat;
   background-size: auto;
   border-radius: 10px;
-  padding: 5%;
+  padding: 2%;
  }
 
 .calendarBody {
@@ -26,6 +26,7 @@
 .titleText {
   text-align: center;
   color: var(--purple);
+  margin-bottom: 40px;
 }
 
 .eventIcon {

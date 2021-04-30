@@ -10,8 +10,9 @@ import connect from '../assets/contacts/link.png';
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="margin footer">
         <div>
+          <p className="h3">Contact Us</p>
           <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/swe.ucsd/">
             <img className="icon" src={instagram} alt='' />
           </a>

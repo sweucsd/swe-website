@@ -8,7 +8,7 @@ function GetInvolved() {
   const projects = [
     { name: 'Ornithopter – Robotic Bird', description: 'Behind the robotic bird project are UCSD students from diverse majors and backgrounds. With the skills learned from fields such as aerospace, electrical, and computer engineering, the team applied their individual experiences to achieve a single goal - to create the robotic bird. They decided to focus on creating a robotic bird because one of the goals was to create a hands on project that everyone can gain experience from. Over the course of the project, team members became proficient in programs such as Solidworks and Arduino. Members: Christine Phan (Project Lead), Megan McCall, Rachel Sjostedt, Gabrielle Hart, Tara Len, Amanda Chau, Marie Shimizu, Haley Sohn' },
     { name: 'STEAM Project', description: 'Our STEAM project is the combination of art and engineering that aims to create a statement piece that uses engineering concepts and nods towards women in STEM who are underrepresented. Members: Dafina Sopi (Project Lead), Kylie Morales, Leslie Jasmine Lopez, Tiffany Soebroto, Parker Carnahan, Elianor Shohet, Tatiana Podhajny, Shantelle Megan Serafin' },
-    { name: 'SWEbsite Design', description: "The SWEbsite Design team was put together to recreate the SWE website from scratch. Previous versions of our website were missing important information and weren't developed by our own UCSD students, so we hoped that by making the website ourselves we could make it more personal while also learning valuable skills about web design and development in the process. From prototyping desings in Figma to building out static pages using a React.js framework, we experienced a variety of different technologies and learned practical skills such as version control and responsive design."  },
+    { name: 'SWEbsite Design', description: "The SWEbsite Design team was put together to recreate the SWE website from scratch. Previous versions of our website were missing important information and weren't developed by our own UCSD students, so we hoped that by making the website ourselves we could make it more personal while also learning valuable skills about web design and development in the process. From prototyping desings in Figma to building out static pages using a React.js framework, we experienced a variety of different technologies and learned practical skills such as version control and responsive design. Members: Jaslina Kaur (Project Lead), Angkitha Anguraj, Allison Bhavsar, Mikaela Grenion, Reyna Yang" },
   ]
 
   return (
@@ -46,15 +46,20 @@ function GetInvolved() {
           a <strong>member</strong> at our section.
         </p>
         <div className="leadershipBody">
-          <p className="p2 membershipBody">Board election details?</p>
+          <p className="p2 membershipBody">
+            Board election details?
+          </p>
         </div>
       </div>
       <div className="margin projContainer">
         <div className="projHeader">
-          <h1 className="h2 projTitle">Projects</h1>
-          <img src={Gears} style={{ width: 150, float: 'right' }} alt='' />
+          <div>
+            <h1 className="h2 projTitle">Projects</h1>
+            <h1 className="h3 projSubtitle">Gain Technical Experience</h1>
+          </div>
+          <img src={Gears} className="threeGears" alt='' />
         </div>
-        <p className="p1 projSubtitle">Projects are a great way to stay involved with the SWE community and earn hours towards membership while gaining hands-on technical experience and meeting fellow SWE Bees.
+        <p className="p1 projDescription">Projects are a great way to stay involved with the SWE community and earn hours towards membership while gaining hands-on technical experience and meeting fellow SWE Bees.
           Stay subscribed to our newsletter and attend GBMs to hear about future project opportunities.
           Here are some of our current projects:
         </p>
@@ -70,8 +75,13 @@ function GetInvolved() {
 
         )}
         <div className="sweetIdeasContainer">
-          <p className="h3 sweetIdeasTitle">SWE-et Ideas!</p>
-          <p className="h5 sweetIdeasSubtitle">Project Opportunities</p>
+        <div className="projHeader">
+          <div>
+            <h1 className="h2 projTitle">SWE-et Ideas!</h1>
+            <h1 className="h3 projSubtitle">Project Opportunities</h1>
+          </div>
+          <img src={Gears} className="threeGears" alt='' />
+        </div>
           <p className="p1 sweetIdeasBody">
             Interested in starting your own project? Fill out the
             SWE-et Ideas project application

@@ -40,20 +40,20 @@
 }
 
 .Left_gears {
-  width: 30%;
+  width: 17%;
   position: absolute;
-  top: -18%;
-  left: 90%;
+  top: -13%;
+  left: 96%;
   z-index: 2;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
   
 .Right_gears {
-  width: 30%;
+  width: 17%;
   position: absolute;
-  top: -20%;
-  left: -20%;
+  top: -14%;
+  left: -13%;
   z-index: 2;
 }
 

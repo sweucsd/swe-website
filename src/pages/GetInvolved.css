@@ -3,19 +3,35 @@
 }
 
 .projHeader {
-  height: 100px;
-  margin-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.threeGears {
+  margin-top: 15px;
+  width: 105px;
+  height: auto;
+  align-self: center;
+}
+
+@media screen and (max-width: 320px) {
+  .threeGears {
+    display: none;
+  }
 }
 
 .projTitle {
-  color: var(--gold);
-  float: left;
+  color: var(--purple);
   margin-top: 60px;
-  -webkit-text-stroke: 1px var(--purple);
 }
 
 .projSubtitle {
-  color: var(--purple);
+  color: var(--medium-purple);
+}
+
+.projDescription {
+  color: var(--dark-gray);
 }
 
 .membershipLi {
@@ -44,15 +60,16 @@
 }
 
 .sweetIdeasTitle {
-  color: var(--gold);
-  -webkit-text-stroke: 1px var(--purple);
+  color: var(--purple);
   padding-top: 50px;
 }
 
 .sweetIdeasSubtitle {
-  color: var(--purple);
+  color: var(--medium-purple);
+  margin: 10px 0px;
 }
 
 .sweetIdeasBody {
-  color: var(--purple);
+  color: var(--dark-gray);
+  margin-bottom: 25px;
 }

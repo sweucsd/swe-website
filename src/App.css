@@ -9,11 +9,18 @@
 
 .margin {
   padding: 50px 8%;
+  overflow: auto;
 }
 
 /* mobile */
 html {
   font-size: 14px;
+}
+
+@media screen and (max-width: 280px) {
+  .margin {
+    word-wrap: break-word;
+  }
 }
 
 /* tablets */

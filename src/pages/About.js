@@ -71,9 +71,10 @@ function About() {
         <p className="h2 aboutTitle">Who We Are</p>
         <p className="h3 aboutSubtitle">What is SWE?</p>
         <p className="p2 aboutBody">
-          The <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://swe.org/">Society of Women Engineers</a> is 
-          a national non-profit organization founded in 1950 that promotes
-          the female presence in engineering and other STEM related fields through educational and career opportunities.
+          The <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://swe.org/">Society of Women Engineers (SWE)</a> is 
+          a national non-profit organization founded in 1950 that inspires women to pursue 
+          engineering by providing educational and career opportunities and advocating for gender equality 
+          within the field.
           SWE has hundreds of professional and collegiate sections across the United States, including here at UC
           San Diego.
         </p>
