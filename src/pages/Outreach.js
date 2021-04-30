@@ -5,7 +5,7 @@ const image = 'https://i.imgur.com/MgNHcA4.jpg';
 const projects = [
   {
     name: 'Envision',
-    image: image,
+    image: 'https://swe.ucsd.edu/wp-content/uploads/2020/11/DSC_0359-768x432.jpg',
     description: 'Envision is an annual conference hosted by SWE for high school girls to attend workshops and a project fair, hear from industry speakers, and participate in other hands-on activities to learn about opportunities in STEM and gain technical/professional experience.'
   },
   {
@@ -17,37 +17,26 @@ const projects = [
 
 function Outreach() {
   return (
-    <div>
-      <div className="outreachHeader">
-        <div className="outreachBorder">
-          <h3 className="outreachText">
-            Through our outreach programs, we aim to introduce high school girls to exciting opportunities in STEM.
-            In doing so, we hope to inspire young women to pursue careers in engineering and fulfill our mission of
-            bridging the gender gap in STEM-related fields.
-        </h3>
-        </div>
-      </div>
-      <div className="outreachContainer">
-        {projects.map((project, index) => {
-          let isRight;
-          if (index % 2 === 0) {
-            isRight = false;
-          }
-          else {
-            isRight = true;
-          }
-          if (index !== projects.length - 1) {
-            return <div>
-              <OutreachCard name={project.name} image={project.image} description={project.description} right={isRight} />
-              <hr className="divider" />
-            </div>
+    <div className="margin outreachContainer">
+      {projects.map((project, index) => {
+        let isRight;
+        if (index % 2 === 0) {
+          isRight = false;
+        }
+        else {
+          isRight = true;
+        }
+        if (index !== projects.length - 1) {
+          return <div>
+            <OutreachCard name={project.name} image={project.image} description={project.description} right={isRight} />
+            <hr className="divider" />
+          </div>
 
-          }
-          else {
-            return <OutreachCard name={project.name} image={project.image} description={project.description} right={isRight} />
-          }
-        })}
-      </div>
+        }
+        else {
+          return <OutreachCard name={project.name} image={project.image} description={project.description} right={isRight} />
+        }
+      })}
     </div>
   );
 }

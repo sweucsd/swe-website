@@ -12,46 +12,44 @@ import TESC_logo from '../assets/sponsors/TESC_logo.png';
 
 function Sponsors() {
   return (
-    <div>
-      <div className="sponsorsContainer">
-        <h1 className="h2 sponsorstitle">Our Sponsors</h1>
-        <div className="SponsorshipContainer">
-          <div className="sponsorImgContainer">
-            <img src={Boeing_Logo} style={{ width: 200 }} alt='' />
-          </div>
-          <div className="sponsorImgContainer">
-            <img src={Brain_Corp_Logo} style={{ width: 200 }} alt='' />
-          </div>
-          <div className="sponsorImgContainer">
-            <img src={Campos_EPC_Logo} style={{ width: 200 }} alt='' />
-          </div>
-          <div className="sponsorImgContainer">
-            <img src={Lawrence_Liv_Nat_Lab} style={{ width: 200 }} alt='' />
-          </div>
-          <div className="sponsorImgContainer">
-            <img src={Lockheed_Martin_logo} style={{ width: 200 }} alt='' />
-          </div>
-          <div className="sponsorImgContainer">
-            <img src={Northrop_Grumman_Logo} style={{ width: 200 }} alt='' />
-          </div>
-          <div className="sponsorImgContainer">
-            <img src={Nuvasive} style={{ width: 200 }} alt='' />
-          </div>
-          <div className="sponsorImgContainer">
-            <img src={splunk} style={{ width: 200 }} alt='' />
-          </div>
-          <div className="sponsorImgContainer">
-            <img src={TESC_logo} style={{ width: 200 }} alt='' />
-          </div>
+    <div className="margin">
+      <h1 className="h2 sponsorstitle">Our Sponsors</h1>
+      <div className="SponsorshipContainer">
+        <div className="sponsorImgContainer">
+          <img src={Boeing_Logo} style={{ width: 200 }} alt='' />
         </div>
-        <p className="h3 interestTitle">Interested in sponsoring us?</p>
-        <p className="p1 interestBody">
-          Email us at <a className="clickableLink" href="mailto:swe@eng.ucsd.edu">swe@eng.ucsd.edu</a> to 
-          get in contact with our VP External and receive information about how 
-          your company can become involved with our chapter.
-        </p>
+        <div className="sponsorImgContainer">
+          <img src={Brain_Corp_Logo} style={{ width: 200 }} alt='' />
+        </div>
+        <div className="sponsorImgContainer">
+          <img src={Campos_EPC_Logo} style={{ width: 200 }} alt='' />
+        </div>
+        <div className="sponsorImgContainer">
+          <img src={Lawrence_Liv_Nat_Lab} style={{ width: 200 }} alt='' />
+        </div>
+        <div className="sponsorImgContainer">
+          <img src={Lockheed_Martin_logo} style={{ width: 200 }} alt='' />
+        </div>
+        <div className="sponsorImgContainer">
+          <img src={Northrop_Grumman_Logo} style={{ width: 200 }} alt='' />
+        </div>
+        <div className="sponsorImgContainer">
+          <img src={Nuvasive} style={{ width: 200 }} alt='' />
+        </div>
+        <div className="sponsorImgContainer">
+          <img src={splunk} style={{ width: 200 }} alt='' />
+        </div>
+        <div className="sponsorImgContainer">
+          <img src={TESC_logo} style={{ width: 200 }} alt='' />
+        </div>
       </div>
-    </div >
+      <p className="h3 interestTitle">Interested in sponsoring us?</p>
+      <p className="p1 interestBody">
+        Email us at <a className="clickableLink" href="mailto:swe@eng.ucsd.edu">swe@eng.ucsd.edu</a> to
+        get in contact with our VP External and receive information about how
+        your company can become involved with our chapter.
+        </p>
+    </div>
   );
 }
 

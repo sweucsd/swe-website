@@ -1,7 +1,6 @@
 import './Header.css';
 import React, { useState, useEffect } from 'react';
 import { useLocation } from "react-router-dom";
-import Cover from '../assets/cover.jpg';
 
 function Header() {
   const [title, setTitle] = useState('');
@@ -50,7 +49,7 @@ function Header() {
   )
   return (
     <div className="overlay">
-      <div className="image" src={Cover} alt='' />
+      <div className="image" alt='' />
       <div className="textContainer">
         <h1 className="h1">{title}</h1>
         <h2 className="h4">{subtitle}</h2>

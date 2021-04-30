@@ -1,26 +1,31 @@
-.aboutContainer {
+.aboutTitle {
+  color: var(--purple);
+}
+
+.aboutSubtitle {
+  color: var(--medium-purple);
+}
+
+.aboutBody {
+  color: var(--dark-gray);
+}
+
+.officersContainer {
   background-color: var(--light-purple);
-  padding: 50px 10%;
 }
 
 .officersGrid {
+  margin: 50px 0px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
   grid-template-rows: 1fr;
   grid-gap: 50px 20px;
-  /*display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;*/
 }
 
 .officersTitle {
-  color: var(--gold);
-  -webkit-text-stroke: 1px var(--purple);
-  margin-bottom: 0px;
+  color: var(--purple);
 }
 
 .officersSubtitle {
-  color: var(--purple);
-  margin-top: 15px;
+  color: var(--medium-purple);
 }
