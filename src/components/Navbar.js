@@ -4,8 +4,8 @@ import {
   Switch,
   Route,
   NavLink,
-  useLocation
-} from "react-router-dom";
+  useLocation,
+} from 'react-router-dom';
 import GetInvolved from '../pages/GetInvolved';
 import Sponsors from '../pages/Sponsors';
 import Calendar from '../pages/Calendar';
@@ -27,7 +27,7 @@ function Navbar() {
       setShowSideNav(false);
       window.scrollTo(0, 0);
     },
-    [location]
+    [location],
   );
 
   function useOutsideAlerter(ref) {
@@ -40,10 +40,10 @@ function Navbar() {
       }
 
       // Bind the event listener
-      document.addEventListener("mousedown", handleClickOutside);
+      document.addEventListener('mousedown', handleClickOutside);
       return () => {
         // Unbind the event listener on clean up
-        document.removeEventListener("mousedown", handleClickOutside);
+        document.removeEventListener('mousedown', handleClickOutside);
       };
     }, [ref]);
   }
@@ -61,16 +61,16 @@ function Navbar() {
           <NavLink exact className="link" to="/involvement">Involvement</NavLink>
           <NavLink exact className="link" to="/outreach">Outreach</NavLink>
           <NavLink exact className="link" to="/sponsors">Sponsors</NavLink>
-          <button className="hamburgerContainer" onClick={() => setShowSideNav(!showSideNav)}>
-            <div className={`hamburger ${showSideNav && "open"}`}>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
+          <button type="button" className="hamburgerContainer" onClick={() => setShowSideNav(!showSideNav)}>
+            <div className={`hamburger ${showSideNav && 'open'}`}>
+              <span />
+              <span />
+              <span />
+              <span />
             </div>
           </button>
         </nav>
-        <nav className={`${showSideNav ? "sideNav" : "sideNavClosed"} p1`}>
+        <nav className={`${showSideNav ? 'sideNav' : 'sideNavClosed'} p1`}>
           <NavLink exact className="sideLink" to="/">Home</NavLink>
           <NavLink exact className="sideLink" to="/about">About</NavLink>
           <NavLink exact className="sideLink" to="/events">Events</NavLink>

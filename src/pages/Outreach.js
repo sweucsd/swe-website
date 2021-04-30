@@ -1,3 +1,4 @@
+import React from 'react';
 import './Outreach.css';
 import OutreachCard from '../components/OutreachCard';
 
@@ -6,14 +7,14 @@ const projects = [
   {
     name: 'Envision',
     image: 'https://swe.ucsd.edu/wp-content/uploads/2020/11/DSC_0359-768x432.jpg',
-    description: 'Envision is an annual conference hosted by SWE for high school girls to attend workshops and a project fair, hear from industry speakers, and participate in other hands-on activities to learn about opportunities in STEM and gain technical/professional experience.'
+    description: 'Envision is an annual conference hosted by SWE for high school girls to attend workshops and a project fair, hear from industry speakers, and participate in other hands-on activities to learn about opportunities in STEM and gain technical/professional experience.',
   },
   {
     name: 'EDGE',
-    image: image,
-    description: 'Empowerment and Development for Girls in Engineering (EDGE) is a program that pairs high school girls with an undergraduate mentor at UCSD, while also offering engineering-related workshops to expose young girls to STEM and possible career opportunities.'
+    image,
+    description: 'Empowerment and Development for Girls in Engineering (EDGE) is a program that pairs high school girls with an undergraduate mentor at UCSD, while also offering engineering-related workshops to expose young girls to STEM and possible career opportunities.',
   },
-]
+];
 
 function Outreach() {
   return (
@@ -22,20 +23,31 @@ function Outreach() {
         let isRight;
         if (index % 2 === 0) {
           isRight = false;
-        }
-        else {
+        } else {
           isRight = true;
         }
         if (index !== projects.length - 1) {
-          return <div>
-            <OutreachCard name={project.name} image={project.image} description={project.description} right={isRight} />
-            <hr className="divider" />
-          </div>
+          return (
+            <div>
+              <OutreachCard
+                name={project.name}
+                image={project.image}
+                description={project.description}
+                right={isRight}
+              />
+              <hr className="divider" />
+            </div>
+          );
+        }
 
-        }
-        else {
-          return <OutreachCard name={project.name} image={project.image} description={project.description} right={isRight} />
-        }
+        return (
+          <OutreachCard
+            name={project.name}
+            image={project.image}
+            description={project.description}
+            right={isRight}
+          />
+        );
       })}
     </div>
   );

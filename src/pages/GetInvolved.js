@@ -1,15 +1,15 @@
+import React from 'react';
 import './GetInvolved.css';
 import ProjectCard from '../components/ProjectCard';
 import Button from '../components/Button';
 import Gears from '../assets/swe_gears_2.png';
-
 
 function GetInvolved() {
   const projects = [
     { name: 'Ornithopter – Robotic Bird', description: 'Behind the robotic bird project are UCSD students from diverse majors and backgrounds. With the skills learned from fields such as aerospace, electrical, and computer engineering, the team applied their individual experiences to achieve a single goal - to create the robotic bird. They decided to focus on creating a robotic bird because one of the goals was to create a hands on project that everyone can gain experience from. Over the course of the project, team members became proficient in programs such as Solidworks and Arduino. Members: Christine Phan (Project Lead), Megan McCall, Rachel Sjostedt, Gabrielle Hart, Tara Len, Amanda Chau, Marie Shimizu, Haley Sohn' },
     { name: 'STEAM Project', description: 'Our STEAM project is the combination of art and engineering that aims to create a statement piece that uses engineering concepts and nods towards women in STEM who are underrepresented. Members: Dafina Sopi (Project Lead), Kylie Morales, Leslie Jasmine Lopez, Tiffany Soebroto, Parker Carnahan, Elianor Shohet, Tatiana Podhajny, Shantelle Megan Serafin' },
     { name: 'SWEbsite Design', description: "The SWEbsite Design team was put together to recreate the SWE website from scratch. Previous versions of our website were missing important information and weren't developed by our own UCSD students, so we hoped that by making the website ourselves we could make it more personal while also learning valuable skills about web design and development in the process. From prototyping desings in Figma to building out static pages using a React.js framework, we experienced a variety of different technologies and learned practical skills such as version control and responsive design. Members: Jaslina Kaur (Project Lead), Angkitha Anguraj, Allison Bhavsar, Mikaela Grenion, Reyna Yang" },
-  ]
+  ];
 
   return (
     <div>
@@ -24,26 +24,53 @@ function GetInvolved() {
             </ul>
             <li className="h6 membershipLi">6+ Hours of Participation</li>
             <ul className="p2 membershipSubLi">
-              <li>Attend GBMs, workshops, and other <a href="/events" className="clickableLink">SWE events</a></li>
-              <li>Get involved with a SWE project (learn more about projects below)</li>
-              <li>Remember to sign in whenever you attend SWE events or meetings in order to log your attendance!</li>
+              <li>
+                Attend GBMs, workshops, and other
+                {' '}
+                <a href="/events" className="clickableLink">SWE events</a>
+              </li>
+              <li>
+                Get involved with a SWE project (learn more about projects below)
+              </li>
+              <li>
+                Remember to sign in whenever you attend SWE events or meetings in
+                order to log your attendance!
+              </li>
             </ul>
             <li className="h6 membershipLi">Become a Collegiate Member</li>
             <ul>
-              <li className="p2 membershipSubLi">Standard Collegiate Membership ($20), Collegiate to Career ($50), SWE + SHPE ($24.90), SWE + NSBE ($27.00)</li>
-              <li className="p2 membershipSubLi">Visit <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://swe.org/">swe.org</a> to sign up for collegiate membership</li>
+              <li className="p2 membershipSubLi">
+                Standard Collegiate Membership ($20), Collegiate to Career ($50),
+                SWE + SHPE ($24.90), SWE + NSBE ($27.00)
+              </li>
+              <li className="p2 membershipSubLi">
+                Visit
+                {' '}
+                <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://swe.org/">swe.org</a>
+                {' '}
+                to sign up for collegiate membership
+              </li>
             </ul>
           </ol>
         </div>
         <p className="p2 membershipBody">
-          SWE membership at our section comes with a variety of perks, including a free SWE t-shirt, voting rights in board elections, and eligibility to run for board positions.
-          However, note that <strong>official membership is not required</strong> to attend our events and be involved in our organization. Everyone is welcome!
+          SWE membership at our section comes with a variety of perks, including
+          a free SWE t-shirt, voting rights in board elections, and eligibility to
+          run for board positions. However, note that
+          {' '}
+          <strong>official membership is not required</strong>
+          {' '}
+          to attend our events and be involved in our organization. Everyone is welcome!
         </p>
         <h1 className="membershipTitle h2">SWE Leadership</h1>
         <h2 className="membershipSubtitle h3">How can I become an officer?</h2>
         <p className="membershipLi p1">
           Eligibility: In order to run for board positions, you must currently be
-          a <strong>member</strong> at our section.
+          a
+          {' '}
+          <strong>member</strong>
+          {' '}
+          at our section.
         </p>
         <div className="leadershipBody">
           <p className="p2 membershipBody">
@@ -57,36 +84,41 @@ function GetInvolved() {
             <h1 className="h2 projTitle">Projects</h1>
             <h1 className="h3 projSubtitle">Gain Technical Experience</h1>
           </div>
-          <img src={Gears} className="threeGears" alt='' />
+          <img src={Gears} className="threeGears" alt="" />
         </div>
-        <p className="p1 projDescription">Projects are a great way to stay involved with the SWE community and earn hours towards membership while gaining hands-on technical experience and meeting fellow SWE Bees.
-          Stay subscribed to our newsletter and attend GBMs to hear about future project opportunities.
+        <p className="p1 projDescription">
+          Projects are a great way to stay involved with the SWE community
+          and earn hours towards membership while gaining hands-on technical
+          experience and meeting fellow SWE Bees. Stay subscribed to our
+          newsletter and attend GBMs to hear about future project opportunities.
           Here are some of our current projects:
         </p>
         {projects.map((project, index) => {
           if (index % 2 === 0) {
-            return <ProjectCard name={project.name} description={project.description} right={false} />
+            return (
+              <ProjectCard
+                name={project.name}
+                description={project.description}
+                right={false}
+              />
+            );
           }
-          else {
-            return <ProjectCard name={project.name} description={project.description} right={true} />
-          }
-        }
 
-
-        )}
+          return <ProjectCard name={project.name} description={project.description} right />;
+        })}
         <div className="sweetIdeasContainer">
-        <div className="projHeader">
-          <div>
-            <h1 className="h2 projTitle">SWE-et Ideas!</h1>
-            <h1 className="h3 projSubtitle">Project Opportunities</h1>
+          <div className="projHeader">
+            <div>
+              <h1 className="h2 projTitle">SWE-et Ideas!</h1>
+              <h1 className="h3 projSubtitle">Project Opportunities</h1>
+            </div>
+            <img src={Gears} className="threeGears" alt="" />
           </div>
-          <img src={Gears} className="threeGears" alt='' />
-        </div>
           <p className="p1 sweetIdeasBody">
             Interested in starting your own project? Fill out the
             SWE-et Ideas project application
             for a chance to bring your ideas to life! If your application is selected,
-            we'll help you form a team and provide you with funding
+            we&apos;ll help you form a team and provide you with funding
             for your very own project.
           </p>
           <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSfnSqAgbqSM9LhiWwLa6g5HYfKgdbCFzLfMuGGP3OcClm6hrw/viewform">

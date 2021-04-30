@@ -1,22 +1,30 @@
+import React from 'react';
+import PropTypes from 'prop-types';
 import './ProjectCard.css';
 
 function ProjectCard(props) {
+  const { right, name, description } = props;
   let align;
-  if (props.right === true) {
+  if (right === true) {
     align = 'projLabelRight';
-  }
-  else {
+  } else {
     align = 'projLabelLeft';
   }
   return (
     <body>
-        <div className="projectContainer">
-          <p className={align + " h5"}>{props.name}</p>
-          <div className="p2 project">{props.description}</div>
-          
+      <div className="projectContainer">
+        <p className={`${align} h5`}>{name}</p>
+        <div className="p2 project">{description}</div>
+
       </div>
     </body>
   );
 }
+
+ProjectCard.propTypes = {
+  right: PropTypes.bool.isRequired,
+  name: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+};
 
 export default ProjectCard;
