@@ -5,20 +5,17 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  z-index: 0;
 }
 
 .overlay {
-  position:relative;
-}
-
-.overlay:before {
-  content:"";
   position: absolute;
   top:0;
   left:0;
   height:100%;
   width: 100%;
-  background: var(--purple);
+  background-color: var(--purple);
   opacity: 80%;
   z-index: 1;
 }
