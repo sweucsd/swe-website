@@ -57,7 +57,7 @@ function Header() {
   return (
     <div className="overlay">
       <div className="image" alt="" />
-      <div className="textContainer">
+      <div key={location.pathname} className="textContainer">
         <h1 className="h1">{title}</h1>
         <h2 className="h4">{subtitle}</h2>
       </div>
