@@ -10,7 +10,7 @@
 
 .sweButton:hover {
   background-color: var(--purple);
-  opacity: 90%;
+  opacity: 0.9;
   font-weight: 600;
   color: white;
   border: none;
