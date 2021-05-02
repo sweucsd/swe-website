@@ -53,22 +53,8 @@ function Outreach() {
               description={project.description}
               right={isRight}
             />
-            <hr className="divider" />
           </div>
         );
-
-        return (
-          <div>
-            <OutreachCard
-              name={project.name}
-              image={project.image}
-              description={project.description}
-              right={isRight}
-            />
-            <hr className="divider" />
-          </div>
-        );
-
       })}
     </div>
   );
