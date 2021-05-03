@@ -1,16 +1,12 @@
 .welcome {
     text-align: center;
-    font-family: 'Merriweather', serif;
-    font-size: 4rem;
-    font-weight: 900;
-    animation: textAnimation 1s linear;
-    color: #5A5377;
+    color: var(--purple);
 
 }
 
 .welcomebody {
     text-align: center;
-
+    color: var(--dark-gray);
 }
 
 .homegears {
@@ -29,9 +25,26 @@
 
 .afterswe {
     text-align: center;
-    font-family: 'Merriweather', serif;
-    font-size: 2.5rem;
-    font-weight: 700;
-    animation: textAnimation 1s linear;
-    color: #5A5377;
+    color: var(--medium-purple);
+}
+
+.upcomingEventsContainer {
+    margin: 70px 0px;
+    text-align: center;
+}
+
+.upcomingEventsTitle {
+  color: var(--purple);
+}
+
+.upcomingEventsSummary {
+  color: var(--dark-gray);
+}
+
+.upcomingEventsTime {
+  color: var(--dark-gray);
+}
+
+.eventsContainer {
+  margin: 20px 0px;
 }

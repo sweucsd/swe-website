@@ -1,12 +1,14 @@
 import React from 'react';
+import Calendar from 'react-google-calendar-events-list';
 import './Home.css';
+import Button from '../components/Button';
 import Gears from '../assets/swe_gears_2.png';
 
 function Home() {
   return (
     <div className="margin">
       <div>
-        <h1 className="welcome">Welcome to SWE!</h1>
+        <h1 className="welcome h2">Welcome to SWE!</h1>
       </div>
       <p className="p2 welcomebody">
         UC San Diego Society of Women Engineers informs, nurtures, and
@@ -27,7 +29,7 @@ function Home() {
       <br />
       <br />
       <div>
-        <h3 className="afterswe">After SWE:</h3>
+        <h3 className="h3 afterswe">After SWE:</h3>
         <p className="p2 welcomebody">
           For students after graduating, a
           {' '}
@@ -35,6 +37,27 @@ function Home() {
           {' '}
           continue participating in SWE locally!
         </p>
+      </div>
+      <div className="upcomingEventsContainer">
+        <p className="h2 upcomingEventsTitle">Upcoming Events:</p>
+        <div className="eventsContainer">
+          <Calendar
+            calendarID="eng.ucsd.edu_rskqtoaiv6mmk9jg3jq6bb5j7k@group.calendar.google.com"
+            apiKey="AIzaSyC-AdQG9YyIw3V5EC0YFx6h8cJ0aXkr1tg"
+          >
+            {({ events }) => events.sort((a, b) => (
+              new Date(a.start.dateTime) - new Date(b.start.dateTime)
+            )).slice(0, 3).map((event) => (
+              <div>
+                <div className="h6 upcomingEventsSummary">{event.summary}</div>
+                <div className="p1 upcomingEventsTime">{new Date(event.start.dateTime).toLocaleString()}</div>
+              </div>
+            ))}
+          </Calendar>
+        </div>
+        <a className="eventsBtn" href="/events">
+          <Button label="All Events" />
+        </a>
       </div>
     </div>
   );
