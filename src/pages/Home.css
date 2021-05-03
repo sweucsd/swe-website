@@ -1,0 +1,50 @@
+.welcome {
+    text-align: center;
+    color: var(--purple);
+
+}
+
+.welcomebody {
+    text-align: center;
+    color: var(--dark-gray);
+}
+
+.homegears {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.introvideo {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.afterswe {
+    text-align: center;
+    color: var(--medium-purple);
+}
+
+.upcomingEventsContainer {
+    margin: 70px 0px;
+    text-align: center;
+}
+
+.upcomingEventsTitle {
+  color: var(--purple);
+}
+
+.upcomingEventsSummary {
+  color: var(--dark-gray);
+}
+
+.upcomingEventsTime {
+  color: var(--dark-gray);
+}
+
+.eventsContainer {
+  margin: 20px 0px;
+}
