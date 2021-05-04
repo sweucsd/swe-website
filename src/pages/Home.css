@@ -4,9 +4,43 @@
 
 }
 
+.homeDivider {
+  margin: 30px auto;
+}
+
 .welcomebody {
     text-align: center;
     color: var(--dark-gray);
+}
+
+.welcomeContainer {
+  margin-bottom: 50px;
+}
+
+.gallery {
+  background-color: var(--light-purple);
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery div {
+  width: 50%;
+  height: 300px;
+}
+
+@media screen and (max-width: 720px) {
+  .gallery div {
+    width: 100%;
+  }
+}
+
+.galleryImg {
+  margin: 20px;
+  object-fit: cover;
+  object-position: center;
+  width: 90%;
+  height: 90%;
 }
 
 .homegears {
@@ -31,12 +65,13 @@
 }
 
 .upcomingEventsContainer {
-    margin: 70px 0px;
+    margin-top: 50px;
+    margin-bottom: 80px;
     text-align: center;
 }
 
 .upcomingEventsTitle {
-  color: var(--purple);
+  color: var(--medium-purple);
 }
 
 .upcomingEventsSummary {
@@ -48,25 +83,20 @@
 }
 
 .eventsContainer {
-  margin: 20px 0px;
+  margin: 30px 0px;
 }
 
 .eventCard {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   margin: 15px auto;
   padding: 10px;
-  width: 55%;
+  width: 500px;
   border-radius: 10px;
-}
-
-@media screen and (max-width: 650px) {
-  .eventCard {
-    width: 100%;
-  }
 }
 
 @media screen and (max-width: 1000px) {
   .eventCard {
-    width: 80%;
+    width: 400px;
+    max-width: 100%;
   }
 }

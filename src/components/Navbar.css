@@ -9,7 +9,7 @@
 }
 
 .topNav {
-  max-width: calc(var(--max-width) + 100px);
+  max-width: calc(var(--max-width) + 300px);
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -31,7 +31,7 @@
   justify-content: center;
   flex-direction: column;
   color: var(--purple);
-  padding: 14px 25px;
+  padding: 14px 16px;
   text-decoration: none;
   align-items: center;
   font-weight: 600;
