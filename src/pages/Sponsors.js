@@ -49,9 +49,8 @@ function Sponsors() {
         {' '}
         <a className="clickableLink" href="mailto:swe@eng.ucsd.edu">swe@eng.ucsd.edu</a>
         {' '}
-        to
-        get in contact with our VP External and receive information about how
-        your company can become involved with our chapter.
+        to get in contact with our VP External and receive information about how
+        your company can partner with our chapter.
       </p>
     </div>
   );
