@@ -27,7 +27,7 @@ function Header() {
         },
         '/involvement': {
           title: 'Get Involved',
-          subtitle: 'Find out how to become active members of our org',
+          subtitle: 'Find out how to be active at our chapter',
           titleTag: 'Involvement – SWE UCSD',
         },
         '/outreach': {

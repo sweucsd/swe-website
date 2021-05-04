@@ -57,7 +57,7 @@ function Navbar() {
           <NavLink exact to="/"><img className="logo" src={Logo} alt="logo" /></NavLink>
           <NavLink exact className="link" to="/">Home</NavLink>
           <NavLink exact className="link" to="/about">About</NavLink>
-          <NavLink exact className="link" to="/events">Events</NavLink>
+          <NavLink exact className="link" to="/events">Calendar</NavLink>
           <NavLink exact className="link" to="/involvement">Involvement</NavLink>
           <NavLink exact className="link" to="/outreach">Outreach</NavLink>
           <NavLink exact className="link" to="/sponsors">Sponsors</NavLink>
@@ -73,7 +73,7 @@ function Navbar() {
         <nav className={`${showSideNav ? 'sideNav' : 'sideNavClosed'} p1`}>
           <NavLink exact className="sideLink" to="/">Home</NavLink>
           <NavLink exact className="sideLink" to="/about">About</NavLink>
-          <NavLink exact className="sideLink" to="/events">Events</NavLink>
+          <NavLink exact className="sideLink" to="/events">Calendar</NavLink>
           <NavLink exact className="sideLink" to="/involvement">Involvement</NavLink>
           <NavLink exact className="sideLink" to="/outreach">Outreach</NavLink>
           <NavLink exact className="sideLink" to="/sponsors">Sponsors</NavLink>

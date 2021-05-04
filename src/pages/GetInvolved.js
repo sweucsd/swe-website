@@ -13,10 +13,23 @@ function GetInvolved() {
 
   return (
     <div>
+      <div className="margin projContainer">
+        <h1 className="membershipTitle h2">Attend Our Events</h1>
+        <p className="p2 membershipBody">
+          The easiest way to start getting involved with SWE is by attending our
+          events. We host a variety of events including GBMs, technical workshops,
+          networking sessions, high school outreach, and socials. Anyone is welcome
+          to attend, regardless of their membership status. Check our calendar for
+          upcoming events.
+        </p>
+        <a href="/events">
+          <Button label="SWE Calendar" />
+        </a>
+      </div>
       <div className="margin">
         <div>
-          <h1 className="membershipTitle h2">UCSD Section Membership</h1>
-          <h2 className="membershipSubtitle h3">How can I become a member?</h2>
+          <h1 className="membershipTitle h2">Start a Membership</h1>
+          <h2 className="membershipSubtitle h3">How can I become a section member?</h2>
           <ol>
             <li className="h6 membershipLi">$5 Membership Fee</li>
             <ul>
@@ -62,7 +75,6 @@ function GetInvolved() {
           {' '}
           to attend our events and be involved in our organization. Everyone is welcome!
         </p>
-        <h1 className="membershipTitle h2">SWE Leadership</h1>
         <h2 className="membershipSubtitle h3">How can I become an officer?</h2>
         <p className="membershipLi p1">
           Eligibility: In order to run for board positions, you must currently be
@@ -81,7 +93,7 @@ function GetInvolved() {
       <div className="margin projContainer">
         <div className="projHeader">
           <div>
-            <h1 className="h2 projTitle">Projects</h1>
+            <h1 className="h2 projTitle">Join a Project Team</h1>
             <h1 className="h3 projSubtitle">Gain Technical Experience</h1>
           </div>
           <img src={Gears} className="threeGears" alt="" />
@@ -107,13 +119,7 @@ function GetInvolved() {
           return <ProjectCard name={project.name} description={project.description} right />;
         })}
         <div className="sweetIdeasContainer">
-          <div className="projHeader">
-            <div>
-              <h1 className="h2 projTitle">SWE-et Ideas!</h1>
-              <h1 className="h3 projSubtitle">Project Opportunities</h1>
-            </div>
-            <img src={Gears} className="threeGears" alt="" />
-          </div>
+          <h1 className="h2 projTitle">SWE-et Ideas!</h1>
           <p className="p1 sweetIdeasBody">
             Interested in starting your own project? Fill out the
             SWE-et Ideas project application

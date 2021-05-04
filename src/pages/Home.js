@@ -24,20 +24,10 @@ function Home() {
       <br />
       <br />
       <div>
-        <iframe className="introvideo" width="560" height="315" textAlign="center" src="https://www.youtube.com/embed/ehvOnGnPoGk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+        <iframe className="introvideo" width="560" height="315" text-align="center" src="https://www.youtube.com/embed/ehvOnGnPoGk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
       </div>
       <br />
       <br />
-      <div>
-        <h3 className="h3 afterswe">After SWE:</h3>
-        <p className="p2 welcomebody">
-          For students after graduating, a
-          {' '}
-          <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="http://www.swesandiego.org/">SWE San Diego Professional Section:</a>
-          {' '}
-          continue participating in SWE locally!
-        </p>
-      </div>
       <div className="upcomingEventsContainer">
         <p className="h2 upcomingEventsTitle">Upcoming Events:</p>
         <div className="eventsContainer">
@@ -48,7 +38,7 @@ function Home() {
             {({ events }) => events.sort((a, b) => (
               new Date(a.start.dateTime) - new Date(b.start.dateTime)
             )).slice(0, 3).map((event) => (
-              <div>
+              <div className="eventCard">
                 <div className="h6 upcomingEventsSummary">{event.summary}</div>
                 <div className="p1 upcomingEventsTime">{new Date(event.start.dateTime).toLocaleString()}</div>
               </div>
@@ -58,6 +48,16 @@ function Home() {
         <a className="eventsBtn" href="/events">
           <Button label="All Events" />
         </a>
+      </div>
+      <div>
+        <h3 className="h3 afterswe">After SWE:</h3>
+        <p className="p2 welcomebody">
+          For students after graduating, a
+          {' '}
+          <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="http://www.swesandiego.org/">SWE San Diego Professional Section:</a>
+          {' '}
+          continue participating in SWE locally!
+        </p>
       </div>
     </div>
   );
