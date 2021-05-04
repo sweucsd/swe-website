@@ -11,13 +11,11 @@ function ProjectCard(props) {
     align = 'projLabelLeft';
   }
   return (
-    <body>
-      <div className="projectContainer">
-        <p className={`${align} h5`}>{name}</p>
-        <div className="p2 project">{description}</div>
+    <div className="projectContainer">
+      <p className={`${align} h5`}>{name}</p>
+      <div className="p2 project">{description}</div>
 
-      </div>
-    </body>
+    </div>
   );
 }
 
