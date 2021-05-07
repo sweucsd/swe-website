@@ -1,39 +1,3 @@
-.projContainer {
-  background-color: var(--light-purple);
-}
-
-.projHeader {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.threeGears {
-  margin-top: 15px;
-  width: 105px;
-  height: auto;
-  align-self: center;
-}
-
-@media screen and (max-width: 320px) {
-  .threeGears {
-    display: none;
-  }
-}
-
-.projTitle {
-  color: var(--purple);
-  margin-top: 60px;
-}
-
-.projSubtitle {
-  color: var(--medium-purple);
-}
-
-.projDescription {
-  color: var(--dark-gray);
-}
-
 .membershipLi {
   color: var(--dark-gray);
 }
@@ -53,23 +17,4 @@
 .membershipBody {
   color: var(--dark-gray);
   padding-bottom: 15px;
-}
-
-.sweetIdeasContainer {
-  margin-bottom: 40px;
-}
-
-.sweetIdeasTitle {
-  color: var(--purple);
-  padding-top: 50px;
-}
-
-.sweetIdeasSubtitle {
-  color: var(--medium-purple);
-  margin: 10px 0px;
-}
-
-.sweetIdeasBody {
-  color: var(--dark-gray);
-  margin-bottom: 25px;
 }
