@@ -41,7 +41,7 @@ const Pages = [
   },
   {
     path: '/projects',
-    title: 'Team Projects',
+    title: 'Project Teams',
     subtitle: 'Learn about our current projects',
     titleTag: 'Projects – SWE UCSD',
     navLabel: 'Projects',
