@@ -14,6 +14,7 @@ const Pages = [
     titleTag: 'SWE UCSD',
     navLabel: 'Home',
     component: Home,
+    image: 'https://i.imgur.com/MgNHcA4.jpg',
   },
   {
     path: '/about',
@@ -22,6 +23,7 @@ const Pages = [
     titleTag: 'About – SWE UCSD',
     navLabel: 'About',
     component: About,
+    image: 'http://swe.ucsd.edu/wp-content/uploads/2020/11/DSC_0145-1.jpg',
   },
   {
     path: '/events',
@@ -30,6 +32,7 @@ const Pages = [
     titleTag: 'Calendar – SWE UCSD',
     navLabel: 'Calendar',
     component: Calendar,
+    image: 'https://i.imgur.com/N7KojTu.jpg',
   },
   {
     path: '/involvement',
@@ -38,6 +41,7 @@ const Pages = [
     titleTag: 'Involvement – SWE UCSD',
     navLabel: 'Involvement',
     component: GetInvolved,
+    image: 'https://i.imgur.com/uhW6Suq.jpg',
   },
   {
     path: '/projects',
@@ -46,6 +50,7 @@ const Pages = [
     titleTag: 'Projects – SWE UCSD',
     navLabel: 'Projects',
     component: Projects,
+    image: 'https://i.imgur.com/MgNHcA4.jpg',
   },
   {
     path: '/outreach',
@@ -54,6 +59,7 @@ const Pages = [
     titleTag: 'Outreach – SWE UCSD',
     navLabel: 'Outreach',
     component: Outreach,
+    image: 'https://i.imgur.com/bk3c3nz.jpg',
   },
   {
     path: '/professional',
@@ -62,6 +68,7 @@ const Pages = [
     titleTag: 'Professional – SWE UCSD',
     navLabel: 'Professional',
     component: Outreach,
+    image: 'https://i.imgur.com/MgNHcA4.jpg',
   },
   {
     path: '/sponsors',
@@ -70,6 +77,7 @@ const Pages = [
     titleTag: 'Sponsors – SWE UCSD',
     navLabel: 'Sponsors',
     component: Sponsors,
+    image: 'https://i.imgur.com/MgNHcA4.jpg',
   },
 
 ];
