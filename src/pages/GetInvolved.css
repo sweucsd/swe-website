@@ -18,3 +18,20 @@
   color: var(--dark-gray);
   padding-bottom: 15px;
 }
+.eventsImgs {
+  margin: 20px;
+  object-fit: cover;
+  object-position: center;
+  width: 45%;
+  height: 45%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  
+}
+
+.gallery {
+  background-color: var(--light-purple);
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+}

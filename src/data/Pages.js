@@ -36,7 +36,7 @@ const Pages = [
     title: 'Get Involved',
     subtitle: 'Find out how to be active in our chapter',
     titleTag: 'Involvement – SWE UCSD',
-    navLabel: 'Involvement',
+    navLabel: 'Get Involved',
     component: GetInvolved,
   },
   {
@@ -53,14 +53,6 @@ const Pages = [
     subtitle: 'Help us inspire young women to pursue engineering',
     titleTag: 'Outreach – SWE UCSD',
     navLabel: 'Outreach',
-    component: Outreach,
-  },
-  {
-    path: '/professional',
-    title: 'maybe: Professional Development?',
-    subtitle: 'WE20 Conference and opportunities info page?',
-    titleTag: 'Professional – SWE UCSD',
-    navLabel: 'Professional',
     component: Outreach,
   },
   {
