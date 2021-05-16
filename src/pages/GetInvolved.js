@@ -6,7 +6,7 @@ function GetInvolved() {
     <div>
       <div className="margin">
         <div>
-          <h1 className="membershipTitle h2">Start a Membership</h1>
+          <h1 className="membershipTitle h2">Become an Active Member</h1>
           <h2 className="membershipSubtitle h3">How can I become a section member?</h2>
           <ul>
             <li className="h6 membershipLi">$5 Membership Fee</li>
@@ -94,6 +94,71 @@ function GetInvolved() {
             </p>
           </div>
         </div>
+      </div>
+      <div className="margin">
+        <div>
+          <h1 className="membershipTitle h2">Our Events</h1>
+          <h2 className="membershipSubtitle h3">What events can I attend?</h2>
+          <ul>
+            <li className="h6 membershipLi">GBMs</li>
+            <ul>
+              <li className="p2 membershipSubLi">Attend our quarterly meetings to stay updated</li>
+              <li className="p2 membershipSubLi">Bond with your fellow SWE members</li>
+              <li className="p2 membershipSubLi">Interact with the guest speakers</li>
+            </ul>
+            <div className="gallery">
+              <img className="eventsImgs" src="src/assets/Event_Imgs/GBM_1.jpg" alt="" />
+              <img className="eventsImgs" src="src/assets/Event_Imgs/GBM_2.jpg" alt="" />
+            </div>
+            <li className="h6 membershipLi">Technical Events</li>
+            <ul className="p2 membershipSubLi">
+              <li className="p2 membershipSubLi">Attend workshops and learn a variety of technical skills required for the professional workspace</li>
+              <li className="p2 membershipSubLi">Apply your skills outside of the classroom</li>
+              <li className="p2 membershipSubLi">Collaborate with other students on a Project to dive deeper into learning a particular skill</li>
+            </ul>
+            <div className="gallery">
+              <img className="eventsImgs" src="src/assets/Event_Imgs/Technical_1.jpg" alt="" />
+              <img className="eventsImgs" src="src/assets/Event_Imgs/Technical_2.jpg" alt="" />
+            </div>
+            <li className="h6 membershipLi">Professional Events</li>
+            <ul>
+              <li className="p2 membershipSubLi">Network and meet with industry professionals </li>
+              <li className="p2 membershipSubLi">Gain valuable insight</li>
+              <li className="p2 membershipSubLi">Learn how to best prepare yourself for graduation</li>
+            </ul>
+            <div className="gallery">
+              <img className="eventsImgs" src="src/assets/Event_Imgs/Professional_1.jpg" alt="" />
+              <img className="eventsImgs" src="src/assets/Event_Imgs/Professional_2.jpg" alt="" />
+            </div>
+            <li className="h6 membershipLi">Outreach Events</li>
+            <ul>
+              <li className="p2 membershipSubLi">Get involved with some of our outreach programs</li>
+              <li className="p2 membershipSubLi">Become a mentor for high school students with EDGE</li>
+              <li className="p2 membershipSubLi">Participate and help run cool events for the students with Envision</li>
+            </ul>
+            <div className="gallery">
+              <img className="eventsImgs" src="src/assets/Event_Imgs/Outreach_1.jpg" alt="" />
+              <img className="eventsImgs" src="src/assets/Event_Imgs/Outreach_2.jpg" alt="" />
+            </div>
+            <li className="h6 membershipLi">Social Events</li>
+            <ul>
+              <li className="p2 membershipSubLi">Participate in cool bonding events</li>
+              <li className="p2 membershipSubLi">Learn how your fellow members navigate through college</li>
+              <li className="p2 membershipSubLi">Attend for a chance to win cool giveaways</li>
+            </ul>
+            <div className="gallery">
+              <img className="eventsImgs" src="src/assets/Event_Imgs/Social_1.jpg" alt="" />
+              <img className="eventsImgs" src="src/assets/Event_Imgs/Social_2.jpg" alt="" />
+            </div>
+          </ul>
+        </div>
+        <p className="p2 membershipBody">
+          Find out when these events are happening by visiting the
+          {' '}
+          <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="/events">calendar</a>
+          {' '}
+          page!
+        </p>
       </div>
     </div>
   );
