@@ -1,21 +1,4 @@
-.membershipLi {
-  color: var(--dark-gray);
-}
-
-.membershipSubLi {
-  color: var(--dark-gray);
-}
-
-.membershipTitle {
-  color: var(--purple);
-}
-
-.membershipSubtitle {
-  color: var(--medium-purple);
-}
-
 .membershipBody {
-  color: var(--dark-gray);
   padding-bottom: 15px;
 }
 
@@ -77,19 +60,24 @@
 }
 
 .eventsImgs {
-  margin: 20px;
+  margin: 10px;
   object-fit: cover;
   object-position: center;
-  width: 45%;
-  height: 45%;
+  width: auto;
+  height: 200px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   
 }
 
 .gallery {
-  background-color: var(--light-purple);
-  background-position: center;
+  margin: 0px 30px;
+  padding: 10px;
+  background-color: white
+}
+
+.eventSection {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
 }

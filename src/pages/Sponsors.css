@@ -1,7 +1,3 @@
-.sponsorstitle {
-  color: var(--purple);
-}
-
 .sponsorImgContainer {
   text-align: center;
   display: flex;
@@ -20,12 +16,4 @@
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-template-rows: 1fr;
   grid-gap: 50px;
-}
-
-.interestTitle {
-  color: var(--purple);
-}
-
-.interestBody {
-  color: var(--dark-gray);
 }

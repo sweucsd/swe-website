@@ -20,12 +20,10 @@
 .calendarBody {
   background-image: url("../assets/swe_bug_pattern.png");
   background-position: center;
-  background-color: var(--light-purple);
 }
 
 .titleText {
   text-align: center;
-  color: var(--purple);
   margin-bottom: 40px;
 }
 

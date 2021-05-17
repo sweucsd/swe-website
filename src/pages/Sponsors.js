@@ -5,7 +5,7 @@ import SponsorsInfo from '../data/Sponsors';
 function Sponsors() {
   return (
     <div className="margin">
-      <h1 className="h2 sponsorstitle">Our Sponsors</h1>
+      <h1 className="h2 purple">Our Sponsors</h1>
       <div className="SponsorshipContainer">
         {SponsorsInfo.map((sponsor) => (
           <div className="sponsorImgContainer">
@@ -13,8 +13,8 @@ function Sponsors() {
           </div>
         ))}
       </div>
-      <p className="h3 interestTitle">Interested in sponsoring us?</p>
-      <p className="p1 interestBody">
+      <p className="h3 purple">Interested in sponsoring us?</p>
+      <p className="p1 darkGray">
         Email us at
         {' '}
         <a className="clickableLink" href="mailto:swe@eng.ucsd.edu">swe@eng.ucsd.edu</a>

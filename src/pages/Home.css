@@ -1,7 +1,5 @@
 .welcome {
     text-align: center;
-    color: var(--purple);
-
 }
 
 .homeDivider {
@@ -10,7 +8,6 @@
 
 .welcomebody {
     text-align: center;
-    color: var(--dark-gray);
 }
 
 .welcomeContainer {
@@ -18,7 +15,6 @@
 }
 
 .gallery {
-  background-color: var(--light-purple);
   background-position: center;
   display: flex;
   flex-wrap: wrap;
@@ -70,18 +66,6 @@
     margin-top: 50px;
     margin-bottom: 80px;
     text-align: center;
-}
-
-.upcomingEventsTitle {
-  color: var(--medium-purple);
-}
-
-.upcomingEventsSummary {
-  color: var(--dark-gray);
-}
-
-.upcomingEventsTime {
-  color: var(--dark-gray);
 }
 
 .eventsContainer {

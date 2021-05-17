@@ -26,10 +26,8 @@
 .officerName {
   margin-top: 5px;
   margin-bottom: 5px;
-  color: var(--purple);
 }
 
 .officerPosition {
   margin-top: 5px;
-  color: var(--dark-gray);
 }

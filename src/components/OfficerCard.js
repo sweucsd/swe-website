@@ -8,9 +8,9 @@ function OfficerCard(props) {
   return (
     <div className="officerCardContainer">
       <img className="officerImg" src={image} alt="" />
-      <p className="h6 officerName">{name}</p>
+      <p className="h6 purple officerName">{name}</p>
       <hr className="divider officerCardDivider" />
-      <p className="p2 officerPosition">{position}</p>
+      <p className="p2 darkGray officerPosition">{position}</p>
     </div>
   );
 }
