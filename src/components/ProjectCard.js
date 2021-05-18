@@ -20,7 +20,7 @@ function ProjectCard(props) {
       <p className={`${align} h5 purple`}>{name}</p>
       <div className={flexDir}>
         <div className="p2 project">{description}</div>
-        <img className="projectImg" src={image} alt="" />
+        <div style={{ backgroundImage: `url(${image})` }} className="projectImgContainer" />
       </div>
     </div>
   );
