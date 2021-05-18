@@ -5,6 +5,8 @@ import Calendar from '../pages/Calendar';
 import Outreach from '../pages/Outreach';
 import About from '../pages/About';
 import Projects from '../pages/Projects';
+import AboutImg from '../assets/cover_imgs/about_pic.jpg';
+import ProjImg from '../assets/cover_imgs/technical_pic.jpg';
 
 const Pages = [
   {
@@ -23,7 +25,7 @@ const Pages = [
     titleTag: 'About – SWE UCSD',
     navLabel: 'About',
     component: About,
-    image: 'http://swe.ucsd.edu/wp-content/uploads/2020/11/DSC_0145-1.jpg',
+    image: AboutImg,
   },
   {
     path: '/events',
@@ -50,7 +52,7 @@ const Pages = [
     titleTag: 'Projects – SWE UCSD',
     navLabel: 'Projects',
     component: Projects,
-    image: 'https://i.imgur.com/MgNHcA4.jpg',
+    image: ProjImg,
   },
   {
     path: '/outreach',
@@ -68,7 +70,7 @@ const Pages = [
     titleTag: 'Sponsors – SWE UCSD',
     navLabel: 'Sponsors',
     component: Sponsors,
-    image: 'https://i.imgur.com/MgNHcA4.jpg',
+    image: 'http://swe.ucsd.edu/wp-content/uploads/2020/11/DSC_0145-1.jpg',
   },
 
 ];

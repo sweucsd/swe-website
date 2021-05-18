@@ -1,9 +1,7 @@
 import React from 'react';
 import Events from '../data/Events';
-import weConference from '../assets/we_conference.jpg';
-import mentorMentee from '../assets/mentor_mentee.jpg';
-// import GBM_1 from '../assets/Event_Imgs/.GBM_1.jpg.icloud';
-// import GBM_2 from '../assets/Event_Imgs/GBM_2.jpg';
+import weConference from '../assets/Event_Imgs/we_conference.jpg';
+import mentorMentee from '../assets/Event_Imgs/mentor_mentee.jpg';
 import './GetInvolved.css';
 
 function GetInvolved() {
