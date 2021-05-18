@@ -32,7 +32,7 @@ function Home() {
         <br />
         <br />
       </div>
-      <div className="margin lightPurpleBg gallery">
+      <div className="margin homeGallery">
         <div>
           <img className="galleryImg" src="http://swe.ucsd.edu/wp-content/uploads/2020/11/DSC_0145-1.jpg" alt="" />
         </div>

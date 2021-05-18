@@ -27,6 +27,7 @@
 /* Style the links inside the navigation bar */
 .link {
   flex: 1;
+  white-space: nowrap;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -70,7 +71,7 @@
   display: none;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   .logo {
     width: 100px;
   }

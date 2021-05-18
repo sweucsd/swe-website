@@ -49,7 +49,7 @@ function GetInvolved() {
             </ul>
           </ul>
         </div>
-        <p className="p2 darkGray">
+        <p className="p2 darkGray membershipBody">
           Any
           {' '}
           <strong>one</strong>
@@ -63,8 +63,7 @@ function GetInvolved() {
           {' '}
           to attend our events and be involved in our organization. Everyone is welcome!
         </p>
-      </div>
-      <div className="margin">
+
         <div>
           <h1 className="purple h2">Our Events</h1>
           <h2 className="mediumPurple h3">What events can I attend?</h2>

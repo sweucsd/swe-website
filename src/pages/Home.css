@@ -14,19 +14,19 @@
   margin-bottom: 50px;
 }
 
-.gallery {
+.homeGallery {
   background-position: center;
   display: flex;
   flex-wrap: wrap;
 }
 
-.gallery div {
+.homeGallery div {
   width: 50%;
   height: 300px;
 }
 
 @media screen and (max-width: 720px) {
-  .gallery div {
+  .homeGallery div {
     width: 100%;
   }
 }
