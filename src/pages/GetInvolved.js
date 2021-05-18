@@ -1,7 +1,8 @@
 import React from 'react';
+import Events from '../data/Events';
 import weConference from '../assets/we_conference.jpg';
 import mentorMentee from '../assets/mentor_mentee.jpg';
-import GBM_1 from '../assets/Event_Imgs/.GBM_1.jpg.icloud';
+// import GBM_1 from '../assets/Event_Imgs/.GBM_1.jpg.icloud';
 // import GBM_2 from '../assets/Event_Imgs/GBM_2.jpg';
 import './GetInvolved.css';
 
@@ -67,74 +68,36 @@ function GetInvolved() {
         <div>
           <h1 className="purple h2">Our Events</h1>
           <h2 className="mediumPurple h3">What events can I attend?</h2>
-          <ul>
-            <div className="eventSection">
-              <div>
-                <li className="h6 darkGray">GBMs</li>
-                <ul>
-                  <li className="p2 darkGray">Attend our quarterly meetings to stay updated</li>
-                  <li className="p2 darkGray">Bond with your fellow SWE members</li>
-                  <li className="p2 darkGray">Interact with the guest speakers</li>
-                </ul>
+
+          <div className="eventSection">
+            {Events.map((event) => (
+              <div className="eventCardContainer">
+                <img className="eventsImgs" src={event.image} alt="" />
+                <div className="eventsText">
+                  <p className="h6 darkGray eventCardTitle">{event.title}</p>
+                  <ul>
+                    {event.items.map((item) => (
+                      <li className="p2 darkGray">{item}</li>
+                    ))}
+                  </ul>
+                </div>
               </div>
-              <div className="gallery">
-                <img className="eventsImgs" src={GBM_1} alt="" />
-              </div>
-            </div>
-            <li className="h6 darkGray">Technical Events</li>
-            <ul className="p2 darkGray">
-              <li className="p2 darkGray">Attend workshops and learn a variety of technical skills required for the professional workspace</li>
-              <li className="p2 darkGray">Apply your skills outside of the classroom</li>
-              <li className="p2 darkGray">Collaborate with other students on a Project to dive deeper into learning a particular skill</li>
-            </ul>
-            <div className="gallery">
-              <img className="eventsImgs" src="src/assets/Event_Imgs/Technical_1.jpg" alt="" />
-              <img className="eventsImgs" src="src/assets/Event_Imgs/Technical_2.jpg" alt="" />
-            </div>
-            <li className="h6 darkGray">Professional Events</li>
-            <ul>
-              <li className="p2 darkGray">Network and meet with industry professionals </li>
-              <li className="p2 darkGray">Gain valuable insight</li>
-              <li className="p2 darkGray">Learn how to best prepare yourself for graduation</li>
-            </ul>
-            <div className="gallery">
-              <img className="eventsImgs" src="src/assets/Event_Imgs/Professional_1.jpg" alt="" />
-              <img className="eventsImgs" src="src/assets/Event_Imgs/Professional_2.jpg" alt="" />
-            </div>
-            <li className="h6 darkGray">Outreach Events</li>
-            <ul>
-              <li className="p2 darkGray">Get involved with some of our outreach programs</li>
-              <li className="p2 darkGray">Become a mentor for high school students with EDGE</li>
-              <li className="p2 darkGray">Participate and help run cool events for the students with Envision</li>
-            </ul>
-            <div className="gallery">
-              <img className="eventsImgs" src="src/assets/Event_Imgs/Outreach_1.jpg" alt="" />
-              <img className="eventsImgs" src="src/assets/Event_Imgs/Outreach_2.jpg" alt="" />
-            </div>
-            <li className="h6 darkGray">Social Events</li>
-            <ul>
-              <li className="p2 darkGray">Participate in cool bonding events</li>
-              <li className="p2 darkGray">Learn how your fellow members navigate through college</li>
-              <li className="p2 darkGray">Attend for a chance to win cool giveaways</li>
-            </ul>
-            <div className="gallery">
-              <img className="eventsImgs" src="src/assets/Event_Imgs/Social_1.jpg" alt="" />
-              <img className="eventsImgs" src="src/assets/Event_Imgs/Social_2.jpg" alt="" />
-            </div>
-          </ul>
+            ))}
+          </div>
+
+          <p className="p2 darkGray">
+            Find out when these events are happening by visiting the
+            {' '}
+            <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="/events">calendar</a>
+            {' '}
+            page!
+            <br />
+            For more information, join our
+            {' '}
+            <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSdpJZDjpkxkWwFNvyy9T46Efap0ASpX5Faja3IGrvCL8lCWwQ/viewform">newsletter</a>
+            !
+          </p>
         </div>
-        <p className="p2 darkGray">
-          Find out when these events are happening by visiting the
-          {' '}
-          <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="/events">calendar</a>
-          {' '}
-          page!
-          <br />
-          For more information, join our
-          {' '}
-          <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSdpJZDjpkxkWwFNvyy9T46Efap0ASpX5Faja3IGrvCL8lCWwQ/viewform">newsletter</a>
-          !
-        </p>
       </div>
       <div className="margin lightPurpleBg">
         <p className="h2 purple">Other Programs</p>
