@@ -129,6 +129,11 @@ function GetInvolved() {
           <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="/events">calendar</a>
           {' '}
           page!
+          <br />
+          For more information, join our
+          {' '}
+          <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSdpJZDjpkxkWwFNvyy9T46Efap0ASpX5Faja3IGrvCL8lCWwQ/viewform">newsletter</a>
+          !
         </p>
       </div>
       <div className="margin lightPurpleBg">

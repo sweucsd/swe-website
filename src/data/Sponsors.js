@@ -5,7 +5,7 @@ import LawrenceLivNatLab from '../assets/sponsors/Lawrence_Liv_Nat_Lab_logo.jpeg
 import LockheedMartinLogo from '../assets/sponsors/Lockheed_Martin_Logo.jpeg';
 import NorthropGrummanLogo from '../assets/sponsors/Northrop_Grumman_Logo.svg.png';
 import Nuvasive from '../assets/sponsors/Nuvasive_logo.jpeg';
-import Splunk from '../assets/sponsors/splunk_logo.jpg';
+import Splunk from '../assets/sponsors/splunk_logo.png';
 import TESCLogo from '../assets/sponsors/TESC_logo.png';
 
 const Sponsors = [

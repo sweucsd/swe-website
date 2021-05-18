@@ -25,7 +25,7 @@ function About() {
         <p className="p2 darkGray aboutBody">
           UC San Diego Society of Women Engineers is a diverse group of passionate
           young engineers excited about women in STEM. Through outreach to K-12
-          students, socials with other female engineers, networking workshops
+          students, socials with other women engineers, networking workshops
           with industry, and technical teams, UCSD SWE provides women engineers
           with a welcoming environment to grow professionally and academically.
         </p>
@@ -39,6 +39,10 @@ function About() {
               name={officer.name}
               position={officer.position}
               image={officer.image}
+              college={officer.college}
+              major={officer.major}
+              year={officer.year}
+              fact={officer.fact}
             />
           ))}
         </div>

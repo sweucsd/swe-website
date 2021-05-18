@@ -30,7 +30,7 @@ const Pages = [
     title: 'SWE Calendar',
     subtitle: 'Subscribe to our calendar to stay notified about our upcoming events!',
     titleTag: 'Calendar – SWE UCSD',
-    navLabel: 'Calendar',
+    navLabel: 'Events',
     component: Calendar,
     image: 'https://i.imgur.com/N7KojTu.jpg',
   },
