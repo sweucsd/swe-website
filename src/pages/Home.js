@@ -9,9 +9,9 @@ function Home() {
     <div>
       <div className="margin">
         <div className="welcomeContainer">
-          <h1 className="welcome h2">Welcome to SWE!</h1>
+          <h1 className="welcome purple h2">Welcome to SWE!</h1>
           <hr className="divider homeDivider" />
-          <p className="p2 welcomebody">
+          <p className="p2 darkGray welcomebody">
             UC San Diego Society of Women Engineers informs, nurtures, and
             encourages women to attain high levels of education and professional
             achievement. Our members serve as role models to pre-college and
@@ -32,7 +32,7 @@ function Home() {
         <br />
         <br />
       </div>
-      <div className="margin gallery">
+      <div className="margin lightPurpleBg gallery">
         <div>
           <img className="galleryImg" src="http://swe.ucsd.edu/wp-content/uploads/2020/11/DSC_0145-1.jpg" alt="" />
         </div>
@@ -48,7 +48,7 @@ function Home() {
       </div>
       <div className="margin">
         <div className="upcomingEventsContainer">
-          <p className="h3 upcomingEventsTitle">Upcoming Events:</p>
+          <p className="h3 mediumPurple">Upcoming Events:</p>
           <div className="eventsContainer">
             <Calendar
               calendarID="eng.ucsd.edu_rskqtoaiv6mmk9jg3jq6bb5j7k@group.calendar.google.com"
@@ -58,8 +58,8 @@ function Home() {
                 new Date(a.start.dateTime) - new Date(b.start.dateTime)
               )).slice(0, 3).map((event) => (
                 <div className="eventCard">
-                  <div className="h6 upcomingEventsSummary">{event.summary}</div>
-                  <div className="p1 upcomingEventsTime">{new Date(event.start.dateTime).toLocaleString()}</div>
+                  <div className="h6 darkGray">{event.summary}</div>
+                  <div className="p1 darkGray">{new Date(event.start.dateTime).toLocaleString()}</div>
                 </div>
               ))}
             </Calendar>

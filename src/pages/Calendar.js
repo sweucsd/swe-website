@@ -10,7 +10,7 @@ function Calendar() {
   return (
     <div>
       <div className="margin">
-        <h1 className="h2 titleText">Our Events</h1>
+        <h1 className="h2 purple titleText">Our Events</h1>
         <hr className="divider" />
         <div className="em iconsContainer">
           <div className="iconContainer">
@@ -31,7 +31,7 @@ function Calendar() {
           </div>
         </div>
       </div>
-      <div className="margin calendarBody">
+      <div className="margin lightPurpleBg calendarBody">
         <div className="calendarContainer">
           <div className="calendar">
             <iframe title="swe-cal" src="https://calendar.google.com/calendar/embed?src=eng.ucsd.edu_rskqtoaiv6mmk9jg3jq6bb5j7k%40group.calendar.google.com&ctz=America%2FLos_Angeles" styles="border: 0" width="100%" height="600" frameBorder="0" scrolling="no" />
