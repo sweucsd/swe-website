@@ -1,0 +1,30 @@
+.projHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.threeGears {
+  margin-top: 15px;
+  width: 105px;
+  height: auto;
+  align-self: center;
+}
+
+@media screen and (max-width: 320px) {
+  .threeGears {
+    display: none;
+  }
+}
+
+.projTitle {
+  margin-top: 60px;
+}
+
+.sweetIdeasContainer {
+  margin-bottom: 40px;
+}
+
+.sweetIdeasBody {
+  margin-bottom: 25px;
+}

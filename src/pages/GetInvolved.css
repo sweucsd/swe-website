@@ -1,75 +1,81 @@
-.projContainer {
-  background-color: var(--light-purple);
-}
-
-.projHeader {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.threeGears {
-  margin-top: 15px;
-  width: 105px;
-  height: auto;
-  align-self: center;
-}
-
-@media screen and (max-width: 320px) {
-  .threeGears {
-    display: none;
-  }
-}
-
-.projTitle {
-  color: var(--purple);
-  margin-top: 60px;
-}
-
-.projSubtitle {
-  color: var(--medium-purple);
-}
-
-.projDescription {
-  color: var(--dark-gray);
-}
-
-.membershipLi {
-  color: var(--dark-gray);
-}
-
-.membershipSubLi {
-  color: var(--dark-gray);
-}
-
-.membershipTitle {
-  color: var(--purple);
-}
-
-.membershipSubtitle {
-  color: var(--medium-purple);
-}
-
 .membershipBody {
-  color: var(--dark-gray);
   padding-bottom: 15px;
 }
 
-.sweetIdeasContainer {
-  margin-bottom: 40px;
+.programContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 80px 0px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
 
-.sweetIdeasTitle {
-  color: var(--purple);
-  padding-top: 50px;
+.programImg {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
-.sweetIdeasSubtitle {
-  color: var(--medium-purple);
-  margin: 10px 0px;
+.pgLeftText {
+  text-align: center;
+  padding-right: 50px;
 }
 
-.sweetIdeasBody {
-  color: var(--dark-gray);
-  margin-bottom: 25px;
+.pgRightText {
+  text-align: center;
+  padding-left: 20px;
+}
+
+.programText {
+  min-width: 450px;
+}
+
+@media screen and (max-width: 1000px) {
+  .programText {
+    min-width: 300px;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  .programContainer {
+    flex-direction: column;
+  }
+
+  .pgLeftText {
+    width: 100%;
+    padding-right: 0px;
+  }
+  
+  .pgRightText {
+    width: 100%;
+    padding-left: 0px;
+  }
+
+}
+
+.eventsImgs {
+  margin: 10px;
+  object-fit: cover;
+  object-position: center;
+  width: auto;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  
+}
+
+.gallery {
+  margin: 0px 30px;
+  padding: 10px;
+  background-color: white
+}
+
+.eventSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }

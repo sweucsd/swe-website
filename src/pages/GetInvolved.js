@@ -1,42 +1,24 @@
 import React from 'react';
+import weConference from '../assets/we_conference.jpg';
+import mentorMentee from '../assets/mentor_mentee.jpg';
+import GBM_1 from '../assets/Event_Imgs/.GBM_1.jpg.icloud';
+// import GBM_2 from '../assets/Event_Imgs/GBM_2.jpg';
 import './GetInvolved.css';
-import ProjectCard from '../components/ProjectCard';
-import Button from '../components/Button';
-import Gears from '../assets/swe_gears_2.png';
 
 function GetInvolved() {
-  const projects = [
-    { name: 'Ornithopter – Robotic Bird', description: 'Behind the robotic bird project are UCSD students from diverse majors and backgrounds. With the skills learned from fields such as aerospace, electrical, and computer engineering, the team applied their individual experiences to achieve a single goal - to create the robotic bird. They decided to focus on creating a robotic bird because one of the goals was to create a hands on project that everyone can gain experience from. Over the course of the project, team members became proficient in programs such as Solidworks and Arduino. Members: Christine Phan (Project Lead), Megan McCall, Rachel Sjostedt, Gabrielle Hart, Tara Len, Amanda Chau, Marie Shimizu, Haley Sohn' },
-    { name: 'STEAM Project', description: 'Our STEAM project is the combination of art and engineering that aims to create a statement piece that uses engineering concepts and nods towards women in STEM who are underrepresented. Members: Dafina Sopi (Project Lead), Kylie Morales, Leslie Jasmine Lopez, Tiffany Soebroto, Parker Carnahan, Elianor Shohet, Tatiana Podhajny, Shantelle Megan Serafin' },
-    { name: 'SWEbsite Design', description: "The SWEbsite Design team was put together to recreate the SWE website from scratch. Previous versions of our website were missing important information and weren't developed by our own UCSD students, so we hoped that by making the website ourselves we could make it more personal while also learning valuable skills about web design and development in the process. From prototyping desings in Figma to building out static pages using a React.js framework, we experienced a variety of different technologies and learned practical skills such as version control and responsive design. Members: Jaslina Kaur (Project Lead), Angkitha Anguraj, Allison Bhavsar, Mikaela Grenion, Reyna Yang" },
-  ];
-
   return (
     <div>
-      <div className="margin projContainer">
-        <h1 className="membershipTitle h2">Attend Our Events</h1>
-        <p className="p2 membershipBody">
-          The easiest way to start getting involved with SWE is by attending our
-          events. We host a variety of events including GBMs, technical workshops,
-          networking sessions, high school outreach, and socials. Anyone is welcome
-          to attend, regardless of their membership status. Check our calendar for
-          upcoming events.
-        </p>
-        <a href="/events">
-          <Button label="SWE Calendar" />
-        </a>
-      </div>
       <div className="margin">
         <div>
-          <h1 className="membershipTitle h2">Start a Membership</h1>
-          <h2 className="membershipSubtitle h3">How can I become a section member?</h2>
+          <h1 className="purple h2">Become an Active Member</h1>
+          <h2 className="mediumPurple h3">How can I become a section member?</h2>
           <ul>
-            <li className="h6 membershipLi">$5 Membership Fee</li>
+            <li className="h6 darkGray">$5 Membership Fee</li>
             <ul>
-              <li className="p2 membershipSubLi">Paid to our Treasurer</li>
+              <li className="p2 darkGray">Paid to our Treasurer</li>
             </ul>
-            <li className="h6 membershipLi">6+ Hours of Participation</li>
-            <ul className="p2 membershipSubLi">
+            <li className="h6 darkGray">6+ Hours of Participation</li>
+            <ul className="p2 darkGray">
               <li>
                 Attend GBMs, workshops, and other
                 {' '}
@@ -50,13 +32,13 @@ function GetInvolved() {
                 order to log your attendance!
               </li>
             </ul>
-            <li className="h6 membershipLi">Become a Collegiate Member</li>
+            <li className="h6 darkGray">Become a Collegiate Member</li>
             <ul>
-              <li className="p2 membershipSubLi">
+              <li className="p2 darkGray">
                 Standard Collegiate Membership ($20), Collegiate to Career ($50),
                 SWE + SHPE ($24.90), SWE + NSBE ($27.00)
               </li>
-              <li className="p2 membershipSubLi">
+              <li className="p2 darkGray">
                 Visit
                 {' '}
                 <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://swe.org/">swe.org</a>
@@ -66,7 +48,7 @@ function GetInvolved() {
             </ul>
           </ul>
         </div>
-        <p className="p2 membershipBody">
+        <p className="p2 darkGray">
           Any
           {' '}
           <strong>one</strong>
@@ -80,61 +62,114 @@ function GetInvolved() {
           {' '}
           to attend our events and be involved in our organization. Everyone is welcome!
         </p>
-        <h2 className="membershipSubtitle h3">How can I become an officer?</h2>
-        <p className="membershipLi p1">
-          Eligibility: In order to run for board positions, you must currently be
-          a
-          {' '}
-          <strong>member</strong>
-          {' '}
-          at our section.
-        </p>
-        <div className="leadershipBody">
-          <p className="p2 membershipBody">
-            Board election details?
-          </p>
-        </div>
       </div>
-      <div className="margin projContainer">
-        <div className="projHeader">
-          <div>
-            <h1 className="h2 projTitle">Join a Project Team</h1>
-            <h1 className="h3 projSubtitle">Gain Technical Experience</h1>
-          </div>
-          <img src={Gears} className="threeGears" alt="" />
+      <div className="margin">
+        <div>
+          <h1 className="purple h2">Our Events</h1>
+          <h2 className="mediumPurple h3">What events can I attend?</h2>
+          <ul>
+            <div className="eventSection">
+              <div>
+                <li className="h6 darkGray">GBMs</li>
+                <ul>
+                  <li className="p2 darkGray">Attend our quarterly meetings to stay updated</li>
+                  <li className="p2 darkGray">Bond with your fellow SWE members</li>
+                  <li className="p2 darkGray">Interact with the guest speakers</li>
+                </ul>
+              </div>
+              <div className="gallery">
+                <img className="eventsImgs" src={GBM_1} alt="" />
+              </div>
+            </div>
+            <li className="h6 darkGray">Technical Events</li>
+            <ul className="p2 darkGray">
+              <li className="p2 darkGray">Attend workshops and learn a variety of technical skills required for the professional workspace</li>
+              <li className="p2 darkGray">Apply your skills outside of the classroom</li>
+              <li className="p2 darkGray">Collaborate with other students on a Project to dive deeper into learning a particular skill</li>
+            </ul>
+            <div className="gallery">
+              <img className="eventsImgs" src="src/assets/Event_Imgs/Technical_1.jpg" alt="" />
+              <img className="eventsImgs" src="src/assets/Event_Imgs/Technical_2.jpg" alt="" />
+            </div>
+            <li className="h6 darkGray">Professional Events</li>
+            <ul>
+              <li className="p2 darkGray">Network and meet with industry professionals </li>
+              <li className="p2 darkGray">Gain valuable insight</li>
+              <li className="p2 darkGray">Learn how to best prepare yourself for graduation</li>
+            </ul>
+            <div className="gallery">
+              <img className="eventsImgs" src="src/assets/Event_Imgs/Professional_1.jpg" alt="" />
+              <img className="eventsImgs" src="src/assets/Event_Imgs/Professional_2.jpg" alt="" />
+            </div>
+            <li className="h6 darkGray">Outreach Events</li>
+            <ul>
+              <li className="p2 darkGray">Get involved with some of our outreach programs</li>
+              <li className="p2 darkGray">Become a mentor for high school students with EDGE</li>
+              <li className="p2 darkGray">Participate and help run cool events for the students with Envision</li>
+            </ul>
+            <div className="gallery">
+              <img className="eventsImgs" src="src/assets/Event_Imgs/Outreach_1.jpg" alt="" />
+              <img className="eventsImgs" src="src/assets/Event_Imgs/Outreach_2.jpg" alt="" />
+            </div>
+            <li className="h6 darkGray">Social Events</li>
+            <ul>
+              <li className="p2 darkGray">Participate in cool bonding events</li>
+              <li className="p2 darkGray">Learn how your fellow members navigate through college</li>
+              <li className="p2 darkGray">Attend for a chance to win cool giveaways</li>
+            </ul>
+            <div className="gallery">
+              <img className="eventsImgs" src="src/assets/Event_Imgs/Social_1.jpg" alt="" />
+              <img className="eventsImgs" src="src/assets/Event_Imgs/Social_2.jpg" alt="" />
+            </div>
+          </ul>
         </div>
-        <p className="p1 projDescription">
-          Projects are a great way to stay involved with the SWE community
-          and earn hours towards membership while gaining hands-on technical
-          experience and meeting fellow SWE Bees. Stay subscribed to our
-          newsletter and attend GBMs to hear about future project opportunities.
-          Here are some of our current projects:
+        <p className="p2 darkGray">
+          Find out when these events are happening by visiting the
+          {' '}
+          <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="/events">calendar</a>
+          {' '}
+          page!
+          <br />
+          For more information, join our
+          {' '}
+          <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSdpJZDjpkxkWwFNvyy9T46Efap0ASpX5Faja3IGrvCL8lCWwQ/viewform">newsletter</a>
+          !
         </p>
-        {projects.map((project, index) => {
-          if (index % 2 === 0) {
-            return (
-              <ProjectCard
-                name={project.name}
-                description={project.description}
-                right={false}
-              />
-            );
-          }
-
-          return <ProjectCard name={project.name} description={project.description} right />;
-        })}
-        <div className="sweetIdeasContainer">
-          <h1 className="h2 projTitle">SWE-et Ideas!</h1>
-          <p className="p1 sweetIdeasBody">
-            Interested in starting your own project? Fill out the
-            SWE-et Ideas project application
-            for a chance to bring your ideas to life! If your application is selected,
-            we&apos;ll help you form a team and provide you with funding
-            for your very own project.
-          </p>
-          <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSfnSqAgbqSM9LhiWwLa6g5HYfKgdbCFzLfMuGGP3OcClm6hrw/viewform">
-            <Button label="Apply Here" />
-          </a>
+      </div>
+      <div className="margin lightPurpleBg">
+        <p className="h2 purple">Other Programs</p>
+        <p className="em mediumPurple">More ways to get involved!</p>
+        <div className="programContainer">
+          <div className="programText pgLeftText">
+            <p className="h3 mediumPurple">Mentor/Mentee</p>
+            <hr className="divider" />
+            <p className="p2 darkGray">
+              The Mentorship Program pairs undergraduate upperclassmen at UCSD
+              with lowerclassmen of the same major. Interested in becoming a mentor or mentee?
+              Sign up for our mailing list to join the program and get paired with
+              another student in your major!
+            </p>
+          </div>
+          <div>
+            <img className="programImg" src={mentorMentee} alt="" />
+          </div>
+        </div>
+        <div className="programContainer">
+          <div>
+            <img className="programImg" src={weConference} alt="" />
+          </div>
+          <div className="programText pgRightText">
+            <p className="h3 mediumPurple">WE21 Conference</p>
+            <hr className="divider" />
+            <p className="p2 darkGray">
+              <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://we21.swe.org/">WE21</a>
+              {' '}
+              is SWE&apos;s annual international conference for women in
+              engineering and technology, held in different cities every year
+              in October or November. The conference features a career fair,
+              keynote speakers, ProDev workshops, and other professional opportunities.
+            </p>
+          </div>
         </div>
       </div>
     </div>
