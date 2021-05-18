@@ -23,19 +23,14 @@ function GetInvolved() {
           newsletter and attend GBMs to hear about future project opportunities.
           Here are some of our current projects:
         </p>
-        {Projects.map((project, index) => {
-          if (index % 2 === 0) {
-            return (
-              <ProjectCard
-                name={project.name}
-                description={project.description}
-                right={false}
-              />
-            );
-          }
-
-          return <ProjectCard name={project.name} description={project.description} right />;
-        })}
+        {Projects.map((project, index) => (
+          <ProjectCard
+            name={project.name}
+            description={project.description}
+            image={project.image}
+            right={index % 2 === 1}
+          />
+        ))}
         <div className="sweetIdeasContainer">
           <h1 className="h2 purple projTitle">SWE-et Ideas!</h1>
           <p className="p1 darkGray sweetIdeasBody">

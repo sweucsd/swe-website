@@ -46,13 +46,11 @@
   }
 
   .pgLeftText {
-    text-align: left;
     width: 100%;
     padding-right: 0px;
   }
   
   .pgRightText {
-    text-align: left;
     width: 100%;
     padding-left: 0px;
   }
