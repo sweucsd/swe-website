@@ -71,7 +71,7 @@ function Home() {
             </a>
           </div>
           <div className="newsletter">
-            <img src={NewsletterIcon} alt="" />
+            <img className="purpleFilter" src={NewsletterIcon} alt="" />
             <p className="p1 darkGray">
               Want to stay in the loop? Join our mailing list!
             </p>

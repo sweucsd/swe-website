@@ -120,7 +120,6 @@
   width: 40%;
   height: auto;
   padding-top: 30px;
-  filter: invert(33%) sepia(9%) saturate(1833%) hue-rotate(215deg) brightness(96%) contrast(86%);
 }
 
 .eventsContainer {

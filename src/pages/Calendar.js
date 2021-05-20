@@ -14,19 +14,19 @@ function Calendar() {
         <hr className="divider" />
         <div className="em iconsContainer">
           <div className="iconContainer">
-            <img className="eventIcon" src={SocialIcon} alt="" />
+            <img className="purpleFilter eventIcon" src={SocialIcon} alt="" />
             <p className="iconLabels">Social</p>
           </div>
           <div className="iconContainer">
-            <img className="eventIcon" src={OutreachIcon} alt="" />
+            <img className="purpleFilter eventIcon" src={OutreachIcon} alt="" />
             <p className="iconLabels">Outreach</p>
           </div>
           <div className="iconContainer">
-            <img className="eventIcon" src={TechnicalIcon} alt="" />
+            <img className="purpleFilter eventIcon" src={TechnicalIcon} alt="" />
             <p className="iconLabels">Technical</p>
           </div>
           <div className="iconContainer">
-            <img className="eventIcon" src={ProfessionalIcon} alt="" />
+            <img className="purpleFilter eventIcon" src={ProfessionalIcon} alt="" />
             <p className="iconLabels">Professional</p>
           </div>
         </div>

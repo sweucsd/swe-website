@@ -8,6 +8,10 @@
   --max-width: 1100px;
 }
 
+.purpleFilter {
+  filter: invert(33%) sepia(9%) saturate(1833%) hue-rotate(215deg) brightness(96%) contrast(86%);
+}
+
 .lightPurpleBg {
   background-color: var(--light-purple);
 }
