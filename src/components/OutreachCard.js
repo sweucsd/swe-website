@@ -9,37 +9,36 @@ function OutreachCard(props) {
   } = props;
 
   let align;
+  let container;
+  let imgDesign;
+  let gears;
+  let divider;
   if (right === true) {
     align = 'labelLeft';
+    container = 'outreachCardContainerRight';
+    imgDesign = 'rightImgDesign';
+    gears = 'Right_gears';
+    divider = 'outreachDividerLeft';
   } else {
     align = 'labelRight';
+    container = 'outreachCardContainerLeft';
+    imgDesign = 'leftImgDesign';
+    gears = 'Left_gears';
+    divider = 'outreachDividerRight';
   }
   return (
     <div className="outreachCard">
-      {right
-        ? (
-          <div>
-            <div className="outreachCardContainerLeft">
-              <div className="imgContainer">
-                <img className="leftImgDesign" src={image} alt="" />
-                <img src={Gears} className="Left_gears" alt="" />
-              </div>
-              <p className={`${align} h3`}>{name}</p>
-            </div>
-            <p className="p2 outreachDescription">{description}</p>
-          </div>
-        ) : (
-          <div>
-            <div className="outreachCardContainerRight">
-              <div className="imgContainer">
-                <img src={Gears} className="Right_gears" alt="" />
-                <img className="rightImgDesign" src={image} alt="" />
-              </div>
-              <p className={`${align} h3`}>{name}</p>
-            </div>
-            <p className="p2 outreachDescription">{description}</p>
-          </div>
-        )}
+      <div className={container}>
+        <div className="imgContainer">
+          <img className={imgDesign} src={image} alt="" />
+          <img src={Gears} className={gears} alt="" />
+        </div>
+        <div className={align}>
+          <p className="h3 mediumPurple">{name}</p>
+          <hr className={`divider ${divider}`} />
+          <p className="p2 darkGray">{description}</p>
+        </div>
+      </div>
     </div>
   );
 }

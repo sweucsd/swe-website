@@ -6,6 +6,8 @@ import OutreachCard from '../components/OutreachCard';
 function Outreach() {
   return (
     <div className="margin outreachContainer">
+      <p className="h2 purple">Our K-12 Outreach</p>
+      <p className="em mediumPurple">Programs to bring engineering to girls in the San Diego community</p>
       {OutreachEvents.map((event, index) => {
         let isRight;
         if (index % 2 === 0) {
@@ -13,28 +15,13 @@ function Outreach() {
         } else {
           isRight = true;
         }
-        if (index !== OutreachEvents.length - 1) {
-          return (
-            <div>
-              <OutreachCard
-                name={event.name}
-                image={event.image}
-                description={event.description}
-                right={isRight}
-              />
-              <hr className="divider" />
-            </div>
-          );
-        }
         return (
-          <div>
-            <OutreachCard
-              name={event.name}
-              image={event.image}
-              description={event.description}
-              right={isRight}
-            />
-          </div>
+          <OutreachCard
+            name={event.name}
+            image={event.image}
+            description={event.description}
+            right={isRight}
+          />
         );
       })}
     </div>

@@ -1,9 +1,7 @@
 import React from 'react';
 import Events from '../data/Events';
-import weConference from '../assets/we_conference.jpg';
-import mentorMentee from '../assets/mentor_mentee.jpg';
-// import GBM_1 from '../assets/Event_Imgs/.GBM_1.jpg.icloud';
-// import GBM_2 from '../assets/Event_Imgs/GBM_2.jpg';
+import weConference from '../assets/Event_Imgs/we_conference.jpg';
+import mentorMentee from '../assets/Event_Imgs/mentor_mentee.jpg';
 import './GetInvolved.css';
 
 function GetInvolved() {
@@ -16,7 +14,7 @@ function GetInvolved() {
           <ul>
             <li className="h6 darkGray">$5 Membership Fee</li>
             <ul>
-              <li className="p2 darkGray">Paid to our Treasurer</li>
+              <li className="p2 darkGray">Paid to our Treasurer </li>
             </ul>
             <li className="h6 darkGray">6+ Hours of Participation</li>
             <ul className="p2 darkGray">
@@ -49,7 +47,7 @@ function GetInvolved() {
             </ul>
           </ul>
         </div>
-        <p className="p2 darkGray">
+        <p className="p2 darkGray membershipBody">
           Any
           {' '}
           <strong>one</strong>
@@ -63,8 +61,7 @@ function GetInvolved() {
           {' '}
           to attend our events and be involved in our organization. Everyone is welcome!
         </p>
-      </div>
-      <div className="margin">
+
         <div>
           <h1 className="purple h2">Our Events</h1>
           <h2 className="mediumPurple h3">What events can I attend?</h2>

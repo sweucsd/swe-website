@@ -9,11 +9,11 @@ function Sponsors() {
       <div className="SponsorshipContainer">
         {SponsorsInfo.map((sponsor) => (
           <div className="sponsorImgContainer">
-            <img src={sponsor.image} style={{ width: 200 }} alt="" />
+            <img src={sponsor.image} style={{ width: 170 }} alt="" />
           </div>
         ))}
       </div>
-      <p className="h3 purple">Interested in sponsoring us?</p>
+      <p className="h3 mediumPurple">Interested in sponsoring us?</p>
       <p className="p1 darkGray">
         Email us at
         {' '}
