@@ -73,13 +73,9 @@ function Navbar() {
 
       <Switch>
         {Pages.map((page) => (
-          <Route exact path={page.path}>
-            {page.component}
-          </Route>
+          <Route exact path={page.path} component={page.component} />
         ))}
-        <Route path="*">
-          <NotFound />
-        </Route>
+        <Route path="*" component={NotFound} />
       </Switch>
 
       <Footer />
