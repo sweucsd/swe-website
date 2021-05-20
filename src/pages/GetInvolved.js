@@ -14,7 +14,7 @@ function GetInvolved() {
           <ul>
             <li className="h6 darkGray">$5 Membership Fee</li>
             <ul>
-              <li className="p2 darkGray">Paid to our Treasurer</li>
+              <li className="p2 darkGray">Paid to our Treasurer </li>
             </ul>
             <li className="h6 darkGray">6+ Hours of Participation</li>
             <ul className="p2 darkGray">
