@@ -35,13 +35,12 @@ function Calendar() {
   ];
 
   const calendars = {
-    all: <iframe onLoad={() => setLoading(false)} title="all" src="https://calendar.google.com/calendar/embed?src=c_q4nohp3lki5lgo427tqngsjaoo%40group.calendar.google.com&ctz=America%2FLos_Angeles" width="800" height="600" frameBorder="0" scrolling="no" />,
-    social: <iframe onLoad={() => setLoading(false)} title="social" src="https://calendar.google.com/calendar/embed?src=c_u7jd1jdd0k3cgcudve47r3r0hs%40group.calendar.google.com&ctz=America%2FLos_Angeles" width="800" height="600" frameBorder="0" scrolling="no" />,
-    technical: <iframe onLoad={() => setLoading(false)} title="technical" src="https://calendar.google.com/calendar/embed?src=c_o0cqo26jo37fl3b38fl5o0v50g%40group.calendar.google.com&ctz=America%2FLos_Angeles" width="800" height="600" frameBorder="0" scrolling="no" />,
-    professional: <iframe onLoad={() => setLoading(false)} title="professional" src="https://calendar.google.com/calendar/embed?src=c_87s4tl01dr9eabtu544re2i7a8%40group.calendar.google.com&ctz=America%2FLos_Angeles" width="800" height="600" frameBorder="0" scrolling="no" />,
-    outreach: <iframe onLoad={() => setLoading(false)} title="outreach" src="https://calendar.google.com/calendar/embed?src=c_l8ut7dluk89di2ikjuvhdufr20%40group.calendar.google.com&ctz=America%2FLos_Angeles" width="800" height="600" frameBorder="0" scrolling="no" />,
+    all: <iframe onLoad={() => setLoading(false)} title="all" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=c2ppcjdvbG9zZDVqcjJmNG5paGU5dmEwMGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=YWhxb2NuODI4cDJxa2QyaWM4amJrZWhzdGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=a25vbnQ4bTJoaDZiMWtpZGZnM20za3E1OWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=OWQ5Y2I5ZjZ0YXYxYmhzaWZjcGdmZXIxOThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%239E69AF&amp;color=%239E69AF&amp;color=%23A79B8E&amp;color=%23E67C73&amp;title=All%20Events" width="800" height="600" frameBorder="0" scrolling="no" />,
+    social: <iframe onLoad={() => setLoading(false)} title="social" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;title=Social%20Calendar&amp;src=a25vbnQ4bTJoaDZiMWtpZGZnM20za3E1OWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23A79B8E" width="800" height="600" frameBorder="0" scrolling="no" />,
+    technical: <iframe onLoad={() => setLoading(false)} title="technical" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;title=Technical%20Calendar&amp;src=OWQ5Y2I5ZjZ0YXYxYmhzaWZjcGdmZXIxOThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23E67C73" width="800" height="600" frameBorder="0" scrolling="no" />,
+    professional: <iframe onLoad={() => setLoading(false)} title="professional" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;title=Professional%20Calendar&amp;src=YWhxb2NuODI4cDJxa2QyaWM4amJrZWhzdGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%239E69AF" width="800" height="600" frameBorder="0" scrolling="no" />,
+    outreach: <iframe onLoad={() => setLoading(false)} title="outreach" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=c2ppcjdvbG9zZDVqcjJmNG5paGU5dmEwMGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%239E69AF&amp;title=Outreach%20Calendar" width="800" height="600" frameBorder="0" scrolling="no" />,
   };
-
   useEffect(() => {
     setLoading(true);
     setCal(calendars[filter]);
