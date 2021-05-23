@@ -11,6 +11,7 @@ import Logo from '../assets/swe_logo.png';
 import Header from './Header';
 import Footer from './Footer';
 import NotFound from '../pages/NotFound';
+import Attributions from '../pages/Attributions';
 
 function Navbar() {
   const [showSideNav, setShowSideNav] = useState(false);
@@ -77,6 +78,9 @@ function Navbar() {
             {page.component}
           </Route>
         ))}
+        <Route exact path="/Attributions">
+          <Attributions />
+        </Route>
         <Route path="*">
           <NotFound />
         </Route>

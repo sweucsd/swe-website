@@ -5,7 +5,6 @@ import Calendar from '../pages/Calendar';
 import Outreach from '../pages/Outreach';
 import About from '../pages/About';
 import Projects from '../pages/Projects';
-import Attributions from '../pages/Attributions';
 import AboutImg from '../assets/cover_imgs/about_pic.jpg';
 import ProjImg from '../assets/cover_imgs/technical_pic.jpg';
 
@@ -26,15 +25,6 @@ const Pages = [
     titleTag: 'About – SWE UCSD',
     navLabel: 'About',
     component: About,
-    image: AboutImg,
-  },
-  {
-    path: '/Attributions',
-    title: 'Attributions',
-    subtitle: 'Attributions',
-    titleTag: 'Attributions',
-    navLabel: 'Attributions',
-    component: Attributions,
     image: AboutImg,
   },
   {
