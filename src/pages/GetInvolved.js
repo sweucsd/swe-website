@@ -132,6 +132,41 @@ function GetInvolved() {
           </div>
         </div>
       </div>
+      <div className="margin">
+        <div>
+          <h1 className="purple h2">Resources</h1>
+          <h2 className="mediumPurple h3">Some Useful Links</h2>
+          <ul>
+            <li className="h6 darkGray">
+              <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/1BvWJhT6jVURzMG5PkjGtbqWT5YD6yN4-3IEllo_Qx0g/edit?usp=sharin">SWE National Website</a>
+            </li>
+            <li className="h6 darkGray">
+              Check out the
+              {' '}
+              <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/1BvWJhT6jVURzMG5PkjGtbqWT5YD6yN4-3IEllo_Qx0g/edit?usp=sharin">SWE Oppurtunities Sheet</a>
+              {' '}
+              for some great scholarship opportunities!
+            </li>
+            <li className="h6 darkGray">
+              <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/1BvWJhT6jVURzMG5PkjGtbqWT5YD6yN4-3IEllo_Qx0g/edit?usp=sharin">SWE National Website</a>
+            </li>
+          </ul>
+        </div>
+        <p className="p2 darkGray membershipBody">
+          Any
+          {' '}
+          <strong>one</strong>
+          {' '}
+          of the above will qualify you for membership at our section.
+          Sectional membership comes with a variety of perks, including
+          a free SWE t-shirt, voting rights in board elections, and eligibility to
+          run for board positions. However, note that
+          {' '}
+          <strong>official membership is not required</strong>
+          {' '}
+          to attend our events and be involved in our organization. Everyone is welcome!
+        </p>
+      </div>
     </div>
   );
 }
