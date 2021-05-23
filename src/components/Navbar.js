@@ -78,7 +78,7 @@ function Navbar() {
             {page.component}
           </Route>
         ))}
-        <Route exact path="/Attributions">
+        <Route exact path="/attributions">
           <Attributions />
         </Route>
         <Route path="*">
