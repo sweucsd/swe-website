@@ -9,7 +9,7 @@ function GetInvolved() {
     <div>
       <div className="margin">
         <div>
-          <h1 className="purple h2">Become an Active Member</h1>
+          <h1 className="purple h2">SWE Membership</h1>
           <h2 className="mediumPurple h3">How can I become a section member?</h2>
           <ul>
             <li className="h6 darkGray">$5 Membership Fee OR</li>
@@ -130,46 +130,62 @@ function GetInvolved() {
       <div className="margin">
         <div>
           <h1 className="purple h2">Resources</h1>
-          <h2 className="mediumPurple h3">Some Useful Links</h2>
-          <ul>
-            <li className="p2 darkGray">
-              <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://swe.org/">SWE National Website</a>
-            </li>
-            <li className="p2 darkGray">
-              Check out the
-              {' '}
-              <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/1BvWJhT6jVURzMG5PkjGtbqWT5YD6yN4-3IEllo_Qx0g/edit?usp=sharin">SWE Oppurtunities Sheet</a>
-              {' '}
-              for some great scholarship opportunities!
-            </li>
-            <li className="p2 darkGray">
-              For more information, join our
-              {' '}
-              <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSdpJZDjpkxkWwFNvyy9T46Efap0ASpX5Faja3IGrvCL8lCWwQ/viewform">newsletter</a>
-              !
-            </li>
-            <li className="p2 darkGray">
-              <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="http://www.swesandiego.org/">SWE @ San Diego</a>
-            </li>
-          </ul>
-          <h2 className="mediumPurple h3">Similar Organizations to Check Out!</h2>
-          <ul>
-            <li className="p2 darkGray">
-              <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="http://nsbeucsd.weebly.com/">NSBE</a>
-            </li>
-            <li className="p2 darkGray">
-              <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://sites.google.com/view/shpeucsd/home">SHPE</a>
-            </li>
-            <li className="p2 darkGray">
-              <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://ostem.ucsd.edu/">OSTEM</a>
-            </li>
-            <li className="p2 darkGray">
-              <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://saseatucsd.weebly.com/">SASE</a>
-            </li>
-            <li className="p2 darkGray">
-              <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://wic.ucsd.edu/">WIC</a>
-            </li>
-          </ul>
+          <div className="resourcesContainer">
+            <div className="generalLinks">
+              <h2 className="mediumPurple h3">Some Useful Links</h2>
+              <ul>
+                <li className="p2 darkGray">
+                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://swe.org/">SWE National Website</a>
+                </li>
+                <li className="p2 darkGray">
+                  Check out the
+                  {' '}
+                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/1BvWJhT6jVURzMG5PkjGtbqWT5YD6yN4-3IEllo_Qx0g/edit?usp=sharin">SWE Oppurtunities Sheet</a>
+                  {' '}
+                  for some great scholarship opportunities!
+                </li>
+                <li className="p2 darkGray">
+                  For more information, join our
+                  {' '}
+                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSdpJZDjpkxkWwFNvyy9T46Efap0ASpX5Faja3IGrvCL8lCWwQ/viewform">newsletter</a>
+                  !
+                </li>
+                <li className="p2 darkGray">
+                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="http://www.swesandiego.org/">SWE @ San Diego</a>
+                </li>
+              </ul>
+            </div>
+            <div className="otherOrganizations">
+              <h2 className="mediumPurple h3">Similar UCSD Organizations</h2>
+              <ul>
+                <li className="p2 darkGray">
+                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="http://nsbeucsd.weebly.com/">
+                    National Society of Black Engineers (NSBE)
+                  </a>
+                </li>
+                <li className="p2 darkGray">
+                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://sites.google.com/view/shpeucsd/home">
+                    Society of Hispanic Professional Engineers (SHPE)
+                  </a>
+                </li>
+                <li className="p2 darkGray">
+                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://ostem.ucsd.edu/">
+                    Out in Science, Technology, Engineering, and Mathematics (OSTEM)
+                  </a>
+                </li>
+                <li className="p2 darkGray">
+                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://saseatucsd.weebly.com/">
+                    The Society of Asian Scientists and Engineers (SASE)
+                  </a>
+                </li>
+                <li className="p2 darkGray">
+                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://wic.ucsd.edu/">
+                    Women in Computing (WIC)
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>

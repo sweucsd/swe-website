@@ -1,9 +1,8 @@
 import React from 'react';
-import './Attributions.css';
 
 function Attributions() {
   return (
-    <div className="notFoundContainer">
+    <div className="margin">
       <p className="p1 darkGray">
         <div className="p2">
           <div>

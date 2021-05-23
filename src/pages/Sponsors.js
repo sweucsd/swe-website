@@ -20,7 +20,7 @@ function Sponsors() {
         <a className="clickableLink" href="mailto:swe@eng.ucsd.edu">swe@eng.ucsd.edu</a>
         {' '}
         to get in contact with our VP External and receive information about how
-        your company can partner with our chapter.
+        your company can partner with our section.
       </p>
     </div>
   );
