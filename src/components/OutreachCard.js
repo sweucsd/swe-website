@@ -37,7 +37,9 @@ function OutreachCard(props) {
           <p className="h3 mediumPurple">{name}</p>
           <hr className={`divider ${divider}`} />
           <p className="p2 darkGray">{description}</p>
-          <a className="clickableLink" target="_blank" rel="noopener noreferrer" href={link}>here</a>
+          <a className="em clickableLink" target="_blank" rel="noopener noreferrer" href={link}>
+            Learn More &gt;
+          </a>
         </div>
       </div>
     </div>
