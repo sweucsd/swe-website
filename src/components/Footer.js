@@ -14,8 +14,9 @@ function Footer() {
           </a>
         ))}
         <h5 className="p1">© Society of Women Engineers at University of California, San Diego</h5>
+        <a href="/Attributions" className="clickableLink">Attributions</a>
       </div>
-      <div className="p2" style={{ display: 'none' }}>
+      {/* <div className="p2">
         <div>
           Social icon made by
           {' '}
@@ -52,7 +53,7 @@ function Footer() {
           {' '}
           <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 }

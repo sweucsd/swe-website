@@ -12,11 +12,11 @@ function GetInvolved() {
           <h1 className="purple h2">Become an Active Member</h1>
           <h2 className="mediumPurple h3">How can I become a section member?</h2>
           <ul>
-            <li className="h6 darkGray">$5 Membership Fee</li>
+            <li className="h6 darkGray">$5 Membership Fee OR</li>
             <ul>
-              <li className="p2 darkGray">Paid to our Treasurer </li>
+              <li className="p2 darkGray">Paid to our Treasurer OR</li>
             </ul>
-            <li className="h6 darkGray">6+ Hours of Participation</li>
+            <li className="h6 darkGray">6+ Hours of Participation OR</li>
             <ul className="p2 darkGray">
               <li>
                 Attend GBMs, workshops, and other
@@ -88,11 +88,6 @@ function GetInvolved() {
             <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="/events">calendar</a>
             {' '}
             page!
-            <br />
-            For more information, join our
-            {' '}
-            <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSdpJZDjpkxkWwFNvyy9T46Efap0ASpX5Faja3IGrvCL8lCWwQ/viewform">newsletter</a>
-            !
           </p>
         </div>
       </div>
@@ -137,35 +132,45 @@ function GetInvolved() {
           <h1 className="purple h2">Resources</h1>
           <h2 className="mediumPurple h3">Some Useful Links</h2>
           <ul>
-            <li className="h6 darkGray">
-              <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/1BvWJhT6jVURzMG5PkjGtbqWT5YD6yN4-3IEllo_Qx0g/edit?usp=sharin">SWE National Website</a>
+            <li className="p2 darkGray">
+              <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://swe.org/">SWE National Website</a>
             </li>
-            <li className="h6 darkGray">
+            <li className="p2 darkGray">
               Check out the
               {' '}
               <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/1BvWJhT6jVURzMG5PkjGtbqWT5YD6yN4-3IEllo_Qx0g/edit?usp=sharin">SWE Oppurtunities Sheet</a>
               {' '}
               for some great scholarship opportunities!
             </li>
-            <li className="h6 darkGray">
-              <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/1BvWJhT6jVURzMG5PkjGtbqWT5YD6yN4-3IEllo_Qx0g/edit?usp=sharin">SWE National Website</a>
+            <li className="p2 darkGray">
+              For more information, join our
+              {' '}
+              <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSdpJZDjpkxkWwFNvyy9T46Efap0ASpX5Faja3IGrvCL8lCWwQ/viewform">newsletter</a>
+              !
+            </li>
+            <li className="p2 darkGray">
+              <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="http://www.swesandiego.org/">SWE @ San Diego</a>
+            </li>
+          </ul>
+          <h2 className="mediumPurple h3">Similar Organizations to Check Out!</h2>
+          <ul>
+            <li className="p2 darkGray">
+              <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="http://nsbeucsd.weebly.com/">NSBE</a>
+            </li>
+            <li className="p2 darkGray">
+              <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://sites.google.com/view/shpeucsd/home">SHPE</a>
+            </li>
+            <li className="p2 darkGray">
+              <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://ostem.ucsd.edu/">OSTEM</a>
+            </li>
+            <li className="p2 darkGray">
+              <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://saseatucsd.weebly.com/">SASE</a>
+            </li>
+            <li className="p2 darkGray">
+              <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://wic.ucsd.edu/">WIC</a>
             </li>
           </ul>
         </div>
-        <p className="p2 darkGray membershipBody">
-          Any
-          {' '}
-          <strong>one</strong>
-          {' '}
-          of the above will qualify you for membership at our section.
-          Sectional membership comes with a variety of perks, including
-          a free SWE t-shirt, voting rights in board elections, and eligibility to
-          run for board positions. However, note that
-          {' '}
-          <strong>official membership is not required</strong>
-          {' '}
-          to attend our events and be involved in our organization. Everyone is welcome!
-        </p>
       </div>
     </div>
   );
