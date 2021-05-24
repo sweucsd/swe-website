@@ -2,19 +2,37 @@
   background-color: var(--purple);
   font-weight: 600;
   color: white;
-  border: none;
-  padding: 15px;
+  border: 3px solid var(--purple);
+  padding: 10px;
   border-radius: 5px;
   cursor: pointer;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
 }
 
 .sweButton:hover {
-  background-color: var(--purple);
-  opacity: 0.9;
-  font-weight: 600;
-  color: white;
-  border: none;
-  padding: 15px;
-  border-radius: 5px;
-  cursor: pointer;
+  color: var(--purple);
+}
+
+.sweButton::after {
+  transition: all 0.35s;
+  content: "";
+  background: white;
+  position: absolute;
+  z-index: -1;
+  padding: 0.85em 0.75em;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  right: 100%;
+}
+
+.sweButton:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.35s;
 }
