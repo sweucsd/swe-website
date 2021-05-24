@@ -63,33 +63,6 @@
   color: var(--medium-purple);
 }
 
-.homeGallery {
-  background-position: center;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.homeGallery div {
-  width: 50%;
-  height: 300px;
-}
-
-@media screen and (max-width: 720px) {
-  .homeGallery div {
-    width: 100%;
-  }
-}
-
-.galleryImg {
-  margin: 20px;
-  object-fit: cover;
-  object-position: center;
-  width: 90%;
-  height: 90%;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-}
-
 .afterswe {
   text-align: center;
   color: var(--medium-purple);
@@ -120,7 +93,6 @@
   width: 40%;
   height: auto;
   padding-top: 30px;
-  filter: invert(33%) sepia(9%) saturate(1833%) hue-rotate(215deg) brightness(96%) contrast(86%);
 }
 
 .eventsContainer {

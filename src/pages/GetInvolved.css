@@ -98,3 +98,34 @@
 .eventsText {
   padding: 10px;
 }
+
+.resourcesContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.generalLinks {
+  flex: 1;
+  padding-right: 30px;
+}
+
+.otherOrganizations {
+  flex: 1.3;
+}
+
+@media screen and (max-width: 800px) {
+  .resourcesContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .generalLinks {
+    flex: 1;
+    padding-right: 0px;
+  }
+  
+  .otherOrganizations {
+    flex: 1;
+  }
+
+}

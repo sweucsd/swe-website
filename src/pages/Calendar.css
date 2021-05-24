@@ -31,7 +31,6 @@
   width: 100px;
   height: auto;
   padding: 20px 20px;
-  filter: invert(45%) sepia(9%) saturate(1302%) hue-rotate(229deg) brightness(95%) contrast(92%);
 }
 
 .iconContainer {

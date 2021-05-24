@@ -16,6 +16,11 @@ function Header() {
         setSubtitle(page[0].subtitle);
         document.title = page[0].titleTag;
         document.getElementById('headerImg').style.backgroundImage = `url("${page[0].image}")`;
+      } else if (location.pathname === '/attributions') {
+        setTitle('Attributions');
+        setSubtitle('Icon Credits');
+        document.title = 'Attributions – SWE UCSD';
+        document.getElementById('headerImg').style.backgroundImage = 'url("https://i.imgur.com/MgNHcA4.jpg"))';
       } else {
         setTitle('404');
         setSubtitle('Page Not Found');

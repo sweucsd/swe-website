@@ -11,6 +11,7 @@ import Logo from '../assets/swe_logo.png';
 import Header from './Header';
 import Footer from './Footer';
 import NotFound from '../pages/NotFound';
+import Attributions from '../pages/Attributions';
 
 function Navbar() {
   const [showSideNav, setShowSideNav] = useState(false);
@@ -48,7 +49,7 @@ function Navbar() {
   return (
     <div>
       <div ref={wrapperRef} className="navContainer">
-        <nav className="topNav p1">
+        <nav className="topNav p2">
           <NavLink exact to="/"><img className="logo" src={Logo} alt="logo" /></NavLink>
           {Pages.map((page) => (
             <NavLink exact className="link" to={page.path}>{page.navLabel}</NavLink>
@@ -62,7 +63,7 @@ function Navbar() {
             </div>
           </button>
         </nav>
-        <nav className={`${showSideNav ? 'sideNav' : 'sideNavClosed'} p1`}>
+        <nav className={`${showSideNav ? 'sideNav' : 'sideNavClosed'} p2`}>
           {Pages.map((page) => (
             <NavLink exact className="sideLink" to={page.path}>{page.navLabel}</NavLink>
           ))}
@@ -77,6 +78,9 @@ function Navbar() {
             {page.component}
           </Route>
         ))}
+        <Route exact path="/attributions">
+          <Attributions />
+        </Route>
         <Route path="*">
           <NotFound />
         </Route>

@@ -55,7 +55,7 @@ const Officers = [
   },
   {
     name: 'Erin Griggs',
-    position: 'ABLE Outreach Chair',
+    position: 'EDGE Outreach Chair',
     image: 'http://swe.ucsd.edu/wp-content/uploads/2020/11/erin-swe-768x1024.jpg',
     year: ' ',
     major: ' ',

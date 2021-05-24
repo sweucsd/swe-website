@@ -3,6 +3,7 @@ import Calendar from 'react-google-calendar-events-list';
 import './Home.css';
 import Button from '../components/Button';
 import NewsletterIcon from '../assets/newsletter.png';
+import Gallery from '../components/Gallery';
 
 function Home() {
   return (
@@ -32,7 +33,7 @@ function Home() {
         </div>
         <p className="em quote">
           <a className="purple" href="/involvement">
-            Start a membership and become a SWE Bee today! &gt;
+            Become a SWE Bee today! &gt;
           </a>
         </p>
 
@@ -71,7 +72,7 @@ function Home() {
             </a>
           </div>
           <div className="newsletter">
-            <img src={NewsletterIcon} alt="" />
+            <img className="purpleFilter" src={NewsletterIcon} alt="" />
             <p className="p1 darkGray">
               Want to stay in the loop? Join our mailing list!
             </p>
@@ -82,30 +83,8 @@ function Home() {
         </div>
       </div>
 
-      <div className="margin lightPurpleBg homeGallery">
-        <div>
-          <img className="galleryImg" src="http://swe.ucsd.edu/wp-content/uploads/2020/11/DSC_0145-1.jpg" alt="" />
-        </div>
-        <div>
-          <img className="galleryImg" src="https://i.imgur.com/bk3c3nz.jpg" alt="" />
-        </div>
-        <div>
-          <img className="galleryImg" src="https://i.imgur.com/uhW6Suq.jpg" alt="" />
-        </div>
-        <div>
-          <img className="galleryImg" src="https://i.imgur.com/JBZXLng.jpg" alt="" />
-        </div>
-      </div>
-      {/* <div>
-        <h3 className="h3 afterswe">After SWE:</h3>
-        <p className="p2 welcomeText">
-          For students after graduating, a
-          {' '}
-          <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="http://www.swesandiego.org/">SWE San Diego Professional Section:</a>
-          {' '}
-          continue participating in SWE locally!
-        </p>
-      </div> */}
+      <Gallery />
+
     </div>
   );
 }

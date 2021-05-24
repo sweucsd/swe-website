@@ -5,7 +5,7 @@ import Gears from '../assets/swe_gears_2.png';
 
 function OutreachCard(props) {
   const {
-    image, name, description, right,
+    image, name, description, link, right,
   } = props;
 
   let align;
@@ -37,6 +37,9 @@ function OutreachCard(props) {
           <p className="h3 mediumPurple">{name}</p>
           <hr className={`divider ${divider}`} />
           <p className="p2 darkGray">{description}</p>
+          <a className="em clickableLink" target="_blank" rel="noopener noreferrer" href={link}>
+            Learn More &gt;
+          </a>
         </div>
       </div>
     </div>
@@ -47,6 +50,7 @@ OutreachCard.propTypes = {
   image: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
   right: PropTypes.bool.isRequired,
 };
 

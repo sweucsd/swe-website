@@ -20,6 +20,7 @@ function Outreach() {
             name={event.name}
             image={event.image}
             description={event.description}
+            link={event.link}
             right={isRight}
           />
         );
