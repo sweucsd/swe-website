@@ -49,7 +49,7 @@ function Navbar() {
   return (
     <div>
       <div ref={wrapperRef} className="navContainer">
-        <nav className="topNav p1">
+        <nav className="topNav p2">
           <NavLink exact to="/"><img className="logo" src={Logo} alt="logo" /></NavLink>
           {Pages.map((page) => (
             <NavLink exact className="link" to={page.path}>{page.navLabel}</NavLink>
@@ -63,7 +63,7 @@ function Navbar() {
             </div>
           </button>
         </nav>
-        <nav className={`${showSideNav ? 'sideNav' : 'sideNavClosed'} p1`}>
+        <nav className={`${showSideNav ? 'sideNav' : 'sideNavClosed'} p2`}>
           {Pages.map((page) => (
             <NavLink exact className="sideLink" to={page.path}>{page.navLabel}</NavLink>
           ))}

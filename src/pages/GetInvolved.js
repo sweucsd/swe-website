@@ -83,11 +83,9 @@ function GetInvolved() {
           </div>
 
           <p className="p2 darkGray">
-            Find out when these events are happening by visiting the
+            Find out when these events are happening by checking out our
             {' '}
-            <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="/events">calendar</a>
-            {' '}
-            page!
+            <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="/events">calendar.</a>
           </p>
         </div>
       </div>

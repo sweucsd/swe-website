@@ -6,6 +6,7 @@
   z-index: 3;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
   background-color: white;
+  opacity: 0.98;
 }
 
 .topNav {
@@ -32,7 +33,7 @@
   justify-content: center;
   flex-direction: column;
   color: var(--purple);
-  padding: 14px 16px;
+  padding: 14px 10px;
   text-decoration: none;
   align-items: center;
   font-weight: 600;
@@ -49,7 +50,7 @@
 }
 
 .logo {
-  width: 130px;
+  width: 100px;
   height: auto;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -71,11 +72,7 @@
   display: none;
 }
 
-@media screen and (max-width: 1000px) {
-  .logo {
-    width: 100px;
-  }
-
+@media screen and (max-width: 800px) {
   .sideNav {
     background-color: white;
     display: flex;
