@@ -6,8 +6,8 @@ import OutreachCard from '../components/OutreachCard';
 function Outreach() {
   return (
     <div className="margin outreachContainer">
-      <p className="h2 purple">Our K-12 Outreach</p>
-      <p className="em mediumPurple">Programs to bring engineering to girls in the San Diego community</p>
+      <p className="h2 purple">K-12 Outreach Programs</p>
+      <p className="em mediumPurple">Bringing engineering to girls in the San Diego community</p>
       {OutreachEvents.map((event, index) => {
         let isRight;
         if (index % 2 === 0) {

@@ -1,14 +1,21 @@
 .sweButton {
   background-color: var(--purple);
   font-weight: 600;
-  color: white;
   border: 3px solid var(--purple);
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 0px;
   cursor: pointer;
   z-index: 1;
   overflow: hidden;
   position: relative;
+}
+
+.primaryBtn {
+  color: white;
+}
+
+.secondaryBtn {
+  color: var(--light-purple);
 }
 
 .sweButton:hover {
@@ -18,7 +25,6 @@
 .sweButton::after {
   transition: all 0.35s;
   content: "";
-  background: white;
   position: absolute;
   z-index: -1;
   padding: 0.85em 0.75em;
@@ -27,6 +33,14 @@
   bottom: 0;
   left: -100%;
   right: 100%;
+}
+
+.primaryBtn::after {
+  background: white;
+}
+
+.secondaryBtn::after {
+  background: var(--light-purple);
 }
 
 .sweButton:hover::after {

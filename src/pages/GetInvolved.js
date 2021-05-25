@@ -138,18 +138,21 @@ function GetInvolved() {
                 <li className="p2 darkGray">
                   Check out the
                   {' '}
-                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/1BvWJhT6jVURzMG5PkjGtbqWT5YD6yN4-3IEllo_Qx0g/edit?usp=sharin">SWE Oppurtunities Sheet</a>
+                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/1BvWJhT6jVURzMG5PkjGtbqWT5YD6yN4-3IEllo_Qx0g/edit?usp=sharin">SWE Opportunities Sheet</a>
                   {' '}
-                  for some great scholarship opportunities!
+                  for upcoming scholarship opportunities
                 </li>
                 <li className="p2 darkGray">
-                  For more information, join our
+                  Join our
                   {' '}
                   <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSdpJZDjpkxkWwFNvyy9T46Efap0ASpX5Faja3IGrvCL8lCWwQ/viewform">newsletter</a>
-                  !
+                  {' '}
+                  for regular updates
                 </li>
                 <li className="p2 darkGray">
-                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="http://www.swesandiego.org/">SWE @ San Diego</a>
+                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="http://www.swesandiego.org/">
+                    SWE San Diego County Section
+                  </a>
                 </li>
               </ul>
             </div>

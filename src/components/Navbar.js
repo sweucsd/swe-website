@@ -52,7 +52,9 @@ function Navbar() {
         <nav className="topNav p2">
           <NavLink exact to="/"><img className="logo" src={Logo} alt="logo" /></NavLink>
           {Pages.map((page) => (
-            <NavLink exact className="link" to={page.path}>{page.navLabel}</NavLink>
+            <div>
+              <NavLink exact className="link" to={page.path}>{page.navLabel}</NavLink>
+            </div>
           ))}
           <button type="button" className="hamburgerContainer" onClick={() => setShowSideNav(!showSideNav)}>
             <div className={`hamburger ${showSideNav && 'open'}`}>
