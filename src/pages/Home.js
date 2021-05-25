@@ -33,7 +33,7 @@ function Home() {
         </div>
         <p className="em quote">
           <a className="purple" href="/involvement">
-            Become a SWE Bee today! &gt;
+            Become a SWE Bee today! ›
           </a>
         </p>
 

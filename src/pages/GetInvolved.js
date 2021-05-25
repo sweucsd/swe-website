@@ -68,7 +68,7 @@ function GetInvolved() {
 
           <div className="eventSection">
             {Events.map((event) => (
-              <div className="eventCardContainer">
+              <div className="eventCardContainer shadow">
                 <img className="eventsImgs" src={event.image} alt="" />
                 <div className="eventsText">
                   <p className="h6 darkGray eventCardTitle">{event.title}</p>
@@ -92,7 +92,7 @@ function GetInvolved() {
       <div className="margin lightPurpleBg">
         <p className="h2 purple">Other Programs</p>
         <p className="em mediumPurple">More ways to get involved!</p>
-        <div className="programContainer">
+        <div className="programContainer shadow">
           <div className="programText pgLeftText">
             <p className="h3 mediumPurple">Mentor/Mentee</p>
             <hr className="divider" />
@@ -107,7 +107,7 @@ function GetInvolved() {
             <img className="programImg" src={mentorMentee} alt="" />
           </div>
         </div>
-        <div className="programContainer">
+        <div className="programContainer shadow">
           <div>
             <img className="programImg" src={weConference} alt="" />
           </div>

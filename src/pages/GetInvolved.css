@@ -10,7 +10,6 @@
   background-color: white;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
 
 .programImg {
@@ -76,7 +75,6 @@
   width: 300px;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   margin: 20px 10px;
 }
