@@ -3,14 +3,24 @@ import PropTypes from 'prop-types';
 import './Button.css';
 
 function Button(props) {
-  const { label } = props;
+  const { label, secondary } = props;
   return (
-    <button type="button" className="sweButton p2">{label}</button>
+    <button
+      type="button"
+      className={`${secondary ? 'secondaryBtn' : 'primaryBtn'} sweButton p2`}
+    >
+      {label}
+    </button>
   );
 }
 
 Button.propTypes = {
   label: PropTypes.string.isRequired,
+  secondary: PropTypes.bool,
+};
+
+Button.defaultProps = {
+  secondary: false,
 };
 
 export default Button;

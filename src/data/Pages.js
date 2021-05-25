@@ -21,7 +21,7 @@ const Pages = [
   {
     path: '/about',
     title: 'About Us',
-    subtitle: 'Learn about who we are and what it means to be a SWE Bee!',
+    subtitle: 'Learn about what it means to be a SWE Bee!',
     titleTag: 'About – SWE UCSD',
     navLabel: 'About',
     component: About,
@@ -30,7 +30,7 @@ const Pages = [
   {
     path: '/events',
     title: 'SWE Calendar',
-    subtitle: 'Subscribe to our calendar to stay notified about our upcoming events!',
+    subtitle: 'Check out our upcoming events!',
     titleTag: 'Calendar – SWE UCSD',
     navLabel: 'Events',
     component: Calendar,
