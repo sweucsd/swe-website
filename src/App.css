@@ -3,9 +3,13 @@
   --gold:  #DBC554;
   --gray: #A9A8A9;
   --dark-gray: #545759;
-  --light-purple: #d8d2ea;
+  --light-purple: #e6e2f2;
   --medium-purple: #7D6890;
   --max-width: 1100px;
+}
+
+.shadow {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 .purpleFilter {

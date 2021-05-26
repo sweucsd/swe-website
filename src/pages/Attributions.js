@@ -41,6 +41,60 @@ function Attributions() {
             {' '}
             <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
           </div>
+          <div>
+            Facebook icon made by
+            {' '}
+            <a href="https://www.freepik.com" title="Freepik">Freepik</a>
+            {' '}
+            from
+            {' '}
+            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          </div>
+          <div>
+            Instagram icon made by
+            {' '}
+            <a href="https://www.freepik.com" title="Freepik">Freepik</a>
+            {' '}
+            from
+            {' '}
+            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          </div>
+          <div>
+            Email icon made by
+            {' '}
+            <a href="https://www.flaticon.com/authors/smashicons" title="Smahicons">Freepik</a>
+            {' '}
+            from
+            {' '}
+            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          </div>
+          <div>
+            Linkedin icon made by
+            {' '}
+            <a href="https://www.flaticon.com/authors/smashicons" title="Smahicons">Freepik</a>
+            {' '}
+            from
+            {' '}
+            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          </div>
+          <div>
+            Linktree icon made by
+            {' '}
+            <a href="https://www.flaticon.com/authors/smashicons" title="Smahicons">Freepik</a>
+            {' '}
+            from
+            {' '}
+            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          </div>
+          <div>
+            Slack icon made by
+            {' '}
+            <a href="https://www.flaticon.com/authors/smashicons" title="Smahicons">Freepik</a>
+            {' '}
+            from
+            {' '}
+            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          </div>
         </div>
       </p>
     </div>

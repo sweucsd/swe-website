@@ -2,6 +2,7 @@ import React from 'react';
 import Events from '../data/Events';
 import weConference from '../assets/Event_Imgs/we_conference.jpg';
 import mentorMentee from '../assets/Event_Imgs/mentor_mentee.jpg';
+import purpleBee from '../assets/swe_bee.png';
 import './GetInvolved.css';
 
 function GetInvolved() {
@@ -9,8 +10,13 @@ function GetInvolved() {
     <div>
       <div className="margin">
         <div>
-          <h1 className="purple h2">SWE Membership</h1>
-          <h2 className="mediumPurple h3">How can I become a section member?</h2>
+          <div className="beeImgContainer">
+            <div>
+              <h1 className="purple h2">SWE Membership</h1>
+              <h2 className="mediumPurple h3">How can I become a section member?</h2>
+            </div>
+            <img className="beeImg" src={purpleBee} alt="" />
+          </div>
           <ul>
             <li className="h6 darkGray">$5 Membership Fee OR</li>
             <ul>
@@ -68,7 +74,7 @@ function GetInvolved() {
 
           <div className="eventSection">
             {Events.map((event) => (
-              <div className="eventCardContainer">
+              <div className="eventCardContainer shadow">
                 <img className="eventsImgs" src={event.image} alt="" />
                 <div className="eventsText">
                   <p className="h6 darkGray eventCardTitle">{event.title}</p>
@@ -92,7 +98,7 @@ function GetInvolved() {
       <div className="margin lightPurpleBg">
         <p className="h2 purple">Other Programs</p>
         <p className="em mediumPurple">More ways to get involved!</p>
-        <div className="programContainer">
+        <div className="programContainer shadow">
           <div className="programText pgLeftText">
             <p className="h3 mediumPurple">Mentor/Mentee</p>
             <hr className="divider" />
@@ -107,7 +113,7 @@ function GetInvolved() {
             <img className="programImg" src={mentorMentee} alt="" />
           </div>
         </div>
-        <div className="programContainer">
+        <div className="programContainer shadow">
           <div>
             <img className="programImg" src={weConference} alt="" />
           </div>

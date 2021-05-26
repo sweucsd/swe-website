@@ -10,7 +10,7 @@ function OfficerCard(props) {
   return (
     <div className="flip-card">
       <div className="flip-card-inner">
-        <div className="officerCardContainer flip-card-front">
+        <div className="officerCardContainer shadow flip-card-front">
           <img className="officerImg" src={image} alt="" />
           <p className="h6 officerName purple">{name}</p>
           <hr className="divider officerCardDivider" />

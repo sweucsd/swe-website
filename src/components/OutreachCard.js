@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Button from './Button';
 import './OutreachCard.css';
 import Gears from '../assets/swe_gears_2.png';
 
@@ -37,8 +38,8 @@ function OutreachCard(props) {
           <p className="h3 mediumPurple">{name}</p>
           <hr className={`divider ${divider}`} />
           <p className="p2 darkGray">{description}</p>
-          <a className="em clickableLink" target="_blank" rel="noopener noreferrer" href={link}>
-            Learn More &gt;
+          <a className="clickableLink" target="_blank" rel="noopener noreferrer" href={link}>
+            <Button label="Learn More ›" />
           </a>
         </div>
       </div>
