@@ -39,7 +39,7 @@ const Pages = [
   {
     path: '/involvement',
     title: 'Get Involved',
-    subtitle: 'Find out how to be active in our chapter',
+    subtitle: 'Find out how to be active in our section',
     titleTag: 'Involvement – SWE UCSD',
     navLabel: 'Get Involved',
     component: GetInvolved,
