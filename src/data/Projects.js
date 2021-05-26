@@ -1,5 +1,5 @@
 import roboticBird from '../assets/project_imgs/robotic_bird.jpg';
-import steamImg from '../assets/project_imgs/steam_projjpg';
+import steamImg from '../assets/project_imgs/steam_proj.png';
 
 const Projects = [
   {
