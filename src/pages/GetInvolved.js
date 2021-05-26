@@ -10,9 +10,13 @@ function GetInvolved() {
     <div>
       <div className="margin">
         <div>
-          <h1 className="purple h2">SWE Membership</h1>
-          <h2 className="mediumPurple h3">How can I become a section member?</h2>
-          <img className="beeImg" src={purpleBee} alt="" width="20%" height="auto" />
+          <div className="beeImgContainer">
+            <div>
+              <h1 className="purple h2">SWE Membership</h1>
+              <h2 className="mediumPurple h3">How can I become a section member?</h2>
+            </div>
+            <img className="beeImg" src={purpleBee} alt="" />
+          </div>
           <ul>
             <li className="h6 darkGray">$5 Membership Fee OR</li>
             <ul>
