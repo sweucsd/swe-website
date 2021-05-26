@@ -1,5 +1,5 @@
-import roboticBird from '../assets/project_imgs/robotic_bird.jpg';
-import steamImg from '../assets/project_imgs/steam_proj.png';
+import roboticBird from '../assets/projects_imgs/robotic_bird.jpg';
+import steamImg from '../assets/projects_imgs/steam_proj.png';
 
 const Projects = [
   {
@@ -10,7 +10,7 @@ const Projects = [
   {
     name: 'STEAM Project',
     description: 'Our STEAM project is the combination of art and engineering that aims to create a statement piece that uses engineering concepts and nods towards women in STEM who are underrepresented. Members: Dafina Sopi (Project Lead), Kylie Morales, Leslie Jasmine Lopez, Tiffany Soebroto, Parker Carnahan, Elianor Shohet, Tatiana Podhajny, Shantelle Megan Serafin',
-    image: 'steamImg',
+    image: steamImg,
   },
   {
     name: 'SWEbsite Design',

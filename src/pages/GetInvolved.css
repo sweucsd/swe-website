@@ -127,3 +127,14 @@
   }
 
 }
+
+.beeImg {
+  width: 20%;
+  height: auto;
+  padding-left: 800px;
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  flex: 1;
+  flex-wrap: wrap;
+}

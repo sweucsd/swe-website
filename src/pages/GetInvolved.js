@@ -2,6 +2,7 @@ import React from 'react';
 import Events from '../data/Events';
 import weConference from '../assets/Event_Imgs/we_conference.jpg';
 import mentorMentee from '../assets/Event_Imgs/mentor_mentee.jpg';
+import purpleBee from '../assets/swe_bee.png';
 import './GetInvolved.css';
 
 function GetInvolved() {
@@ -11,6 +12,7 @@ function GetInvolved() {
         <div>
           <h1 className="purple h2">SWE Membership</h1>
           <h2 className="mediumPurple h3">How can I become a section member?</h2>
+          <img className="beeImg" src={purpleBee} alt="" width="20%" height="auto" />
           <ul>
             <li className="h6 darkGray">$5 Membership Fee OR</li>
             <ul>
