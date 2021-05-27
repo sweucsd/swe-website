@@ -11,7 +11,7 @@ const OutreachEvents = [
   {
     name: 'EDGE',
     image: edge,
-    description: 'EDGE is a free, year-long program aimed to encourage more girls to consider STEM-related careers in the future hosted in collaboration with Women in Computing at UCSD. Participants engage with undergraduate mentors and attend various engineering and professional development workshops throughout the year!',
+    description: 'Empowerment and Development for Girls in Engineering (EDGE) is a free, year-long program aimed to encourage more girls to consider STEM-related careers in the future and is hosted in collaboration with Women in Computing at UCSD. Participants engage with undergraduate mentors and attend various engineering and professional development workshops throughout the year.',
     link: 'https://edgeucsd.wixsite.com/edge',
   },
   {

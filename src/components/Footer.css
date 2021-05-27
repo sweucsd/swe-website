@@ -22,6 +22,7 @@
 
 /* Tooltip text */
 .tooltip .tooltiptext {
+  opacity: 0;
   visibility: hidden;
   width: 120px;
   background-color: transparent;
@@ -36,6 +37,8 @@
 
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
+  opacity: 1;
+  transition: opacity 1s;
   visibility: visible;
   width: 120px;
   bottom: 100%;

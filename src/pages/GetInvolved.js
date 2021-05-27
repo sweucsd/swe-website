@@ -18,11 +18,12 @@ function GetInvolved() {
             <img className="beeImg" src={purpleBee} alt="" />
           </div>
           <ul>
-            <li className="h6 darkGray">$5 Membership Fee OR</li>
+            <li className="h6 darkGray">$5 Membership Fee</li>
             <ul>
               <li className="p2 darkGray">Paid to our Treasurer</li>
             </ul>
-            <li className="h6 darkGray">6+ Hours of Participation OR</li>
+            <p className="p1 darkGray separator"><strong>or</strong></p>
+            <li className="h6 darkGray">6+ Hours of Participation</li>
             <ul className="p2 darkGray">
               <li>
                 Attend GBMs, workshops, and other
@@ -30,13 +31,17 @@ function GetInvolved() {
                 <a href="/events" className="clickableLink">SWE events</a>
               </li>
               <li>
-                Get involved with a SWE project (learn more about projects below)
+                Join a SWE project team (learn more
+                {' '}
+                <a href="/projects" className="clickableLink">here</a>
+                )
               </li>
               <li>
                 Remember to sign in whenever you attend SWE events or meetings in
                 order to log your attendance!
               </li>
             </ul>
+            <p className="p1 darkGray separator"><strong>or</strong></p>
             <li className="h6 darkGray">Become a Collegiate Member</li>
             <ul>
               <li className="p2 darkGray">

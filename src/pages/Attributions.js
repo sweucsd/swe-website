@@ -6,6 +6,15 @@ function Attributions() {
       <p className="p1 darkGray">
         <div className="p2">
           <div>
+            Newsletter icon made by
+            {' '}
+            <a href="https://www.freepik.com" title="Freepik">Freepik</a>
+            {' '}
+            from
+            {' '}
+            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          </div>
+          <div>
             Social icon made by
             {' '}
             <a href="https://www.flaticon.com/authors/prettycons" title="prettycons">prettycons</a>
