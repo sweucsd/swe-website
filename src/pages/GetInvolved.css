@@ -148,4 +148,5 @@
 .beeImgContainer {
   display: flex;
   align-items: flex-start;
+  margin-bottom: -15px;
 }
