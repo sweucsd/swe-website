@@ -36,8 +36,6 @@
 
 @media screen and (max-width: 600px) {
   .headerImg {
-    min-height: 750px;
-    background-image: url("https://i.imgur.com/MgNHcA4.jpg");
     background-attachment: scroll;
   }
 }

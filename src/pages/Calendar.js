@@ -11,9 +11,9 @@ function Calendar() {
     <div>
       <div className="margin">
         <h1 className="h2 purple titleText">Our Events</h1>
-        <p className="purple em quote">Bee there or bee square</p>
         <hr className="divider" />
-        <div className="em iconsContainer">
+        <p className="mediumPurple center italic">Bee there or bee square!</p>
+        <div className="purple p1 iconsContainer">
           <div className="iconContainer">
             <img className="purpleFilter eventIcon" src={SocialIcon} alt="" />
             <p className="iconLabels">Social</p>

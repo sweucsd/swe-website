@@ -5,13 +5,11 @@
 .flexStart {
   flex-direction: row;
   display: flex;
-  box-shadow: 6px 6px var(--medium-purple);
 }
 
 .flexEnd {
   flex-direction: row-reverse;
   display: flex;
-  box-shadow: -6px 6px var(--medium-purple);
 }
 
 .projectImgContainer {
@@ -31,12 +29,12 @@
 }
 
 .projLabelLeft {
-  margin: 7px;
+  margin: 7px 0px;
   text-align: left;
 }
 
 .projLabelRight {
-  margin: 7px;
+  margin: 7px 0px;
   text-align: right;
 }
 

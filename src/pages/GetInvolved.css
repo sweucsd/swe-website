@@ -100,6 +100,7 @@
 .resourcesContainer {
   display: flex;
   flex-direction: row;
+  margin-top: -20px;
 }
 
 .generalLinks {
@@ -131,7 +132,6 @@
 .beeImg {
   width: 170px;
   height: auto;
-  transform: scaleX(-1);
 }
 
 @media screen and (max-width: 700px) {

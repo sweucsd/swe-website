@@ -7,19 +7,17 @@
   max-width: 1000px;
   min-height: 600px;
   height: 800px;
-  border-radius: 10px;
 }
 
 .calendarContainer {
   background-repeat: no-repeat;
   background-size: auto;
-  border-radius: 10px;
-  padding: 2%;
  }
 
 .calendarBody {
   background-image: url("../assets/swe_bug_pattern.png");
   background-position: center;
+  background-attachment: fixed;
 }
 
 .titleText {
@@ -49,10 +47,15 @@
 .iconLabels {
   padding: 0px;
   margin: 0px;
-  color: var(--medium-purple);
 }
 
 .divider {
   border: 1px solid var(--gold);
   width: 150px;
+}
+
+@media screen and (max-width: 600px) {
+  .calendarBody  {
+    background-attachment: scroll;
+  }
 }

@@ -97,7 +97,7 @@ function GetInvolved() {
       </div>
       <div className="margin lightPurpleBg">
         <p className="h2 purple">Other Programs</p>
-        <p className="em mediumPurple">More ways to get involved!</p>
+        <p className="italic mediumPurple">More ways to get involved!</p>
         <div className="programContainer shadow">
           <div className="programText pgLeftText">
             <p className="h3 mediumPurple">Mentor/Mentee</p>
