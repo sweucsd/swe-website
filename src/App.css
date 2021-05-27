@@ -97,6 +97,12 @@ html {
   hyphens: auto;*/
 }
 
+@media screen and (max-width: 480px) {
+  .h1 {
+    font-size: 4rem;
+  }
+}
+
 .h2 {
   font-family: 'Merriweather', serif;
   font-size: 3rem;
@@ -119,6 +125,12 @@ html {
   font-weight: 700;
   line-height: 2.2rem;
   animation: textAnimation 1s linear;
+}
+
+@media screen and (max-width: 480px) {
+  .h4 {
+    font-size: 1.8rem;
+  }
 }
 
 .h5 {
