@@ -19,7 +19,7 @@ const Events = [
     items: [
       'Attend workshops to learn technical skills',
       'Apply your skills outside of the classroom',
-      'Collaborate with other students on a Project',
+      'Collaborate with other students on a team project',
     ],
     image: Technical,
   },
