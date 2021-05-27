@@ -7,31 +7,41 @@ import ProfessionalIcon from '../assets/events/professional_icon.png';
 import './Calendar.css';
 
 function Calendar() {
+  const eventIcons = [
+    {
+      image: SocialIcon,
+      label: 'Social',
+    },
+    {
+      image: OutreachIcon,
+      label: 'Outreach',
+    },
+    {
+      image: TechnicalIcon,
+      label: 'Technical',
+    },
+    {
+      image: ProfessionalIcon,
+      label: 'Professional',
+    },
+  ];
+
   return (
-    <div>
+    <>
       <div className="margin">
         <h1 className="h2 purple titleText">Our Events</h1>
         <hr className="divider" />
         <p className="mediumPurple center italic">Bee there or bee square!</p>
         <div className="purple p1 iconsContainer">
-          <div className="iconContainer">
-            <img className="purpleFilter eventIcon" src={SocialIcon} alt="" />
-            <p className="iconLabels">Social</p>
-          </div>
-          <div className="iconContainer">
-            <img className="purpleFilter eventIcon" src={OutreachIcon} alt="" />
-            <p className="iconLabels">Outreach</p>
-          </div>
-          <div className="iconContainer">
-            <img className="purpleFilter eventIcon" src={TechnicalIcon} alt="" />
-            <p className="iconLabels">Technical</p>
-          </div>
-          <div className="iconContainer">
-            <img className="purpleFilter eventIcon" src={ProfessionalIcon} alt="" />
-            <p className="iconLabels">Professional</p>
-          </div>
+          {eventIcons.map((icon) => (
+            <div className="iconContainer">
+              <img className="purpleFilter eventIcon" src={icon.image} alt="" />
+              <p className="iconLabels">{icon.label}</p>
+            </div>
+          ))}
         </div>
       </div>
+
       <div className="margin lightPurpleBg calendarBody">
         <div className="calendarContainer">
           <div className="calendar">
@@ -39,7 +49,7 @@ function Calendar() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

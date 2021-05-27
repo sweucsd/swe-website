@@ -7,60 +7,6 @@
   padding-left: 70px;
 }
 
-.programContainer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 80px 0px;
-  background-color: white;
-  padding: 20px;
-  border-radius: 5px;
-}
-
-.programImg {
-  width: 100%;
-  height: auto;
-  border-radius: 5px;
-}
-
-.pgLeftText {
-  text-align: center;
-  padding-right: 50px;
-}
-
-.pgRightText {
-  text-align: center;
-  padding-left: 20px;
-}
-
-.programText {
-  min-width: 450px;
-}
-
-@media screen and (max-width: 1000px) {
-  .programText {
-    min-width: 300px;
-  }
-
-}
-
-@media screen and (max-width: 800px) {
-  .programContainer {
-    flex-direction: column;
-  }
-
-  .pgLeftText {
-    width: 100%;
-    padding-right: 0px;
-  }
-  
-  .pgRightText {
-    width: 100%;
-    padding-left: 0px;
-  }
-
-}
-
 .gallery {
   margin: 0px 30px;
   padding: 10px;
@@ -72,34 +18,6 @@
   flex-direction: row;
   align-items: flex-start;
   flex-wrap: wrap;
-}
-
-/* TODO: move to separate component */
-
-.eventCardContainer {
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 10px;
-  margin: 20px 10px;
-}
-
-.eventCardTitle {
-  margin: 10px;
-  text-align: center;
-}
-
-.eventsImgs {
-  object-fit: cover;
-  object-position: center;
-  width: auto;
-  height: 200px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.eventsText {
-  padding: 10px;
 }
 
 .resourcesContainer {

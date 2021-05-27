@@ -1,13 +1,53 @@
 import React from 'react';
 import Events from '../data/Events';
+import EventCard from '../components/EventCard';
+import ProgramCard from '../components/ProgramCard';
 import weConference from '../assets/Event_Imgs/we_conference.jpg';
 import mentorMentee from '../assets/Event_Imgs/mentor_mentee.jpg';
 import purpleBee from '../assets/swe_bee.png';
 import './GetInvolved.css';
 
 function GetInvolved() {
+  const programs = [
+    {
+      name: 'Mentor/Mentee',
+      description: 'The Mentorship Program pairs undergraduate upperclassmen at UCSD with lowerclassmen of the same major. Interested in becoming a mentor or mentee? Sign up for our mailing list to join the program and get paired with another student in your major!',
+      image: mentorMentee,
+      link: '',
+    },
+    {
+      name: 'WE21 Conference',
+      description: 'WE21 is SWE\'s annual international conference for women in engineering and technology, held in different cities every year in October or November. The conference features a career fair, keynote speakers, ProDev workshops, and other professional opportunities.',
+      image: weConference,
+      link: 'https://we21.swe.org/',
+    },
+  ];
+
+  const similarOrgs = [
+    {
+      name: 'National Society of Black Engineers (NSBE)',
+      link: 'http://nsbeucsd.weebly.com/',
+    },
+    {
+      name: 'Society of Hispanic Professional Engineers (SHPE)',
+      link: 'https://sites.google.com/view/shpeucsd/home',
+    },
+    {
+      name: 'Out in Science, Technology, Engineering, and Mathematics (OSTEM)',
+      link: 'https://ostem.ucsd.edu/',
+    },
+    {
+      name: 'The Society of Asian Scientists and Engineers (SASE)',
+      link: 'https://saseatucsd.weebly.com/',
+    },
+    {
+      name: 'Women in Computing (WIC)',
+      link: 'https://wic.ucsd.edu/',
+    },
+  ];
+
   return (
-    <div>
+    <>
       <div className="margin">
         <div>
           <div className="beeImgContainer">
@@ -79,63 +119,30 @@ function GetInvolved() {
 
           <div className="eventSection">
             {Events.map((event) => (
-              <div className="eventCardContainer shadow">
-                <img className="eventsImgs" src={event.image} alt="" />
-                <div className="eventsText">
-                  <p className="h6 darkGray eventCardTitle">{event.title}</p>
-                  <ul>
-                    {event.items.map((item) => (
-                      <li className="p2 darkGray">{item}</li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
+              <EventCard title={event.title} image={event.image} list={event.items} />
             ))}
           </div>
-
           <p className="p2 darkGray">
             Find out when these events are happening by checking out our
             {' '}
-            <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="/events">calendar.</a>
+            <a className="clickableLink" href="/events">calendar.</a>
           </p>
         </div>
       </div>
+
       <div className="margin lightPurpleBg">
         <p className="h2 purple">Other Programs</p>
         <p className="italic mediumPurple">More ways to get involved!</p>
-        <div className="programContainer shadow">
-          <div className="programText pgLeftText">
-            <p className="h3 mediumPurple">Mentor/Mentee</p>
-            <hr className="divider" />
-            <p className="p2 darkGray">
-              The Mentorship Program pairs undergraduate upperclassmen at UCSD
-              with lowerclassmen of the same major. Interested in becoming a mentor or mentee?
-              Sign up for our mailing list to join the program and get paired with
-              another student in your major!
-            </p>
-          </div>
-          <div>
-            <img className="programImg" src={mentorMentee} alt="" />
-          </div>
-        </div>
-        <div className="programContainer shadow">
-          <div>
-            <img className="programImg" src={weConference} alt="" />
-          </div>
-          <div className="programText pgRightText">
-            <p className="h3 mediumPurple">WE21 Conference</p>
-            <hr className="divider" />
-            <p className="p2 darkGray">
-              <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://we21.swe.org/">WE21</a>
-              {' '}
-              is SWE&apos;s annual international conference for women in
-              engineering and technology, held in different cities every year
-              in October or November. The conference features a career fair,
-              keynote speakers, ProDev workshops, and other professional opportunities.
-            </p>
-          </div>
-        </div>
+        {programs.map((program) => (
+          <ProgramCard
+            title={program.name}
+            description={program.description}
+            image={program.image}
+            link={program.link}
+          />
+        ))}
       </div>
+
       <div className="margin">
         <div>
           <h1 className="purple h2">Resources</h1>
@@ -167,40 +174,23 @@ function GetInvolved() {
                 </li>
               </ul>
             </div>
+
             <div className="otherOrganizations">
               <h2 className="mediumPurple h3">Similar UCSD Organizations</h2>
               <ul>
-                <li className="p2 darkGray">
-                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="http://nsbeucsd.weebly.com/">
-                    National Society of Black Engineers (NSBE)
-                  </a>
-                </li>
-                <li className="p2 darkGray">
-                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://sites.google.com/view/shpeucsd/home">
-                    Society of Hispanic Professional Engineers (SHPE)
-                  </a>
-                </li>
-                <li className="p2 darkGray">
-                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://ostem.ucsd.edu/">
-                    Out in Science, Technology, Engineering, and Mathematics (OSTEM)
-                  </a>
-                </li>
-                <li className="p2 darkGray">
-                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://saseatucsd.weebly.com/">
-                    The Society of Asian Scientists and Engineers (SASE)
-                  </a>
-                </li>
-                <li className="p2 darkGray">
-                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://wic.ucsd.edu/">
-                    Women in Computing (WIC)
-                  </a>
-                </li>
+                {similarOrgs.map((org) => (
+                  <li className="p2 darkGray">
+                    <a className="clickableLink" target="_blank" rel="noopener noreferrer" href={org.link}>
+                      {org.name}
+                    </a>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

@@ -5,7 +5,7 @@ import OfficerCard from '../components/OfficerCard';
 
 function About() {
   return (
-    <div>
+    <>
       <div className="margin">
         <p className="h2 purple aboutTitle">Who We Are</p>
         <p className="h3 mediumPurple aboutSubtitle">What is SWE?</p>
@@ -21,6 +21,7 @@ function About() {
           professional and collegiate sections across the United States, including
           here at UC San Diego.
         </p>
+
         <p className="h3 mediumPurple aboutSubtitle">UC San Diego Section – Our Mission</p>
         <p className="p2 darkGray aboutBody">
           UC San Diego Society of Women Engineers is a diverse group of passionate
@@ -30,6 +31,7 @@ function About() {
           with a welcoming environment to grow professionally and academically.
         </p>
       </div>
+
       <div className="margin lightPurpleBg officersContainer">
         <p className="h2 purple officersTitle">SWE Board 2020-2021</p>
         <p className="h3 mediumPurple officersSubtitle">Our Officers</p>
@@ -47,7 +49,7 @@ function About() {
           ))}
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
