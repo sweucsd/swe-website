@@ -2,7 +2,7 @@ import React from 'react';
 
 function Attributions() {
   return (
-    <div className="margin">
+    <div className="margin center">
       <p className="p1 darkGray">
         <div className="p2">
           <div>

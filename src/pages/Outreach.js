@@ -7,7 +7,7 @@ function Outreach() {
   return (
     <div className="margin outreachContainer">
       <p className="h2 purple">K-12 Outreach Programs</p>
-      <p className="em mediumPurple">Bringing engineering to girls in the San Diego community</p>
+      <p className="italic mediumPurple">Bringing engineering to girls in the San Diego community</p>
       {OutreachEvents.map((event, index) => {
         let isRight;
         if (index % 2 === 0) {

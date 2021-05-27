@@ -1,4 +1,4 @@
-import roboticBird from '../assets/projects_imgs/robotic_bird.jpg';
+import roboticBird from '../assets/projects_imgs/robotic_bird.png';
 import steamImg from '../assets/projects_imgs/steam_proj.png';
 import swebsiteImg from '../assets/projects_imgs/swebsite_image.png';
 
