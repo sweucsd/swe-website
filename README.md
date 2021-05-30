@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# SWE UCSD Website README
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Guide for managing and updating the SWE UCSD website.
 
-## Available Scripts
+## Data Folder Updates
 
-In the project directory, you can run:
+For the most part, the majority of changes you need to make will be in the data directory. For example, updating information about board members, project teams, and sponsors can be done here. From the root of the project, navigate to `src/data` to access these files.
 
-### `npm start`
+### `src/data` File Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **ContactInfo.js** – Contact icons and links in the website's footer (bottom of every page)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Events.js** – Event descriptions listed under the 'Our Events' section of the Get Involved page (GBMs, Technical Events, Professional Events, etc)
 
-### `npm test`
+- **Officers.js** – Board member information on the About page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **OutreachEvents.js** – Outreach programs on the outreach page
 
-### `npm run build`
+- **Pages.js** – Includes information such as the name of each page in the navbar and the title text in the purple header on each page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Projects.js** – Descriptions about the project teams on the Projects page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Sponsors.js** – Sponsor images on the Sponsors page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Updating information
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To update website information from the data directory, open the file which pertains to the section you wish to change (while in `src/data`). For example, to change officer information, open **Officers.js**. Then follow these instructions:
+1. To edit the file, click the pencil icon on the top right side of the file.
+2. Make any desired changes to the contents of the file, following the comments in the file for further guidance.
+3. Once you are satisfied with your changes, scroll to the bottom of the file to the `Commit changes` textbox. Add a title and description that briefly summarizes the changes you made.
+4. Click `Commit changes` and your updates will be saved and should reflect directly on the live website!

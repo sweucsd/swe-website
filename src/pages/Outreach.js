@@ -1,5 +1,4 @@
 import React from 'react';
-import './Outreach.css';
 import OutreachEvents from '../data/OutreachEvents';
 import OutreachCard from '../components/OutreachCard';
 

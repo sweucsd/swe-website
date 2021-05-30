@@ -12,7 +12,7 @@ const Officers = [
     name: 'Destiny Alvarado',
     position: 'VP External',
     image: 'http://swe.ucsd.edu/wp-content/uploads/2020/11/Destiny_swe-768x1024.jpg',
-    year: ' ',
+    year: 'test',
     major: ' ',
     fact: ' ',
     college: ' ',
