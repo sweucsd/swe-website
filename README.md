@@ -1,16 +1,16 @@
-# SWE Website README
+# SWE UCSD Website README
 
-Guide for managing and updating the SWE @ UCSD website.
+Guide for managing and updating the SWE UCSD website.
 
 ## Data Folder Updates
 
 For the most part, the majority of changes you need to make will be in the data directory. For example, updating information about board members, project teams, and sponsors can be done here. From the root of the project, navigate to `src/data` to access these files.
 
-### Data File Overview
+### `src/data` File Overview
 
 - **ContactInfo.js** – Contact icons and links in the website's footer (bottom of every page)
 
-- **Events.js** – Event descriptions listed under the 'Our Events' section of the Get Involved page
+- **Events.js** – Event descriptions listed under the 'Our Events' section of the Get Involved page (GBMs, Technical Events, Professional Events, etc)
 
 - **Officers.js** – Board member information on the About page
 
