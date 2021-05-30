@@ -31,7 +31,7 @@
   transform: translate(-50%, -50%);
   z-index: 2;
   width: 95vw;
-  color: white;
+  color: #eee;
 }
 
 @media screen and (max-width: 600px) {
