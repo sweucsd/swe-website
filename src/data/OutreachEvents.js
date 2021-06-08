@@ -1,5 +1,5 @@
 import sweNext from '../assets/outreach/swe_next.jpg';
-import edge from '../assets/outreach/edge.JPG';
+import edge from '../assets/outreach/edge.png';
 
 const OutreachEvents = [
   {

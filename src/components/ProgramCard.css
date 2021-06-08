@@ -14,6 +14,10 @@
   border-radius: 5px;
 }
 
+.programBtn {
+  margin-bottom: 0px;
+}
+
 .pgLeftText {
   text-align: center;
   padding-right: 50px;
@@ -38,6 +42,10 @@
 @media screen and (max-width: 800px) {
   .programContainer {
     flex-direction: column;
+  }
+
+  .programBtn {
+    margin-bottom: 20px;
   }
 
   .pgLeftText {

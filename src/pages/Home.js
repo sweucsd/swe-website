@@ -49,9 +49,15 @@ function Home() {
                   let ret;
                   if (events.length === 0) {
                     ret = (
-                      <p className="p1 darkGray">
-                        No events currently scheduled. Check back soon!
-                      </p>
+                      <>
+                        <hr className="divider" />
+                        <p className="h6 darkGray">
+                          No events currently scheduled.
+                        </p>
+                        <p className="p1 darkGray">
+                          Check back soon!
+                        </p>
+                      </>
                     );
                   } else {
                     ret = events.sort((a, b) => (
