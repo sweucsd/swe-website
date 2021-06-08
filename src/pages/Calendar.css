@@ -42,17 +42,16 @@
   align-items: space-between;
   text-align: center;
   margin: 50px 70px;
-  font-weight: 600;
 }
 
 .iconLabels {
   padding: 0px;
   margin: 0px;
+  font-weight: 600;
 }
 
-.divider {
-  border: 1px solid var(--gold);
-  width: 150px;
+.iconLink {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 600px) {

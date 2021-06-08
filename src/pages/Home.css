@@ -71,7 +71,7 @@
 .eventsSection {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   margin-bottom: 30px;
 }
@@ -92,7 +92,6 @@
 .newsletter img {
   width: 40%;
   height: auto;
-  padding-top: 30px;
 }
 
 .eventsContainer {
@@ -119,6 +118,7 @@
 
   .eventsSection {
     flex-direction: column;
+    align-items: center;
   }
 
   .newsletter img {

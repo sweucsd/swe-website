@@ -73,7 +73,7 @@ function Home() {
           </div>
           <div className="newsletter">
             <img className="purpleFilter" src={NewsletterIcon} alt="" />
-            <p className="p1 darkGray">
+            <p className="p1 darkGray eventsContainer">
               Want to stay in the loop? Join our mailing list!
             </p>
             <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSdpJZDjpkxkWwFNvyy9T46Efap0ASpX5Faja3IGrvCL8lCWwQ/viewform">
