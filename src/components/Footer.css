@@ -45,3 +45,7 @@
   left: 50%;
   margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
 }
+
+.attr {
+  color: #DBC554;
+}

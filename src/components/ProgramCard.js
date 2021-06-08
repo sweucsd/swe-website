@@ -17,9 +17,11 @@ function ProgramCard(props) {
           {description}
         </p>
         {link !== '' && (
-          <a className="clickableLink" target="_blank" rel="noopener noreferrer" href={link}>
-            <Button label="Website ›" />
-          </a>
+          <div className="programBtn">
+            <a className="clickableLink" target="_blank" rel="noopener noreferrer" href={link}>
+              <Button label="Website ›" />
+            </a>
+          </div>
         )}
       </div>
       <div>

@@ -11,7 +11,7 @@ function GetInvolved() {
   const programs = [
     {
       name: 'Mentor/Mentee',
-      description: 'The Mentorship Program pairs undergraduate upperclassmen at UCSD with lowerclassmen of the same major. Interested in becoming a mentor or mentee? Sign up for our mailing list to join the program and get paired with another student in your major!',
+      description: 'The SWEntorship Program pairs undergraduate upperclassmen at UCSD with lowerclassmen of the same major. Interested in becoming a mentor or mentee? Sign up for our mailing list to join the program and get paired with another student in your major!',
       image: mentorMentee,
       link: '',
     },

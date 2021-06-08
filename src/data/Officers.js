@@ -19,7 +19,7 @@ const Officers = [
   },
   {
     name: 'Elianor Shohet',
-    position: 'VP Internal, Publicity Chair',
+    position: 'VP Internal',
     image: 'https://i.imgur.com/y0hJ4sH.jpg',
     year: ' ',
     major: ' ',

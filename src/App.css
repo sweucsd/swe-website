@@ -1,6 +1,6 @@
 :root {
   --purple: #5A5377;
-  --gold:  #DBC554;
+  --gold: #A89224; /* #DBC554; */
   --gray: #A9A8A9;
   --dark-gray: #545759;
   --light-purple: #f3f0fd;
@@ -39,6 +39,11 @@
 
 .center {
   text-align: center;
+}
+
+.divider {
+  border: 1px solid #DBC554;
+  width: 150px;
 }
 
 @keyframes textAnimation {
