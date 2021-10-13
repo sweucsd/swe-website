@@ -5,7 +5,7 @@ const Officers = [
     image: 'https://i.imgur.com/uDqIHtx.jpg',
     year: 'Junior',
     major: 'Engineering',
-    fact: 'I am very cool',
+    fact: 'I am super cool',
     college: 'Warren :)',
   },
   {
