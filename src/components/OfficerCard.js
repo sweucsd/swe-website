@@ -4,7 +4,7 @@ import './OfficerCard.css';
 
 function OfficerCard(props) {
   const {
-    image, name, position, /* year, major, college, fact, */
+    image, name, position, year, major, college, fact,
   } = props;
 
   return (
@@ -16,7 +16,7 @@ function OfficerCard(props) {
           <hr className="divider officerCardDivider" />
           <p className="p2 officerPosition">{position}</p>
         </div>
-        {/* <div className="officerCardContainer flip-card-back">
+        <div className="officerCardContainer flip-card-back">
           <p className="h6 officerNameBack">{name}</p>
           <hr className="divider officerCardDivider" />
           <p className="p2 officerPosition">
@@ -32,7 +32,7 @@ function OfficerCard(props) {
             {college}
           </p>
           <p className="p2 officerPosition">{fact}</p>
-        </div> */}
+        </div>
       </div>
     </div>
   );
@@ -42,10 +42,10 @@ OfficerCard.propTypes = {
   image: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   position: PropTypes.string.isRequired,
-  /* year: PropTypes.string.isRequired,
+  year: PropTypes.string.isRequired,
   major: PropTypes.string.isRequired,
   college: PropTypes.string.isRequired,
-  fact: PropTypes.string.isRequired, */
+  fact: PropTypes.string.isRequired,
 };
 
 export default OfficerCard;
