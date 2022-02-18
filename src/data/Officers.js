@@ -2,7 +2,7 @@ const Officers = [
   {
     name: 'Erin Griggs',
     position: 'President',
-    image: 'https://i.imgur.com/uDqIHtx.jpg',
+    image: '../assets/officer_images/Erin.jpg',
     year: '4th Year',
     major: 'Computer Science',
     fact: 'I like to paint and collect succulents!',
@@ -11,7 +11,7 @@ const Officers = [
   {
     name: 'Elianor Shohet',
     position: 'VP External',
-    image: 'http://swe.ucsd.edu/wp-content/uploads/2020/11/Destiny_swe-768x1024.jpg',
+    image: '../assets/officer_images/Elianor.jpg',
     year: '4th Year',
     major: 'Structural Engineering',
     fact: 'I love to rock climb!',
@@ -29,7 +29,7 @@ const Officers = [
   {
     name: 'Angkitha Anguraj',
     position: 'Treasurer',
-    image: 'http://swe.ucsd.edu/wp-content/uploads/2020/11/alice_headshot-1024x768.jpg',
+    image: '../assets/officer_images/Angkitha.jpg',
     year: '2nd Year',
     major: 'Electrical Engineering w/ Cogsci minor',
     fact: 'I can cook literally anything but when it comes to baking I will make an atomic mess!',
@@ -38,7 +38,7 @@ const Officers = [
   {
     name: 'Makena Leonard',
     position: 'Secretary',
-    image: 'https://i.imgur.com/GaHPYPQ.jpg',
+    image: '../assets/officer_images/Makena.jpeg',
     year: '3rd Year',
     major: 'Electrical Engineering',
     fact: 'I love plants, cooking, and snowboarding!',
@@ -47,7 +47,7 @@ const Officers = [
   {
     name: 'Tiffany Soebroto',
     position: 'Envision Outreach Chair',
-    image: 'http://swe.ucsd.edu/wp-content/uploads/2021/02/Iris-768x1024.jpg',
+    image: '../assets/officer_images/Tiffany.png',
     year: '4th Year',
     major: 'Nanoengineering',
     fact: 'I am part of the Best Buy College Crew!',
@@ -65,7 +65,7 @@ const Officers = [
   {
     name: 'Hailey Morris',
     position: 'SWENext Outreach Chair',
-    image: 'http://swe.ucsd.edu/wp-content/uploads/2020/11/IMG_2942-e1605033035128-769x1024.jpg',
+    image: '../assets/officer_images/Hailey.JPG',
     year: '4th Year',
     major: 'Chemical Engineering',
     fact: 'I love hikiing with friends!',
@@ -83,7 +83,7 @@ const Officers = [
   {
     name: 'Cate Readey',
     position: 'Social Chair',
-    image: 'https://swe.ucsd.edu/wp-content/uploads/2020/11/profile_swe.png',
+    image: '../assets/officer_images/Cate.jpg',
     year: '2nd Year',
     major: 'Aerospace Engineering',
     fact: 'I can do a headstand',
