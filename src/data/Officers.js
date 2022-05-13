@@ -1,4 +1,17 @@
 import PresidentImg from '../assets/officer_images/Erin.jpg';
+import VPExternalImg from '../assets/officer_images/Elianor.jpg'
+import VPInternalImg from '../assets/officer_images/Erica.jpg';
+import TreasurerImg from '../assets/officer_images/Angkitha.jpg';
+import SecretaryImg from '../assets/officer_images/Makena.jpeg'
+import EnvisionImg from '../assets/officer_images/Tiffany.png'
+import EDGEImg from '../assets/officer_images/Erin.jpg';
+import SWENextImg from '../assets/officer_images/Hailey.JPG';
+import TechDevImg from '../assets/officer_images/Erin.jpg';
+import SocialImg from '../assets/officer_images/Cate.jpg';
+import AcademicImg from '../assets/officer_images/Erin.jpg';
+import PublicityImg from '../assets/officer_images/Erin.jpg';
+
+
 
 const Officers = [
   {
@@ -13,7 +26,7 @@ const Officers = [
   {
     name: 'Elianor Shohet',
     position: 'VP External',
-    image: '../assets/officer_images/Elianor.jpg',
+    image: VPExternalImg,
     year: '4th Year',
     major: 'Structural Engineering',
     fact: 'I love to rock climb!',
@@ -22,16 +35,16 @@ const Officers = [
   {
     name: 'Erica Peng',
     position: 'VP Internal',
-    image: 'https://i.imgur.com/y0hJ4sH.jpg',
+    image: VPInternalImg,
     year: '3rd Year',
     major: 'Bioengineering: Biotechnology',
-    fact: 'I love jazz!',
+    fact: 'I love exploring new places and listening to jazz!',
     college: 'Sixth',
   },
   {
     name: 'Angkitha Anguraj',
     position: 'Treasurer',
-    image: '../assets/officer_images/Angkitha.jpg',
+    image: TreasurerImg,
     year: '2nd Year',
     major: 'Electrical Engineering w/ Cogsci minor',
     fact: 'I can cook literally anything but when it comes to baking I will make an atomic mess!',
@@ -40,7 +53,7 @@ const Officers = [
   {
     name: 'Makena Leonard',
     position: 'Secretary',
-    image: '../assets/officer_images/Makena.jpeg',
+    image: SecretaryImg,
     year: '3rd Year',
     major: 'Electrical Engineering',
     fact: 'I love plants, cooking, and snowboarding!',
@@ -49,7 +62,7 @@ const Officers = [
   {
     name: 'Tiffany Soebroto',
     position: 'Envision Outreach Chair',
-    image: '../assets/officer_images/Tiffany.png',
+    image: EnvisionImg,
     year: '4th Year',
     major: 'Nanoengineering',
     fact: 'I am part of the Best Buy College Crew!',
@@ -67,7 +80,7 @@ const Officers = [
   {
     name: 'Hailey Morris',
     position: 'SWENext Outreach Chair',
-    image: '../assets/officer_images/Hailey.JPG',
+    image: SWENextImg,
     year: '4th Year',
     major: 'Chemical Engineering',
     fact: 'I love hikiing with friends!',
@@ -85,7 +98,7 @@ const Officers = [
   {
     name: 'Cate Readey',
     position: 'Social Chair',
-    image: '../assets/officer_images/Cate.jpg',
+    image: SocialImg,
     year: '2nd Year',
     major: 'Aerospace Engineering',
     fact: 'I can do a headstand',
