@@ -11,8 +11,6 @@ import SocialImg from '../assets/officer_images/Cate.jpg';
 import AcademicImg from '../assets/officer_images/Kira.jpg';
 import PublicityImg from '../assets/officer_images/Erin.jpg';
 
-
-
 const Officers = [
   {
     name: 'Erin Griggs',
