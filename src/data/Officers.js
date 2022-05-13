@@ -9,7 +9,7 @@ import SWENextImg from '../assets/officer_images/Hailey.JPG';
 import TechDevImg from '../assets/officer_images/Jaslina.jpg';
 import SocialImg from '../assets/officer_images/Cate.jpg';
 import AcademicImg from '../assets/officer_images/Kira.jpg';
-import PublicityImg from '../assets/officer_images/Erin.jpg';
+import PublicityImg from '../assets/officer_images/Josephine.jpg';
 
 const Officers = [
   {
@@ -114,7 +114,7 @@ const Officers = [
   {
     name: 'Josephine Nguyen',
     position: 'Publicity Chair',
-    image: 'http://swe.ucsd.edu/wp-content/uploads/2021/01/IMG_0880-1-768x1024.jpg',
+    image: PublicityImg,
     year: '3rd Year',
     major: 'Electrical Engineering',
     fact: 'I’ve lived in San Diego my whole life!',
