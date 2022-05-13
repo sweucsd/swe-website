@@ -1,8 +1,10 @@
+import PresidentImg from '../assets/officer_images/Erin.jpg';
+
 const Officers = [
   {
     name: 'Erin Griggs',
     position: 'President',
-    image: '../assets/officer_images/Erin.jpg',
+    image: PresidentImg,
     year: '4th Year',
     major: 'Computer Science',
     fact: 'I like to paint and collect succulents!',
