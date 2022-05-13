@@ -1,6 +1,6 @@
 import PresidentImg from '../assets/officer_images/Erin.jpg';
 import VPExternalImg from '../assets/officer_images/Elianor.jpg'
-import VPInternalImg from '../assets/officer_images/Erica.jpg';
+import VPInternalImg from '../assets/officer_images/Erica.JPG';
 import TreasurerImg from '../assets/officer_images/Angkitha.jpg';
 import SecretaryImg from '../assets/officer_images/Makena.jpeg'
 import EnvisionImg from '../assets/officer_images/Tiffany.png'
