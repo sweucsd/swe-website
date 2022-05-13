@@ -6,7 +6,7 @@ import SecretaryImg from '../assets/officer_images/Makena.jpeg'
 import EnvisionImg from '../assets/officer_images/Tiffany.png'
 import EDGEImg from '../assets/officer_images/Erin.jpg';
 import SWENextImg from '../assets/officer_images/Hailey.JPG';
-import TechDevImg from '../assets/officer_images/Erin.jpg';
+import TechDevImg from '../assets/officer_images/Jaslina.JPEG';
 import SocialImg from '../assets/officer_images/Cate.jpg';
 import AcademicImg from '../assets/officer_images/Erin.jpg';
 import PublicityImg from '../assets/officer_images/Erin.jpg';
@@ -89,7 +89,7 @@ const Officers = [
   {
     name: 'Jaslina Kochhar',
     position: 'Technical Development Chair',
-    image: 'https://i.imgur.com/Kc9mKsA.jpg',
+    image: TechDevImg,
     year: '3rd (and final!) Year',
     major: 'Computer Science',
     fact: 'I only take notes with colored pens :)',
