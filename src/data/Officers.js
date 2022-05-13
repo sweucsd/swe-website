@@ -6,9 +6,9 @@ import SecretaryImg from '../assets/officer_images/Makena.jpeg'
 import EnvisionImg from '../assets/officer_images/Tiffany.png'
 import EDGEImg from '../assets/officer_images/Erin.jpg';
 import SWENextImg from '../assets/officer_images/Hailey.JPG';
-import TechDevImg from '../assets/officer_images/Jaslina.JPEG';
+import TechDevImg from '../assets/officer_images/Jaslina.jpg';
 import SocialImg from '../assets/officer_images/Cate.jpg';
-import AcademicImg from '../assets/officer_images/Erin.jpg';
+import AcademicImg from '../assets/officer_images/Kira.jpg';
 import PublicityImg from '../assets/officer_images/Erin.jpg';
 
 
@@ -107,7 +107,7 @@ const Officers = [
   {
     name: 'Kira Tran',
     position: 'Academic Chair',
-    image: 'http://swe.ucsd.edu/wp-content/uploads/2021/01/Megan-swe-618x1024.jpg',
+    image: AcademicImg,
     year: '2nd Year',
     major: 'Computer Engineering',
     fact: 'I am learning how to animate!',
