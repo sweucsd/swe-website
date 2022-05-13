@@ -4,7 +4,7 @@ import VPInternalImg from '../assets/officer_images/Erica.JPG';
 import TreasurerImg from '../assets/officer_images/Angkitha.jpg';
 import SecretaryImg from '../assets/officer_images/Makena.jpeg'
 import EnvisionImg from '../assets/officer_images/Tiffany.png'
-import EDGEImg from '../assets/officer_images/Erin.jpg';
+import EDGEImg from '../assets/officer_images/Marisa.jpg';
 import SWENextImg from '../assets/officer_images/Hailey.JPG';
 import TechDevImg from '../assets/officer_images/Jaslina.jpg';
 import SocialImg from '../assets/officer_images/Cate.jpg';
@@ -69,7 +69,7 @@ const Officers = [
   {
     name: 'Marisa Morán Cepeda',
     position: 'EDGE Outreach Chair',
-    image: 'http://swe.ucsd.edu/wp-content/uploads/2020/11/erin-swe-768x1024.jpg',
+    image: EDGEImg,
     year: '4th Year',
     major: 'Nanoengineering',
     fact: 'I love paining with gouache and watercolors :))',
