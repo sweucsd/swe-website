@@ -4,7 +4,7 @@ import './OfficerCard.css';
 
 function OfficerCard(props) {
   const {
-    image, name, position, /* year, major, college, fact, */
+    image, name, position, year, major, college, fact,
   } = props;
 
   return (
@@ -42,10 +42,10 @@ OfficerCard.propTypes = {
   image: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   position: PropTypes.string.isRequired,
-  /* year: PropTypes.string.isRequired,
+  year: PropTypes.string.isRequired,
   major: PropTypes.string.isRequired,
   college: PropTypes.string.isRequired,
-  fact: PropTypes.string.isRequired, */
+  fact: PropTypes.string.isRequired,
 };
 
 export default OfficerCard;
