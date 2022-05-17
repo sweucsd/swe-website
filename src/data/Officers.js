@@ -81,7 +81,7 @@ const Officers = [
     image: SWENextImg,
     year: '4th Year',
     major: 'Chemical Engineering',
-    fact: 'I love hikiing with friends!',
+    fact: 'I love hiking with friends!',
     college: 'Revelle',
   },
   {
