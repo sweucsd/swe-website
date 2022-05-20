@@ -1,5 +1,5 @@
 import BoeingLogo from '../assets/sponsors/Boeing_Logo.png';
-import TrellisWare from '../assets/sponsors/TrellisWare.png';
+import TrellisWare from '../assets/sponsors/TrellisWare.jpeg';
 import Llnl from '../assets/sponsors/Lawrence_Liv_Nat_Lab_logo.jpeg';
 import JaneStreet from '../assets/sponsors/JaneStreet.png';
 import LockheedMartinLogo from '../assets/sponsors/Lockheed_Martin_Logo.jpeg';
