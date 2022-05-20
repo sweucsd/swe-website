@@ -72,7 +72,7 @@ const Officers = [
     image: EDGEImg,
     year: '4th Year',
     major: 'Nanoengineering',
-    fact: 'I love paining with gouache and watercolors :))',
+    fact: 'I love painting with gouache and watercolors :))',
     college: 'Revelle',
   },
   {
