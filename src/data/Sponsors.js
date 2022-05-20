@@ -1,9 +1,9 @@
 import BoeingLogo from '../assets/sponsors/Boeing_Logo.png';
 import TrellisWare from '../assets/sponsors/TrellisWare.png';
-import LLNL from '../assets/sponsors/Lawrence_Liv_Nat_Lab_logo.jpeg';
+import Llnl from '../assets/sponsors/Lawrence_Liv_Nat_Lab_logo.jpeg';
 import JaneStreet from '../assets/sponsors/JaneStreet.png';
 import LockheedMartinLogo from '../assets/sponsors/Lockheed_Martin_Logo.jpeg';
-import mmccorp from '../assets/sponsors/mmccorp.png';
+import Mmccorp from '../assets/sponsors/mmccorp.png';
 
 const Sponsors = [
   {
@@ -13,7 +13,7 @@ const Sponsors = [
     image: TrellisWare,
   },
   {
-    image: LLNL,
+    image: Llnl,
   },
   {
     image: JaneStreet,
@@ -22,7 +22,7 @@ const Sponsors = [
     image: LockheedMartinLogo,
   },
   {
-    image: mmccorp,
+    image: Mmccorp,
   },
 ];
 
