@@ -13,7 +13,7 @@ import PublicityImg from '../assets/officer_images/Josephine.jpg';
 
 const Officers = [
   {
-    name: 'Erin ',
+    name: 'Erica',
     position: 'President',
     image: PresidentImg,
     year: '4th Year',
