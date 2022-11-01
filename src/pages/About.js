@@ -4,7 +4,6 @@ import Officers from '../data/Officers';
 import OfficerCard from '../components/OfficerCard';
 
 function About() {
-  console.log("in about")
   return (
     <>
       <div className="margin">
