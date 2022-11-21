@@ -18,7 +18,7 @@ const Officers = [
     image: PresidentImg,
     year: '4th Year',
     major: 'Bioengineering: Biotechnology',
-    fact: 'I love exploring new places and listening to jazz!',
+    fact: 'I love hiking and listening to jazz!',
     college: 'Sixth',
   },
   {
