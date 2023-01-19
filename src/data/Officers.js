@@ -1,5 +1,5 @@
 import PresidentImg from '../assets/officer_images/Erica.jpeg';
-import VPExternalImg from '../assets/officer_images/Makena.jpg';
+import VPExternalImg from '../assets/officer_images/Makena.JPG';
 import VPInternalImg from '../assets/officer_images/Erica.JPG';
 import TreasurerImg from '../assets/officer_images/Angkitha.jpg';
 import SecretaryImg from '../assets/officer_images/Samantha.png';
