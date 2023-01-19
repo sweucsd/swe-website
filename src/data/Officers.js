@@ -27,7 +27,7 @@ const Officers = [
     image: VPExternalImg,
     year: '4th Year',
     major: 'Electrical Engineering',
-    fact: 'I love plants, cooking, and snowboarding!',
+    fact: 'I love to surf and snowboard!',
     college: 'Marshall',
   },
   {
@@ -58,13 +58,13 @@ const Officers = [
     college: 'Marshall',
   },
   {
-    name: 'Shruti ',
+    name: 'Shruthi Aiyar',
     position: 'Envision Outreach Chair',
     image: EnvisionImg,
-    year: '4th Year',
-    major: 'Nanoengineering',
-    fact: 'I am part of the Best Buy College Crew!',
-    college: 'ERC',
+    year: '3rd Year',
+    major: 'Applied Mathematics',
+    fact: 'I have seen almost 20 musicians/bands live in 2022!',
+    college: 'Warren',
   },
   {
     name: 'Valerie ',
