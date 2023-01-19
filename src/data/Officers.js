@@ -90,7 +90,7 @@ const Officers = [
     image: TechDevImg,
     year: '4th Year',
     major: 'Computer Engineering',
-    fact: ':)',
+    fact: 'I can speak 5 languages :)',
     college: 'Sixth',
   },
   {
