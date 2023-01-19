@@ -6,7 +6,7 @@ import SecretaryImg from '../assets/officer_images/Samantha.png';
 import EnvisionImg from '../assets/officer_images/Shruthi.png';
 import EDGEImg from '../assets/officer_images/Marisa.jpg';
 import SWENextImg from '../assets/officer_images/Hailey.JPG';
-import TechDevImg from '../assets/officer_images/Divneet.heic';
+import TechDevImg from '../assets/officer_images/Divneet.jpg';
 import SocialImg from '../assets/officer_images/Allison.png';
 import AcademicImg from '../assets/officer_images/Harsheta.png';
 import PublicityImg from '../assets/officer_images/Josephine.jpg';
