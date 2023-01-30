@@ -76,7 +76,13 @@ const Officers = [
     college: 'Revelle',
   },
   {
-    
+    name: 'Coming Soon! ',
+    position: 'SWENext',
+    image: EDGEImg,
+    year: 'Coming Soon!r',
+    major: 'Coming Soon!',
+    fact: 'SWENext Chair loves SWE hehe',
+    college: 'Coming Soon!',
   },
   {
     name: 'Divneet Kaur',
