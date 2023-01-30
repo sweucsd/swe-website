@@ -1,6 +1,6 @@
 import PresidentImg from '../assets/officer_images/Erica.jpeg';
 import VPExternalImg from '../assets/officer_images/Makena.JPG';
-import VPInternalImg from '../assets/officer_images/Erica.JPG';
+import VPInternalImg from '../assets/officer_images/Cate.png';
 import TreasurerImg from '../assets/officer_images/Angkitha.jpg';
 import SecretaryImg from '../assets/officer_images/Samantha.png';
 import EnvisionImg from '../assets/officer_images/Shruthi.png';
@@ -44,8 +44,8 @@ const Officers = [
     position: 'Treasurer',
     image: TreasurerImg,
     year: '3rd Year',
-    major: 'Electrical Engineering w/ Cogsci minor',
-    fact: 'I can cook literally anything but when it comes to baking I will make an atomic mess!',
+    major: 'Electrical Engineering w/ a concentration in ML and minoring in cognitive science',
+    fact: 'I just think milk before cereal should be law',
     college: 'Warren',
   },
   {
@@ -76,13 +76,7 @@ const Officers = [
     college: 'Revelle',
   },
   {
-    name: 'Samashti ',
-    position: 'SWENext Outreach Chair',
-    image: SWENextImg,
-    year: '4th Year',
-    major: 'Chemical Engineering',
-    fact: 'I love hiking with friends!',
-    college: 'Revelle',
+    
   },
   {
     name: 'Divneet Kaur',
