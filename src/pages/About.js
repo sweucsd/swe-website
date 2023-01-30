@@ -33,7 +33,7 @@ function About() {
       </div>
 
       <div className="margin lightPurpleBg officersContainer">
-        <p className="h2 purple officersTitle">SWE Board 2021-2022</p>
+        <p className="h2 purple officersTitle">SWE Board 2022-2023</p>
         <p className="h3 mediumPurple officersSubtitle">Our Officers</p>
         <div className="officersGrid">
           {Officers.map((officer) => (
