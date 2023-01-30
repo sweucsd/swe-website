@@ -78,7 +78,7 @@ const Officers = [
   {
     name: 'Coming Soon! ',
     position: 'SWENext',
-    image: EDGEImg,
+    image: SWENextImg,
     year: 'Coming Soon!r',
     major: 'Coming Soon!',
     fact: 'SWENext Chair loves SWE hehe',
