@@ -5,7 +5,7 @@ import TreasurerImg from '../assets/officer_images/Angkitha.jpg';
 import SecretaryImg from '../assets/officer_images/Samantha.png';
 import EnvisionImg from '../assets/officer_images/Shruthi.png';
 import EDGEImg from '../assets/officer_images/Marisa.jpg';
-import SWENextImg from '../assets/officer_images/Hailey.JPG';
+import SWENextImg from '../assets/officer_images/coming_soon.png';
 import TechDevImg from '../assets/officer_images/Divneet.jpg';
 import SocialImg from '../assets/officer_images/Allison.png';
 import AcademicImg from '../assets/officer_images/Harsheta.png';
@@ -53,9 +53,9 @@ const Officers = [
     position: 'Secretary',
     image: SecretaryImg,
     year: '3rd Year',
-    major: 'Electrical Engineering',
-    fact: 'I love plants, cooking, and snowboarding!',
-    college: 'Marshall',
+    major: 'Mechanical Engineering',
+    fact: 'I have a siamese cat named Sadie!',
+    college: 'Warren',
   },
   {
     name: 'Shruthi Aiyar',
@@ -76,10 +76,10 @@ const Officers = [
     college: 'Revelle',
   },
   {
-    name: 'Coming Soon! ',
+    name: 'Coming Soon!',
     position: 'SWENext',
     image: SWENextImg,
-    year: 'Coming Soon!r',
+    year: 'Coming Soon!',
     major: 'Coming Soon!',
     fact: 'SWENext Chair loves SWE hehe',
     college: 'Coming Soon!',
