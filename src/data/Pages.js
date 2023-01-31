@@ -7,6 +7,7 @@ import About from '../pages/About';
 import Projects from '../pages/Projects';
 import AboutImg from '../assets/cover_imgs/about_pic.jpg';
 import ProjImg from '../assets/cover_imgs/technical_pic.jpg';
+import BoardImg from '../assets/cover_imgs/SWE_board_group_photo.jpeg';
 
 const Pages = [
   {
@@ -16,7 +17,7 @@ const Pages = [
     titleTag: 'SWE UCSD',
     navLabel: 'Home',
     component: Home,
-    image: 'https://i.imgur.com/MgNHcA4.jpg',
+    image: BoardImg,
   },
   {
     path: '/about',
