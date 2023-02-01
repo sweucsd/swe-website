@@ -41,7 +41,6 @@ const Sponsors = [
   {
     image: Cruise,
   },
-  
 ];
 
 export default Sponsors;
