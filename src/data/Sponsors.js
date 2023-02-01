@@ -9,7 +9,6 @@ import Collins from '../assets/sponsors/collins_aerospace.png';
 import Gilead from '../assets/sponsors/gilead.png';
 import Cruise from '../assets/sponsors/cruise.png';
 
-
 const Sponsors = [
   {
     image: ATandT,
