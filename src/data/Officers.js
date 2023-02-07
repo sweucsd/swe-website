@@ -4,7 +4,7 @@ import VPInternalImg from '../assets/officer_images/Cate.png';
 import TreasurerImg from '../assets/officer_images/Angkitha.png';
 import SecretaryImg from '../assets/officer_images/Samantha.png';
 import EnvisionImg from '../assets/officer_images/Shruthi.png';
-import EDGEImg from '../assets/officer_images/Marisa.jpg';
+import EDGEImg from '../assets/officer_images/valerie.jpeg';
 import SWENextImg from '../assets/officer_images/coming_soon.png';
 import TechDevImg from '../assets/officer_images/Divneet.jpg';
 import SocialImg from '../assets/officer_images/Allison.png';
@@ -67,13 +67,13 @@ const Officers = [
     college: 'Warren',
   },
   {
-    name: 'Valerie ',
+    name: 'Valerie Hope ',
     position: 'EDGE Outreach Chair',
     image: EDGEImg,
-    year: '4th Year',
-    major: 'Nanoengineering',
-    fact: 'I love painting with gouache and watercolors :))',
-    college: 'Revelle',
+    year: '2nd Year',
+    major: 'Structural Engineering',
+    fact: 'I’ve always lived alongside a body of water! (Pacific Ocean & Gulf of Mexico) ',
+    college: 'Warren',
   },
   {
     name: 'Coming Soon!',
@@ -90,7 +90,7 @@ const Officers = [
     image: TechDevImg,
     year: '4th Year',
     major: 'Computer Engineering',
-    fact: 'I can speak 5 languages :)',
+    fact: 'I know 5 languages :)',
     college: 'Sixth',
   },
   {
