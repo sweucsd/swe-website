@@ -5,7 +5,7 @@ const OutreachEvents = [
   {
     name: 'Envision',
     image: 'https://swe.ucsd.edu/wp-content/uploads/2020/11/DSC_0359-768x432.jpg',
-    description: 'Envision is an annual conference hosted by SWE for high school girls to attend workshops and a project fair, hear from industry speakers, and participate in other hands-on activities to learn about opportunities in STEM and gain technical/professional experience.',
+    description: 'Envision is an annual conference hosted by SWE for high school girls to attend workshops and a project fair, hear from industry speakers, and participate in other hands-on activities to learn about opportunities in STEM and gain technical/professional experience. Envision is taking place Sunday, February 12, 2023 from 9 AM to 4:30 PM (check in begins at 8 AM). Parent program is from 9 AM to 11 AM. We will have technical activities, panels from students and professors, keynote speakers, and lab tours',
     link: 'https://ucsdenvision.wixsite.com/envision',
   },
   {
