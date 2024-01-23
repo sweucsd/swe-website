@@ -51,7 +51,7 @@ function Calendar() {
       <div className="margin lightPurpleBg calendarBody">
         <div className="calendarContainer">
           <div className="calendar">
-            <iframe title="swe-cal" src="https://calendar.google.com/calendar/embed?src=c_tm7f9bhuj7e1s1rv2tdf8eougo%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+            <iframe title="swe-cal" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&src=Y190bTdmOWJodWo3ZTFzMXJ2MnRkZjhlb3Vnb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%238E24AA" style="border:solid 1px #777" width=“100%” height="600" frameborder="0" scrolling="no"></iframe>
           </div>
         </div>
       </div>
