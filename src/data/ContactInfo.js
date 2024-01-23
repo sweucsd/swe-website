@@ -19,7 +19,7 @@ const ContactInfo = [
   {
     name: 'Email',
     image: email,
-    link: 'mailto:swe@eng.ucsd.edu',
+    link: 'mailto:swe@ucsd.edu',
   },
   {
     name: 'Slack',
