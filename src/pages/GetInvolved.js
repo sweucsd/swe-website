@@ -63,7 +63,7 @@ function GetInvolved() {
               <li className="p2 darkGray">Paid to our Treasurer</li>
             </ul>
             <p className="p1 darkGray separator"><strong>or</strong></p>
-            <li className="h6 darkGray">6+ Hours of Participation</li>
+            <li className="h6 darkGray">8+ Hours of Participation</li>
             <ul className="p2 darkGray">
               <li>
                 Attend GBMs, workshops, and other
