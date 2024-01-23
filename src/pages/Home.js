@@ -42,7 +42,7 @@ function Home() {
             <p className="h3 mediumPurple">Upcoming Events:</p>
             <div className="eventsContainer">
               <Calendar
-                calendarID="eng.ucsd.edu_rskqtoaiv6mmk9jg3jq6bb5j7k@group.calendar.google.com"
+                calendarID="c_tm7f9bhuj7e1s1rv2tdf8eougo@group.calendar.google.com"
                 apiKey="AIzaSyC-AdQG9YyIw3V5EC0YFx6h8cJ0aXkr1tg"
               >
                 {({ events }) => {
