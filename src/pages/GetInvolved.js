@@ -26,7 +26,7 @@ function GetInvolved() {
   const similarOrgs = [
     {
       name: 'National Society of Black Engineers (NSBE)',
-      link: 'http://nsbeucsd.weebly.com/',
+      link: 'https://nsbe.ucsd.edu/',
     },
     {
       name: 'Society of Hispanic Professional Engineers (SHPE)',
@@ -156,14 +156,14 @@ function GetInvolved() {
                 <li className="p2 darkGray">
                   Check out the
                   {' '}
-                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/1BvWJhT6jVURzMG5PkjGtbqWT5YD6yN4-3IEllo_Qx0g/edit?usp=sharin">SWE Opportunities Sheet</a>
+                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/1sasvFiNAzlbxExNYqOpKBMNCKwQZxqWwinyvpZY_5s0/edit?usp=sharing">SWE Opportunities Sheet</a>
                   {' '}
                   for upcoming scholarship opportunities
                 </li>
                 <li className="p2 darkGray">
                   Join our
                   {' '}
-                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSdpJZDjpkxkWwFNvyy9T46Efap0ASpX5Faja3IGrvCL8lCWwQ/viewform">newsletter</a>
+                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScC-Yn0CFXuItVm6ZAKS4cDyqM01tCUY-7jYJhsfq9wRHcB2w/viewform">newsletter</a>
                   {' '}
                   for regular updates
                 </li>
