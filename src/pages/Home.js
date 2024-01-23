@@ -82,7 +82,7 @@ function Home() {
             <p className="p1 darkGray eventsContainer">
               Want to stay in the loop? Join our mailing list!
             </p>
-            <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSdpJZDjpkxkWwFNvyy9T46Efap0ASpX5Faja3IGrvCL8lCWwQ/viewform">
+            <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScC-Yn0CFXuItVm6ZAKS4cDyqM01tCUY-7jYJhsfq9wRHcB2w/viewform">
               <Button label="Sign Up" />
             </a>
           </div>
