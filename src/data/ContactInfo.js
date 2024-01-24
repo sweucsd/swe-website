@@ -2,6 +2,7 @@ import instagram from '../assets/contacts/instagram.png';
 import facebook from '../assets/contacts/facebook.png';
 import email from '../assets/contacts/email.png';
 import slack from '../assets/contacts/slack.png';
+import discord from '../assets/contacts/discord.png';
 import connect from '../assets/contacts/link.png';
 import linkedin from '../assets/contacts/linkedin.png';
 
@@ -22,9 +23,9 @@ const ContactInfo = [
     link: 'mailto:swe@ucsd.edu',
   },
   {
-    name: 'Slack',
-    image: slack,
-    link: 'https://sweatucsd.slack.com/join/shared_invite/zt-i1wt8n8i-wRXnLa5JuhMWg70q7BxwAQ#/shared-invite/email',
+    name: 'Discord',
+    image: discord,
+    link: 'https://discord.gg/3HrqkHUzCR',
   },
   {
     name: 'LinkTree',
