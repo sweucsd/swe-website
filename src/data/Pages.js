@@ -7,7 +7,7 @@ import About from '../pages/About';
 import Projects from '../pages/Projects';
 import AboutImg from '../assets/cover_imgs/about_pic.jpg';
 import ProjImg from '../assets/cover_imgs/technical_pic.jpg';
-import BoardImg from '../assets/cover_imgs/SWE_board_group_photo.jpeg';
+import BoardImg from '../assets/cover_imgs/SWE_board_group_23-24.JPG';
 
 const Pages = [
   {
