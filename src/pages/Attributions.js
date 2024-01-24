@@ -95,9 +95,9 @@ function Attributions() {
           <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
         <div>
-          Slack icon made by
+          Discord icon made by
           {' '}
-          <a href="https://www.flaticon.com/authors/smashicons" title="Smahicons">Freepik</a>
+          <a href="https://www.flaticon.com/authors/ranah-pixel-studio" title="Ranah Pixel Studio">Freepik</a>
           {' '}
           from
           {' '}
