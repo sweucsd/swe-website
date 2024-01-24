@@ -19,7 +19,7 @@ const OutreachEvents = [
     name: 'SWENext',
     image: sweNext,
     description: 'SWENext is a K-12 outreach program that allows students to join the SWE engineering community. SWENexters have access to programs, mentors, and resources designed to develop leadership skills and self-confidence to #BeThatEngineer and succeed in a career in engineering and technology.',
-    link: 'http://www.swesandiego.org/swenext-clubs.html',
+    link: 'https://swe.org/outreach/swenext-clubs/#:~:text=SWENext%20is%20a%20way%20for,in%20engineering%20and%20technology%20careers.',
   },
 ];
 
