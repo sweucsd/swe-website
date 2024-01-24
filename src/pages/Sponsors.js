@@ -18,7 +18,7 @@ function Sponsors() {
       <p className="p1 darkGray">
         Email us at
         {' '}
-        <a className="clickableLink" href="mailto:swe@eng.ucsd.edu">swe@eng.ucsd.edu</a>
+        <a className="clickableLink" href="mailto:swe@ucsd.edu">swe@ucsd.edu</a>
         {' '}
         to get in contact with our VP External and receive information about how
         your company can partner with our section.
