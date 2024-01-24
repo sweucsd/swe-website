@@ -1,7 +1,6 @@
 import instagram from '../assets/contacts/instagram.png';
 import facebook from '../assets/contacts/facebook.png';
 import email from '../assets/contacts/email.png';
-import slack from '../assets/contacts/slack.png';
 import discord from '../assets/contacts/discord.png';
 import connect from '../assets/contacts/link.png';
 import linkedin from '../assets/contacts/linkedin.png';
