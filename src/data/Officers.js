@@ -1,124 +1,124 @@
-import PresidentImg from '../assets/officer_images/Erica.jpeg';
-import VPExternalImg from '../assets/officer_images/Makena.JPG';
-import VPInternalImg from '../assets/officer_images/Cate.png';
-import TreasurerImg from '../assets/officer_images/Angkitha.png';
-import SecretaryImg from '../assets/officer_images/Samantha.png';
-import EnvisionImg from '../assets/officer_images/Shruthi.png';
-import EDGEImg from '../assets/officer_images/valerie.jpeg';
-import SWENextImg from '../assets/officer_images/coming_soon.png';
-import TechDevImg from '../assets/officer_images/Divneet.jpg';
-import SocialImg from '../assets/officer_images/Allison.png';
-import AcademicImg from '../assets/officer_images/Harsheta.png';
-import PublicityImg from '../assets/officer_images/Josephine.jpg';
+import PresidentImg from '../assets/officer_images/Cate.JPG';
+import VPExternalImg from '../assets/officer_images/Sam.JPG';
+import VPInternalImg from '../assets/officer_images/coming_soon.png';
+import TreasurerImg from '../assets/officer_images/Suki.JPG';
+import SecretaryImg from '../assets/officer_images/Hannah.JPG';
+import EnvisionImg from '../assets/officer_images/coming_soon.png';
+import EDGEImg from '../assets/officer_images/coming_soon.png';
+import SWENextImg from '../assets/officer_images/Avery.JPG';
+import TechDevImg from '../assets/officer_images/Diane.JPG';
+import SocialImg from '../assets/officer_images/Marissa.JPG';
+import AcademicImg from '../assets/officer_images/coming_soon.png';
+import PublicityImg from '../assets/officer_images/Melanie.JPG';
 
 const Officers = [
   {
-    name: 'Erica Peng',
+    name: 'Cate Readey',
     position: 'President',
     image: PresidentImg,
     year: '4th Year',
-    major: 'Bioengineering: Biotechnology',
-    fact: 'I love hiking and listening to jazz!',
+    major: 'Aerospace Engineering',
+    fact: 'I can do a headstand!',
     college: 'Sixth',
   },
   {
-    name: 'Makena Leonard',
+    name: 'Sam Ford',
     position: 'VP External',
     image: VPExternalImg,
     year: '4th Year',
-    major: 'Electrical Engineering',
-    fact: 'I love to surf and snowboard!',
-    college: 'Marshall',
+    major: 'Mechanical Engineering',
+    fact: 'I have a cat!',
+    college: 'Warren',
   },
   {
-    name: 'Cate Readey',
+    name: 'Valerie Hope',
     position: 'VP Internal',
     image: VPInternalImg,
     year: '3rd Year',
-    major: 'Aerospace Engineering',
-    fact: 'I can do a headstand',
-    college: 'Sixth',
-  },
-  {
-    name: 'Angkitha Anguraj',
-    position: 'Treasurer',
-    image: TreasurerImg,
-    year: '3rd Year',
-    major: 'Electrical Engineering w/ a concentration in ML and minoring in cognitive science',
-    fact: 'I just think milk before cereal should be law',
-    college: 'Warren',
-  },
-  {
-    name: 'Samantha ',
-    position: 'Secretary',
-    image: SecretaryImg,
-    year: '3rd Year',
-    major: 'Mechanical Engineering',
-    fact: 'I have a siamese cat named Sadie!',
-    college: 'Warren',
-  },
-  {
-    name: 'Shruthi Aiyar',
-    position: 'Envision Outreach Chair',
-    image: EnvisionImg,
-    year: '3rd Year',
-    major: 'Applied Mathematics',
-    fact: 'I have seen almost 20 musicians/bands live in 2022!',
-    college: 'Warren',
-  },
-  {
-    name: 'Valerie Hope ',
-    position: 'EDGE Outreach Chair',
-    image: EDGEImg,
-    year: '2nd Year',
     major: 'Structural Engineering',
     fact: 'I’ve always lived alongside a body of water! (Pacific Ocean & Gulf of Mexico) ',
     college: 'Warren',
   },
   {
-    name: 'Coming Soon!',
-    position: 'SWENext',
-    image: SWENextImg,
-    year: 'Coming Soon!',
-    major: 'Coming Soon!',
-    fact: 'SWENext Chair loves SWE hehe',
+    name: 'Suki Krishna',
+    position: 'Treasurer',
+    image: TreasurerImg,
+    year: '4th Year',
+    major: 'Bioengineering',
+    fact: 'Coming Soon',
+    college: 'Coming Soon',
+  },
+  {
+    name: 'Hannah Coates',
+    position: 'Secretary',
+    image: SecretaryImg,
+    year: '2nd Year',
+    major: 'Computer Science',
+    fact: 'I\'ve crocheted multiple blankets!',
+    college: 'Seventh',
+  },
+  {
+    name: 'Coming Soon',
+    position: 'Coming Soon',
+    image: EnvisionImg,
+    year: 'Coming Soon',
+    major: 'Coming Soon',
+    fact: 'Envision chair loves SWE!',
+    college: 'Coming Soon',
+  },
+  {
+    name: 'Selena Cao',
+    position: 'EDGE Outreach Chair',
+    image: EDGEImg,
+    year: '2nd Year',
+    major: 'Bioengineering: Biotechnology',
+    fact: 'Coming Soon!',
     college: 'Coming Soon!',
   },
   {
-    name: 'Divneet Kaur',
-    position: 'Technical Development Chair',
-    image: TechDevImg,
-    year: '4th Year',
-    major: 'Computer Engineering',
-    fact: 'I know 5 languages :)',
-    college: 'Sixth',
-  },
-  {
-    name: 'Allison Moya',
-    position: 'Social Chair',
-    image: SocialImg,
-    year: '3rd Year',
-    major: 'Electrical Engineering with CogSci minor ',
-    fact: 'I like to sing and dance',
-    college: 'Warren',
-  },
-  {
-    name: 'Harsheta Cavale',
-    position: 'Academic Chair',
-    image: AcademicImg,
-    year: '4th Year',
-    major: 'Computer Science',
-    fact: 'I like plants',
+    name: 'Avery Donaldson',
+    position: 'SWENext',
+    image: SWENextImg,
+    year: '2nd Year',
+    major: 'Chemical Engineering',
+    fact: 'I sewed my own prom dress!',
     college: 'Marshall',
   },
   {
-    name: 'Gillian ',
+    name: 'Diane Bou-assi',
+    position: 'Technical Development Chair',
+    image: TechDevImg,
+    year: '3rd Year',
+    major: 'Chemcial Engineering',
+    fact: 'Coming Soon',
+    college: 'Coming Soon',
+  },
+  {
+    name: 'Marissa Lee',
+    position: 'Social Chair',
+    image: SocialImg,
+    year: '2nd Year',
+    major: 'Computer Science',
+    fact: 'I\'ve had a bee sting inside my ear',
+    college: 'Muir',
+  },
+  {
+    name: 'Tanya Dwivedi',
+    position: 'Academic Chair',
+    image: AcademicImg,
+    year: '3rd Year',
+    major: 'Aerospace Engineering',
+    fact: 'Coming Soon',
+    college: 'Coming Soon',
+  },
+  {
+    name: 'Melanie Haro-mendoza',
     position: 'Publicity Chair',
     image: PublicityImg,
-    year: '3rd Year',
-    major: 'Electrical Engineering',
-    fact: 'I’ve lived in San Diego my whole life!',
-    college: 'ERC',
+    year: '2nd Year',
+    major: 'Computer Science',
+    fact: 'Coming Soon',
+    college: 'Seventh',
   },
 ];
 
