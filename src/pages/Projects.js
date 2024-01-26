@@ -23,6 +23,7 @@ function GetInvolved() {
           newsletter and attend GBMs to hear about future project opportunities.
           Here are some of our current projects:
         </p>
+        <h1 className="h2 purple projTitle">Previous Projects</h1>
         {Projects.map((project, index) => (
           <ProjectCard
             name={project.name}
