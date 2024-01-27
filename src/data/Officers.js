@@ -59,7 +59,7 @@ const Officers = [
   },
   {
     name: 'Coming Soon',
-    position: 'Coming Soon',
+    position: 'Envision Chair',
     image: EnvisionImg,
     year: 'Coming Soon',
     major: 'Coming Soon',
