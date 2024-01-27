@@ -1,4 +1,4 @@
-import PresidentImg from '../assets/officer_images/Cate.JPG';
+import PresidentImg from '../assets/officer_images/Cate.jpg';
 import VPExternalImg from '../assets/officer_images/Sam.JPG';
 import VPInternalImg from '../assets/officer_images/coming_soon.png';
 import TreasurerImg from '../assets/officer_images/Suki.JPG';
