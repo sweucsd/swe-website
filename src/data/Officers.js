@@ -1,14 +1,14 @@
-import PresidentImg from '../assets/officer_images/Cate.jpg';
+import PresidentImg from '../assets/officer_images/Cate.JPG';
 import VPExternalImg from '../assets/officer_images/Sam.JPG';
-import VPInternalImg from '../assets/officer_images/coming_soon.png';
+// import VPInternalImg from '../assets/officer_images/Valerie.JPG';
 import TreasurerImg from '../assets/officer_images/Suki.JPG';
 import SecretaryImg from '../assets/officer_images/Hannah.JPG';
 import EnvisionImg from '../assets/officer_images/coming_soon.png';
-import EDGEImg from '../assets/officer_images/coming_soon.png';
+// import EDGEImg from '../assets/officer_images/Selena.JPG';
 import SWENextImg from '../assets/officer_images/Avery.JPG';
 import TechDevImg from '../assets/officer_images/Diane.JPG';
 import SocialImg from '../assets/officer_images/Marissa.JPG';
-import AcademicImg from '../assets/officer_images/coming_soon.png';
+// import AcademicImg from '../assets/officer_images/Tanya.JPG';
 import PublicityImg from '../assets/officer_images/Melanie.JPG';
 
 const Officers = [
@@ -33,7 +33,7 @@ const Officers = [
   {
     name: 'Valerie Hope',
     position: 'VP Internal',
-    image: VPInternalImg,
+    image: EnvisionImg,
     year: '3rd Year',
     major: 'Structural Engineering',
     fact: 'I’ve always lived alongside a body of water! (Pacific Ocean & Gulf of Mexico) ',
@@ -69,7 +69,7 @@ const Officers = [
   {
     name: 'Selena Cao',
     position: 'EDGE Outreach Chair',
-    image: EDGEImg,
+    image: EnvisionImg,
     year: '2nd Year',
     major: 'Bioengineering: Biotechnology',
     fact: 'Coming Soon!',
@@ -105,7 +105,7 @@ const Officers = [
   {
     name: 'Tanya Dwivedi',
     position: 'Academic Chair',
-    image: AcademicImg,
+    image: EnvisionImg,
     year: '3rd Year',
     major: 'Aerospace Engineering',
     fact: 'Coming Soon',
