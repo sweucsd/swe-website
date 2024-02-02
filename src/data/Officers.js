@@ -4,7 +4,7 @@ import VPInternalImg from '../assets/officer_images/Valerie.JPG';
 import TreasurerImg from '../assets/officer_images/Suki.JPG';
 import SecretaryImg from '../assets/officer_images/Hannah.JPG';
 import EnvisionImg from '../assets/officer_images/coming_soon.png';
-// import EDGEImg from '../assets/officer_images/Selena.JPG';
+import EDGEImg from '../assets/officer_images/Selena.JPG';
 import SWENextImg from '../assets/officer_images/Avery.JPG';
 import TechDevImg from '../assets/officer_images/Diane.JPG';
 import SocialImg from '../assets/officer_images/Marissa.JPG';
@@ -58,22 +58,22 @@ const Officers = [
     college: 'Seventh',
   },
   {
-    name: 'Coming Soon',
+    name: 'Coming Soon!',
     position: 'Envision Chair',
     image: EnvisionImg,
-    year: 'Coming Soon',
-    major: 'Coming Soon',
+    year: 'Coming Soon!',
+    major: 'Coming Soon!',
     fact: 'Envision chair loves SWE!',
-    college: 'Coming Soon',
+    college: 'Coming Soon!',
   },
   {
     name: 'Selena Cao',
     position: 'EDGE Outreach Chair',
-    image: EnvisionImg,
+    image: EDGEImg,
     year: '2nd Year',
     major: 'Bioengineering: Biotechnology',
-    fact: 'Coming Soon!',
-    college: 'Coming Soon!',
+    fact: 'I love pickles!',
+    college: 'Muir',
   },
   {
     name: 'Avery Donaldson',
@@ -117,7 +117,7 @@ const Officers = [
     image: PublicityImg,
     year: '2nd Year',
     major: 'Computer Science',
-    fact: 'Coming Soon',
+    fact: 'Coming Soon!',
     college: 'Seventh',
   },
 ];
