@@ -36,7 +36,7 @@ const Officers = [
     image: EnvisionImg,
     year: '3rd Year',
     major: 'Structural Engineering',
-    fact: 'I’ve always lived alongside a body of water! (Pacific Ocean & Gulf of Mexico) ',
+    fact: 'My favorite animal is a red panda',
     college: 'Warren',
   },
   {
@@ -45,8 +45,8 @@ const Officers = [
     image: TreasurerImg,
     year: '4th Year',
     major: 'Bioengineering',
-    fact: 'Coming Soon',
-    college: 'Coming Soon',
+    fact: 'I crocheted a backpack',
+    college: 'Marshall',
   },
   {
     name: 'Hannah Coates',
@@ -90,8 +90,8 @@ const Officers = [
     image: TechDevImg,
     year: '3rd Year',
     major: 'Chemcial Engineering',
-    fact: 'Coming Soon',
-    college: 'Coming Soon',
+    fact: 'I love hot sauce!',
+    college: 'Revelle',
   },
   {
     name: 'Marissa Lee',
@@ -108,8 +108,8 @@ const Officers = [
     image: EnvisionImg,
     year: '3rd Year',
     major: 'Aerospace Engineering',
-    fact: 'Coming Soon',
-    college: 'Coming Soon',
+    fact: 'I\'ve built a wind tunnel all by myself for an experiment!',
+    college: 'Revelle',
   },
   {
     name: 'Melanie Haro-mendoza',
