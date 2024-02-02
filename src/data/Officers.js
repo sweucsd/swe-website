@@ -1,6 +1,6 @@
 import PresidentImg from '../assets/officer_images/Cate.JPG';
 import VPExternalImg from '../assets/officer_images/Sam.JPG';
-// import VPInternalImg from '../assets/officer_images/Valerie.JPG';
+import VPInternalImg from '../assets/officer_images/Valerie.JPG';
 import TreasurerImg from '../assets/officer_images/Suki.JPG';
 import SecretaryImg from '../assets/officer_images/Hannah.JPG';
 import EnvisionImg from '../assets/officer_images/coming_soon.png';
@@ -8,7 +8,7 @@ import EnvisionImg from '../assets/officer_images/coming_soon.png';
 import SWENextImg from '../assets/officer_images/Avery.JPG';
 import TechDevImg from '../assets/officer_images/Diane.JPG';
 import SocialImg from '../assets/officer_images/Marissa.JPG';
-// import AcademicImg from '../assets/officer_images/Tanya.JPG';
+import AcademicImg from '../assets/officer_images/Tanya.JPG';
 import PublicityImg from '../assets/officer_images/Melanie.JPG';
 
 const Officers = [
@@ -33,7 +33,7 @@ const Officers = [
   {
     name: 'Valerie Hope',
     position: 'VP Internal',
-    image: EnvisionImg,
+    image: VPInternalImg,
     year: '3rd Year',
     major: 'Structural Engineering',
     fact: 'My favorite animal is a red panda',
@@ -105,7 +105,7 @@ const Officers = [
   {
     name: 'Tanya Dwivedi',
     position: 'Academic Chair',
-    image: EnvisionImg,
+    image: AcademicImg,
     year: '3rd Year',
     major: 'Aerospace Engineering',
     fact: 'I\'ve built a wind tunnel all by myself for an experiment!',
