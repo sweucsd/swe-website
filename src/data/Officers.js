@@ -36,7 +36,7 @@ const Officers = [
     image: VPInternalImg,
     year: '3rd Year',
     major: 'Structural Engineering',
-    fact: 'My favorite animal is a red panda',
+    fact: 'My favorite animal is a red panda!',
     college: 'Warren',
   },
   {
@@ -45,7 +45,7 @@ const Officers = [
     image: TreasurerImg,
     year: '4th Year',
     major: 'Bioengineering',
-    fact: 'I crocheted a backpack',
+    fact: 'I crocheted a backpack!',
     college: 'Marshall',
   },
   {
@@ -99,7 +99,7 @@ const Officers = [
     image: SocialImg,
     year: '2nd Year',
     major: 'Computer Science',
-    fact: 'I\'ve had a bee sting inside my ear',
+    fact: 'I\'ve had a bee sting inside my ear!',
     college: 'Muir',
   },
   {
