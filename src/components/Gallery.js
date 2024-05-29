@@ -1,9 +1,9 @@
 import React from 'react';
 import Img1 from '../assets/home_gallery/img_1.jpg';
 import Img2 from '../assets/home_gallery/img_2.jpg';
-import Img3 from '../assets/home_gallery/img_3.png';
-import Img4 from '../assets/home_gallery/img_4.JPG';
-import Img5 from '../assets/home_gallery/img_5.jpg';
+import Img3 from '../assets/home_gallery/IMG_2389.PNG';
+import Img4 from '../assets/home_gallery/IMG_2391.PNG';
+import Img5 from '../assets/home_gallery/IMG_7829.HEIC';
 import Img6 from '../assets/home_gallery/img_6.jpg';
 import './Gallery.css';
 
