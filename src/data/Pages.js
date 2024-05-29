@@ -8,6 +8,7 @@ import Projects from '../pages/Projects';
 import AboutImg from '../assets/cover_imgs/about_pic.jpg';
 import ProjImg from '../assets/cover_imgs/technical_pic.jpg';
 import BoardImg from '../assets/cover_imgs/SWE_board_group_23-24.JPG';
+import GetInvolvedImg from '../assets/cover_imgs/Get_Involved.jpeg';
 
 const Pages = [
   {
@@ -44,7 +45,7 @@ const Pages = [
     titleTag: 'Involvement – SWE UCSD',
     navLabel: 'Get Involved',
     component: GetInvolved,
-    image: 'https://i.imgur.com/uhW6Suq.jpg',
+    image: GetInvolvedImg,
   },
   {
     path: '/projects',
