@@ -3,7 +3,7 @@ import Img1 from '../assets/home_gallery/img_1.jpg';
 import Img2 from '../assets/home_gallery/img_2.jpg';
 import Img3 from '../assets/home_gallery/IMG_2389.PNG';
 import Img4 from '../assets/home_gallery/IMG_2391.PNG';
-import Img5 from '../assets/home_gallery/IMG_7829.HEIC';
+import Img5 from '../assets/home_gallery/IMG_7829.PNG';
 import Img6 from '../assets/home_gallery/img_6.jpg';
 import './Gallery.css';
 
