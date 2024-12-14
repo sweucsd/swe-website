@@ -1,17 +1,18 @@
 import PresidentImg from '../assets/officer_images/Valerie.JPG';
-import VPExternalImg from '../assets/officer_images/coming_soon.png';
+// import VPExternalImg from '../assets/officer_images/Jordan.JPG';
 import VPInternalImg from '../assets/officer_images/Melanie.JPG';
 import TreasurerImg from '../assets/officer_images/Hannah.JPG';
-import SecretaryImg from '../assets/officer_images/coming_soon.png';
+// import SecretaryImg from '../assets/officer_images/Yasmin.JPG';
 import EnvisionImg1 from '../assets/officer_images/Selena.JPG';
 import EnvisionImg2 from '../assets/officer_images/Avery.JPG';
-import EDGEImg1 from '../assets/officer_images/coming_soon.png';
-import EDGEImg2 from '../assets/officer_images/coming_soon.png';
-import SWENextImg from '../assets/officer_images/coming_soon.png';
-import TechDevImg from '../assets/officer_images/coming_soon.png';
-import SocialImg from '../assets/officer_images/coming_soon.png';
-import AcademicImg from '../assets/officer_images/coming_soon.png';
-import PublicityImg from '../assets/officer_images/coming_soon.png';
+// import EDGEImg1 from '../assets/officer_images/Sierra.JPG';
+// import EDGEImg2 from '../assets/officer_images/Sriya.JPG';
+// import SWENextImg from '../assets/officer_images/Emi.JPG';
+// import TechDevImg from '../assets/officer_images/Rachel.JPG';
+// import SocialImg from '../assets/officer_images/Roxana.JPG';
+// import AcademicImg from '../assets/officer_images/Brooke.JPG';
+// import PublicityImg from '../assets/officer_images/Ashley.JPG;
+import ComingSoon from '../assets/officer_images/coming_soon.png';
 
 const Officers = [
   {
@@ -26,7 +27,7 @@ const Officers = [
   {
     name: 'Jordan Brown',
     position: 'VP External',
-    image: VPExternalImg,
+    image: ComingSoon,
     year: '2nd Year Transfer',
     major: 'Aerospace Engineering',
     fact: 'I love snowboarding!',
@@ -53,7 +54,7 @@ const Officers = [
   {
     name: 'Yasmin Kabir',
     position: 'Secretary',
-    image: SecretaryImg,
+    image: ComingSoon,
     year: '2nd Year',
     major: 'Math/CS',
     fact: 'TBA',
@@ -80,7 +81,7 @@ const Officers = [
   {
     name: 'Sierra Lira',
     position: 'EDGE Outreach Co-Chair',
-    image: EDGEImg1,
+    image: ComingSoon,
     year: '3rd Year',
     major: 'TBA',
     fact: 'TBA',
@@ -89,7 +90,7 @@ const Officers = [
   {
     name: 'Sriya Paleti',
     position: 'EDGE Outreach Co-Chair',
-    image: EDGEImg2,
+    image: ComingSoon,
     year: '4th Year',
     major: 'Bioengineering: Bioinformatics',
     fact: 'I like painting!',
@@ -98,7 +99,7 @@ const Officers = [
   {
     name: 'Emi Takara',
     position: 'SWENext',
-    image: SWENextImg,
+    image: ComingSoon,
     year: '2nd Year',
     major: 'TBA',
     fact: 'TBA',
@@ -107,7 +108,7 @@ const Officers = [
   {
     name: 'Rachel McClow',
     position: 'Technical Development Chair',
-    image: TechDevImg,
+    image: ComingSoon,
     year: '3rd Year',
     major: 'TBA',
     fact: 'TBA',
@@ -116,7 +117,7 @@ const Officers = [
   {
     name: 'Roxana Pourfarzaneh',
     position: 'Social Chair',
-    image: SocialImg,
+    image: ComingSoon,
     year: 'TBA',
     major: 'TBA',
     fact: 'TBA',
@@ -125,7 +126,7 @@ const Officers = [
   {
     name: 'Brooke Abselet',
     position: 'Academic Chair',
-    image: AcademicImg,
+    image: ComingSoon,
     year: '2nd Year',
     major: 'TBA',
     fact: 'TBA',
@@ -134,7 +135,7 @@ const Officers = [
   {
     name: 'Ashley Campbell',
     position: 'Publicity Chair',
-    image: PublicityImg,
+    image: ComingSoon,
     year: '4th Year',
     major: 'Mechanical Engineering',
     fact: 'I love soccer and baseball',
