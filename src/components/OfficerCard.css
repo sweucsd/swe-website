@@ -75,3 +75,8 @@
   color: var(--purple);
   transform: rotateY(180deg);
 }
+
+.cardBackInfo {
+  width: 80%;
+  margin-top: 1em;
+}

@@ -19,19 +19,21 @@ function OfficerCard(props) {
         <div className="officerCardContainer flip-card-back">
           <p className="h6 officerNameBack">{name}</p>
           <hr className="divider officerCardDivider" />
-          <p className="p2 officerPosition">
-            Year:&nbsp;
-            {year}
-          </p>
-          <p className="p2 officerPosition">
-            Major:&nbsp;
-            {major}
-          </p>
-          <p className="p2 officerPosition">
-            College:&nbsp;
-            {college}
-          </p>
-          <p className="p2 officerPosition">{fact}</p>
+          <div className="cardBackInfo">
+            <p className="p2 officerPosition">
+              Year:&nbsp;
+              {year}
+            </p>
+            <p className="p2 officerPosition">
+              Major:&nbsp;
+              {major}
+            </p>
+            <p className="p2 officerPosition">
+              College:&nbsp;
+              {college}
+            </p>
+            <p className="p2 officerPosition">{fact}</p>
+          </div>
         </div>
       </div>
     </div>
