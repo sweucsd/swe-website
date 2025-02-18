@@ -12,26 +12,26 @@ function OfficerCard(props) {
       <div className="flip-card-inner">
         <div className="officerCardContainer shadow flip-card-front">
           <img className="officerImg" src={image} alt="" />
-          <p className="h6 officerName purple">{name}</p>
+          <h6 className="officerName purple">{name}</h6>
           <hr className="divider officerCardDivider" />
-          <p className="p2 officerPosition">{position}</p>
+          <p className="officerPosition">{position}</p>
         </div>
         <div className="officerCardContainer flip-card-back">
-          <p className="h6 officerNameBack">{name}</p>
+          <h6 className="officerNameBack">{name}</h6>
           <hr className="divider officerCardDivider" />
-          <p className="p2 officerPosition">
+          <p className="officerPosition">
             Year:&nbsp;
             {year}
           </p>
-          <p className="p2 officerPosition">
+          <p className="officerPosition">
             Major:&nbsp;
             {major}
           </p>
-          <p className="p2 officerPosition">
+          <p className="officerPosition">
             College:&nbsp;
             {college}
           </p>
-          <p className="p2 officerPosition">{fact}</p>
+          <p className="officerPosition">{fact}</p>
         </div>
       </div>
     </div>

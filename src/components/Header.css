@@ -25,10 +25,10 @@
 
 .textContainer {
   position: absolute;
-  text-align: center;
-  top: 50%;
+  top: 35%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  text-align: center;
+  transform: translate(-50%, -35%);
   z-index: 2;
   width: 95vw;
   color: #eee;

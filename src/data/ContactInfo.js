@@ -1,5 +1,4 @@
 import instagram from '../assets/contacts/instagram.png';
-import facebook from '../assets/contacts/facebook.png';
 import email from '../assets/contacts/email.png';
 import discord from '../assets/contacts/discord.png';
 import connect from '../assets/contacts/link.png';
@@ -10,11 +9,6 @@ const ContactInfo = [
     name: 'Instagram',
     image: instagram,
     link: 'https://www.instagram.com/swe.ucsd/',
-  },
-  {
-    name: 'Facebook',
-    image: facebook,
-    link: 'https://www.facebook.com/sweucsd',
   },
   {
     name: 'Email',

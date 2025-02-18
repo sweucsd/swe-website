@@ -3,7 +3,7 @@ import React from 'react';
 function NotFound() {
   return (
     <div className="margin">
-      <p className="p1 darkGray">
+      <p className="darkGray">
         The requested page could not be found.
         It may have been moved or deleted.
         Try rechecking the url,

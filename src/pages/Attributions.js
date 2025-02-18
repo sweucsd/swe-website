@@ -3,7 +3,7 @@ import React from 'react';
 function Attributions() {
   return (
     <div className="margin center">
-      <p className="p1 darkGray">
+      <p className="darkGray">
         <div>
           Newsletter icon made by
           {' '}

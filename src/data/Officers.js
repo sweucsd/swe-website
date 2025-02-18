@@ -128,9 +128,9 @@ const Officers = [
     position: 'Academic Chair',
     image: ComingSoon,
     year: '2nd Year',
-    major: 'TBA',
-    fact: 'TBA',
-    college: 'TBA',
+    major: 'Structural Engineering',
+    fact: 'I speak 3 languages!',
+    college: 'Sixth',
   },
   {
     name: 'Ashley Campbell',
