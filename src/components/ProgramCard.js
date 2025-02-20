@@ -11,9 +11,9 @@ function ProgramCard(props) {
   return (
     <div className="programContainer shadow">
       <div className="programText pgLeftText">
-        <p className="h3 mediumPurple">{title}</p>
+        <h3 className="mediumPurple">{title}</h3>
         <hr className="divider" />
-        <p className="p2 darkGray">
+        <p className="darkGray">
           {description}
         </p>
         {link !== '' && (

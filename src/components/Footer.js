@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="margin footer">
       <div>
-        <p className="h3">Contact Us</p>
+        <h3>Contact Us</h3>
         {ContactInfo.map((contact) => (
           <a className="tooltip" target="_blank" rel="noopener noreferrer" href={contact.link}>
             <img className="icon" src={contact.image} alt="" />
@@ -14,11 +14,11 @@ function Footer() {
           </a>
         ))}
         <div>
-          <h5 className="p1">
+          <p>
             © Society of Women Engineers at University of California, San Diego |
             {' '}
             <a href="/attributions" className="clickableLink attr">Attributions</a>
-          </h5>
+          </p>
         </div>
       </div>
     </footer>

@@ -19,7 +19,7 @@ function ProjectCard(props) {
     <div className="projectContainer">
       <p className={`${align} h5 purple`}>{name}</p>
       <div className={`shadow ${flexDir}`}>
-        <div className="p2 project">{description}</div>
+        <p className="project">{description}</p>
         <div style={{ backgroundImage: `url(${image})` }} className="projectImgContainer" />
       </div>
     </div>

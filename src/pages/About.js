@@ -7,9 +7,9 @@ function About() {
   return (
     <>
       <div className="margin">
-        <p className="h2 purple aboutTitle">Who We Are</p>
-        <p className="h3 mediumPurple aboutSubtitle">What is SWE?</p>
-        <p className="p2 darkGray aboutBody">
+        <h2 className="purple aboutTitle">Who We Are</h2>
+        <h3 className="mediumPurple aboutSubtitle">What is SWE?</h3>
+        <p className="darkGray aboutBody">
           The
           {' '}
           <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://swe.org/">Society of Women Engineers (SWE)</a>
@@ -22,8 +22,8 @@ function About() {
           here at UC San Diego.
         </p>
 
-        <p className="h3 mediumPurple aboutSubtitle">UC San Diego Section – Our Mission</p>
-        <p className="p2 darkGray aboutBody">
+        <h3 className="mediumPurple aboutSubtitle">UC San Diego Section – Our Mission</h3>
+        <p className="darkGray aboutBody">
           UC San Diego Society of Women Engineers is a diverse group of passionate
           young engineers excited about women in STEM. Through outreach to K-12
           students, socials with other women engineers, networking workshops
@@ -33,8 +33,8 @@ function About() {
       </div>
 
       <div className="margin lightPurpleBg officersContainer">
-        <p className="h2 purple officersTitle">SWE Board 2024-2025</p>
-        <p className="h3 mediumPurple officersSubtitle">Our Officers</p>
+        <h2 className="purple officersTitle">SWE Board 2024-2025</h2>
+        <h3 className="mediumPurple officersSubtitle">Our Officers</h3>
         <div className="officersGrid">
           {Officers.map((officer) => (
             <OfficerCard

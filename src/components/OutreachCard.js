@@ -35,9 +35,9 @@ function OutreachCard(props) {
           <img src={Gears} className={gears} alt="" />
         </div>
         <div className={align}>
-          <p className="h3 mediumPurple">{name}</p>
+          <h3 className="mediumPurple">{name}</h3>
           <hr className={`divider ${divider}`} />
-          <p className="p2 darkGray">{description}</p>
+          <p className="darkGray">{description}</p>
           <a className="clickableLink" target="_blank" rel="noopener noreferrer" href={link}>
             <Button label="Learn More ›" />
           </a>

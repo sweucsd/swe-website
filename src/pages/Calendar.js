@@ -33,7 +33,7 @@ function Calendar() {
   return (
     <>
       <div className="margin">
-        <h1 className="h2 purple titleText">Our Events</h1>
+        <h2 className="purple titleText">Our Events</h2>
         <hr className="divider" />
         <p className="mediumPurple center italic">Bee there or bee square!</p>
         <div className="iconsContainer">

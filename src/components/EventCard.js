@@ -11,7 +11,7 @@ function EventCard(props) {
     <div className="eventCardContainer shadow">
       <img className="eventsImgs" src={image} alt="" />
       <div className="eventsText">
-        <p className="h6 darkGray eventCardTitle">{title}</p>
+        <h6 className="darkGray eventCardTitle">{title}</h6>
         <ul>
           {list.map((item) => (
             <li className="p2 darkGray">{item}</li>

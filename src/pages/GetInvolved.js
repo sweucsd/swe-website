@@ -62,7 +62,7 @@ function GetInvolved() {
             <ul>
               <li className="p2 darkGray">Paid to our Treasurer</li>
             </ul>
-            <p className="p1 darkGray separator"><strong>or</strong></p>
+            <p className="darkGray separator"><strong>or</strong></p>
             <li className="h6 darkGray">8+ Hours of Participation</li>
             <ul className="p2 darkGray">
               <li>
@@ -81,7 +81,7 @@ function GetInvolved() {
                 order to log your attendance!
               </li>
             </ul>
-            <p className="p1 darkGray separator"><strong>or</strong></p>
+            <p className="darkGray separator"><strong>or</strong></p>
             <li className="h6 darkGray">Become a Collegiate Member</li>
             <ul>
               <li className="p2 darkGray">
@@ -98,7 +98,7 @@ function GetInvolved() {
             </ul>
           </ul>
         </div>
-        <p className="p2 darkGray membershipBody">
+        <p className="darkGray membershipBody">
           Any
           {' '}
           <strong>one</strong>
@@ -131,7 +131,7 @@ function GetInvolved() {
       </div>
 
       <div className="margin lightPurpleBg">
-        <p className="h2 purple">Other Programs</p>
+        <h2 className="purple">Other Programs</h2>
         <p className="italic mediumPurple">More ways to get involved!</p>
         {programs.map((program) => (
           <ProgramCard

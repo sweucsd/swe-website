@@ -51,11 +51,13 @@ function Navbar() {
       <div ref={wrapperRef} className="navContainer">
         <nav className="topNav p2">
           <NavLink exact to="/"><img className="logo" src={Logo} alt="logo" /></NavLink>
-          {Pages.map((page) => (
-            <div>
-              <NavLink exact className="link" to={page.path}>{page.navLabel}</NavLink>
-            </div>
-          ))}
+          <div className="navButtons">
+            {Pages.map((page) => (
+              <div>
+                <NavLink exact className="link" to={page.path}>{page.navLabel}</NavLink>
+              </div>
+            ))}
+          </div>
           <button type="button" className="hamburgerContainer" onClick={() => setShowSideNav(!showSideNav)}>
             <div className={`hamburger ${showSideNav && 'open'}`}>
               <span />
