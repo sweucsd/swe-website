@@ -73,7 +73,7 @@ const Officers = [
     name: 'Avery Donaldson',
     position: 'Envision Co-Chair',
     image: EnvisionImg2,
-    year: 'Coming Soon!',
+    year: '3rd Year',
     major: 'Chemical Engineering',
     fact: 'I sewed my own prom dress!',
     college: 'Marshall',
