@@ -26,11 +26,6 @@ function Home() {
               gender, major, or membership status.
             </p>
           </header>
-          <aside className="videoSection">
-            <div className="videoWrapper">
-              <iframe className="introvideo" width="560" height="315" src="https://www.youtube.com/embed/ehvOnGnPoGk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
-            </div>
-          </aside>
         </section>
         <nav className="linksSection">
           <ul>
