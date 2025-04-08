@@ -1,67 +1,64 @@
 .projectContainer {
-  margin: 30px 0px;
-}
-
-.flexStart {
-  flex-direction: row;
+  margin-top: 2em;
+  justify-content: space-between;
+  border-radius: 2em;
   display: flex;
+  flex-direction: row;;
 }
 
-.flexEnd {
-  flex-direction: row-reverse;
-  display: flex;
-}
-
-.projectImgContainer {
-  height: auto;
-  width: 30%;
-  min-height: 100%;
+.projectImg {
+  width: 40%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.project {
-  flex: 1;
-  background-color: white;
-  color: var(--dark-gray);
-  padding: 25px;
+.projectText {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 2em;
+  padding: 0;
+  h6 {
+    margin: 0;
+  }
 }
 
-.projLabelLeft {
-  margin: 7px 0px;
+.flexStart {
+  flex-direction: row;
+  display: flex;
   text-align: left;
+  .projectImg {
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+  }
 }
 
-.projLabelRight {
-  margin: 7px 0px;
+.flexEnd {
+  flex-direction: row-reverse;
+  display: flex;
   text-align: right;
+  .projectImg {
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+  }
 }
 
 @media screen and (max-width: 1200px) {
-  .projectImgContainer {
-    width: 40%;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .projectImgContainer {
-    width: 50%;
-  }
-}
-
-@media screen and (max-width: 950px) {
-  .flexStart {
+  .projectContainer {
     flex-direction: column;
   }
-  
-  .flexEnd {
-    flex-direction: column;
+  .projectText {
+    width: 90%;
+    text-align: left;
   }
-
-  .projectImgContainer {
+  .flexEnd .projectImg, .flexStart .projectImg {
     height: 300px;
     width: 100%;
     min-height: 100%;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 2em;
   }
 }

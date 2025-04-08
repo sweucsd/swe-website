@@ -49,10 +49,10 @@ function GetInvolved() {
   return (
     <>
       <div className="margin">
-        <div className="beeImgContainer">
+        <div className="involvedHeader">
           <div>
             <h2 className="purple">SWE Membership</h2>
-            <h3 className="mediumPurple">How can I become a section member?</h3>
+            <h5 className="mediumPurple">How can I become a section member?</h5>
           </div>
           <img src={PurpleBee} alt="" />
         </div>

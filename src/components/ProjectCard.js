@@ -6,22 +6,19 @@ function ProjectCard(props) {
   const {
     right, name, description, image,
   } = props;
-  let align;
   let flexDir;
   if (right === true) {
-    align = 'projLabelRight';
     flexDir = 'flexEnd';
   } else {
-    align = 'projLabelLeft';
     flexDir = 'flexStart';
   }
   return (
-    <div className="projectContainer">
-      <p className={`${align} h5 purple`}>{name}</p>
-      <div className={`shadow ${flexDir}`}>
-        <p className="project">{description}</p>
-        <div style={{ backgroundImage: `url(${image})` }} className="projectImgContainer" />
+    <div className={`shadow ${flexDir} projectContainer darkGray lightPurpleBg`}>
+      <div className="projectText">
+        <h6>{name}</h6>
+        <p>{description}</p>
       </div>
+      <div style={{ backgroundImage: `url(${image})` }} className="projectImg" />
     </div>
   );
 }

@@ -8,11 +8,11 @@ import Gears from '../assets/swe_icons/swe_gears.png';
 function GetInvolved() {
   return (
     <div>
-      <div className="margin lightPurpleBg">
+      <div className="margin">
         <div className="projHeader">
           <div>
             <h2 className="purple projTitle">Join a Project Team</h2>
-            <h3 className="mediumPurple">Gain Technical Experience</h3>
+            <h5 className="mediumPurple">Gain Technical Experience</h5>
           </div>
           <img src={Gears} className="threeGears" alt="" />
         </div>
@@ -21,7 +21,6 @@ function GetInvolved() {
           and earn hours towards membership while gaining hands-on technical
           experience and meeting fellow SWE Bees. Stay subscribed to our
           newsletter and attend GBMs to hear about future project opportunities.
-          Here are some of our current projects:
         </p>
         <h2 className="purple projTitle">Previous Projects</h2>
         {Projects.map((project, index) => (
