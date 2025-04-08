@@ -32,7 +32,7 @@ function Home() {
               <img className="purpleFilter" src={BeeIcon} alt="" />
               <h6 className="link">
                 <a href="/involvement">
-                  Bee-come a SWE Bee today! ›
+                  Bee-come a SWE Bee! ›
                 </a>
               </h6>
             </li>

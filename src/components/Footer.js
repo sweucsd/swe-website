@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="margin footer">
       <div>
-        <h3>Contact Us</h3>
+        <h3>Connect With Us</h3>
         {ContactInfo.map((contact) => (
           <a className="tooltip" target="_blank" rel="noopener noreferrer" href={contact.link}>
             <img className="icon" src={contact.image} alt="" />
