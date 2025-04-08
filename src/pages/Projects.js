@@ -42,7 +42,7 @@ function GetInvolved() {
             for your very own project.
           </p>
           <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSfnSqAgbqSM9LhiWwLa6g5HYfKgdbCFzLfMuGGP3OcClm6hrw/viewform">
-            <Button label="Apply Here" secondary />
+            <Button label="Apply Here" />
           </a>
         </div>
       </div>

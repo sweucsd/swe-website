@@ -1,30 +1,30 @@
 .eventCardContainer {
-  width: 300px;
+  width: 20em;
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
+  border-radius: 2em;
   margin: 20px 10px;
-}
-
-.eventCardTitle {
-  margin: 10px;
-  text-align: center;
+  background-color: white;
 }
 
 .eventsImgs {
   object-fit: cover;
   object-position: center;
   width: auto;
-  height: 200px;
+  height: 15em;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 .eventsText {
-  padding: 5px;
-  height: 200px;
-}
-
-.eventsCardText {
-  padding-bottom: 10px;
+  padding: 1em;
+  height: 15em;
+  text-align: left;
+  .eventCardTitle {
+    margin: 10px;
+    text-align: left;
+  }
+  .eventsCardText {
+    padding-bottom: 10px;
+  }
 }

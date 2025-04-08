@@ -9,13 +9,11 @@ function ProgramCard(props) {
   } = props;
 
   return (
-    <div className="programContainer shadow">
-      <div className="pgLeftText">
-        <h3 className="mediumPurple">{title}</h3>
+    <div className="programContainer">
+      <div className="programText darkGray">
+        <h6>{title}</h6>
         <hr className="programDivider divider" />
-        <p className="darkGray">
-          {description}
-        </p>
+        <p>{description}</p>
         {link !== '' && (
           <div className="programBtn">
             <a className="clickableLink" target="_blank" rel="noopener noreferrer" href={link}>

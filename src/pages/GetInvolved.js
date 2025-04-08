@@ -2,9 +2,9 @@ import React from 'react';
 import Events from '../data/Events';
 import EventCard from '../components/EventCard';
 import ProgramCard from '../components/ProgramCard';
-import weConference from '../assets/event_imgsA/we_conference.jpg';
-import mentorMentee from '../assets/event_imgsA/mentor_mentee.jpg';
-import purpleBee from '../assets/swe_icons/swe_bee.png';
+import WeConference from '../assets/event_imgs/we_conference.jpg';
+import MentorMentee from '../assets/event_imgs/mentor_mentee.jpg';
+import PurpleBee from '../assets/swe_icons/swe_bee.png';
 import './GetInvolved.css';
 
 function GetInvolved() {
@@ -12,13 +12,13 @@ function GetInvolved() {
     {
       name: 'Mentor/Mentee',
       description: 'The SWEntorship Program pairs undergraduate upperclassmen at UCSD with lowerclassmen of the same major. Interested in becoming a mentor or mentee? Sign up for our mailing list to join the program and get paired with another student in your major!',
-      image: mentorMentee,
+      image: MentorMentee,
       link: '',
     },
     {
       name: 'WE24 Conference',
       description: 'WE24 is SWE\'s annual international conference for women in engineering and technology, held in different cities every year in October or November. The conference features a career fair, keynote speakers, ProDev workshops, and other professional opportunities.',
-      image: weConference,
+      image: WeConference,
       link: 'https://we24.swe.org/',
     },
   ];
@@ -49,55 +49,39 @@ function GetInvolved() {
   return (
     <>
       <div className="margin">
-        <div>
-          <div className="beeImgContainer">
-            <div>
-              <h1 className="purple h2">SWE Membership</h1>
-              <h2 className="mediumPurple h3">How can I become a section member?</h2>
-            </div>
-            <img className="beeImg" src={purpleBee} alt="" />
+        <div className="beeImgContainer">
+          <div>
+            <h2 className="purple">SWE Membership</h2>
+            <h3 className="mediumPurple">How can I become a section member?</h3>
           </div>
-          <ul>
-            <li className="h6 darkGray">$5 Membership Fee</li>
-            <ul>
-              <li className="p2 darkGray">Paid to our Treasurer</li>
-            </ul>
-            <p className="darkGray separator"><strong>or</strong></p>
-            <li className="h6 darkGray">8+ Hours of Participation</li>
-            <ul className="p2 darkGray">
-              <li>
-                Attend GBMs, workshops, and other
-                {' '}
-                <a href="/events" className="clickableLink">SWE events</a>
-              </li>
-              <li>
-                Join a SWE project team (learn more
-                {' '}
-                <a href="/projects" className="clickableLink">here</a>
-                )
-              </li>
-              <li>
-                Remember to sign in whenever you attend SWE events or meetings in
-                order to log your attendance!
-              </li>
-            </ul>
-            <p className="darkGray separator"><strong>or</strong></p>
-            <li className="h6 darkGray">Become a Collegiate Member</li>
-            <ul>
-              <li className="p2 darkGray">
-                Standard Collegiate Membership ($20), Collegiate to Career ($50),
-                SWE + SHPE ($24.90), SWE + NSBE ($27.00)
-              </li>
-              <li className="p2 darkGray">
-                Visit
-                {' '}
-                <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://swe.org/">swe.org</a>
-                {' '}
-                to sign up for collegiate membership
-              </li>
-            </ul>
-          </ul>
+          <img src={PurpleBee} alt="" />
         </div>
+        <ul className="darkGray membershipRoutes">
+          <li>
+            <strong>$5 Membership Fee </strong>
+            paid to our Treasurer
+            <p className="separator">or</p>
+          </li>
+          <li>
+            <strong>8+ Hours of Participation </strong>
+            from joining a SWE project team or attending GBM, workshops, and other SWE events
+          </li>
+          <p className="separator">or</p>
+          <li>
+            <strong>Becoming a Collegiate Member </strong>
+            by signing up for one of the following:
+            <ul>
+              <li>
+                <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://swe.org/">Standard Collegiate Membership</a>
+                {' '}
+                ($20)
+              </li>
+              <li>Collegiate to Career ($50)</li>
+              <li>SWE + SHPE ($24.90)</li>
+              <li>SWE + NSBE ($27.00)</li>
+            </ul>
+          </li>
+        </ul>
         <p className="darkGray membershipBody">
           Any
           {' '}
@@ -108,31 +92,31 @@ function GetInvolved() {
           a free SWE t-shirt, voting rights in board elections, and eligibility to
           run for board positions. However, note that
           {' '}
-          <strong>official membership is not required</strong>
+          <strong>official membership is not required </strong>
           {' '}
           to attend our events and be involved in our organization. Everyone is welcome!
         </p>
+      </div>
 
-        <div>
-          <h1 className="purple h2">Our Events</h1>
-          <h2 className="mediumPurple h3">What events can I attend?</h2>
-
-          <div className="eventSection">
-            {Events.map((event) => (
-              <EventCard title={event.title} image={event.image} list={event.items} />
-            ))}
-          </div>
-          <p className="p2 darkGray">
-            Find out when these events are happening by checking out our
-            {' '}
-            <a className="clickableLink" href="/events">calendar.</a>
-          </p>
+      <div className="margin lightPurpleBg">
+        <h2 className="purple">Our Events</h2>
+        <h5 className="mediumPurple">What events can I attend?</h5>
+        <p className="darkGray">
+          Find out when these events are happening by checking out our
+          {' '}
+          <a className="clickableLink" href="/events">calendar</a>
+          .
+        </p>
+        <div className="eventSection">
+          {Events.map((event) => (
+            <EventCard title={event.title} image={event.image} list={event.items} />
+          ))}
         </div>
       </div>
 
       <div className="margin lightPurpleBg">
         <h2 className="purple">Other Programs</h2>
-        <p className="mediumPurple">More ways to get involved!</p>
+        <h5 className="mediumPurple">More ways to get involved!</h5>
         {programs.map((program) => (
           <ProgramCard
             title={program.name}
@@ -145,29 +129,29 @@ function GetInvolved() {
 
       <div className="margin">
         <div>
-          <h1 className="purple h2">Resources</h1>
+          <h2 className="purple">Resources</h2>
           <div className="resourcesContainer">
-            <div className="generalLinks">
-              <h2 className="mediumPurple h3">Some Useful Links</h2>
-              <ul>
-                <li className="p2 darkGray">
+            <div className="usefulLinks">
+              <h5 className="mediumPurple">Some Useful Links</h5>
+              <ul className="darkGray">
+                <li>
                   <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://swe.org/">SWE National Website</a>
                 </li>
-                <li className="p2 darkGray">
+                <li>
                   Check out the
                   {' '}
                   <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/1sasvFiNAzlbxExNYqOpKBMNCKwQZxqWwinyvpZY_5s0/edit?usp=sharing">SWE Opportunities Sheet</a>
                   {' '}
                   for upcoming scholarship opportunities
                 </li>
-                <li className="p2 darkGray">
+                <li>
                   Join our
                   {' '}
                   <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScC-Yn0CFXuItVm6ZAKS4cDyqM01tCUY-7jYJhsfq9wRHcB2w/viewform">newsletter</a>
                   {' '}
                   for regular updates
                 </li>
-                <li className="p2 darkGray">
+                <li>
                   <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="http://www.swesandiego.org/">
                     SWE San Diego County Section
                   </a>
@@ -176,10 +160,10 @@ function GetInvolved() {
             </div>
 
             <div className="otherOrganizations">
-              <h2 className="mediumPurple h3">Similar UCSD Organizations</h2>
+              <h5 className="mediumPurple">Similar UCSD Organizations</h5>
               <ul>
                 {similarOrgs.map((org) => (
-                  <li className="p2 darkGray">
+                  <li className="darkGray">
                     <a className="clickableLink" target="_blank" rel="noopener noreferrer" href={org.link}>
                       {org.name}
                     </a>
