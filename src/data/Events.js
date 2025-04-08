@@ -1,8 +1,8 @@
-import GBM from '../assets/event_imgs/gbm.png';
-import Technical from '../assets/event_imgs/technical.JPG';
-import Professional from '../assets/event_imgs/professional.JPG';
+import GBM from '../assets/event_imgs/gbm.jpg';
+import Technical from '../assets/event_imgs/technical.jpg';
+import Professional from '../assets/event_imgs/professional.jpg';
 import Social from '../assets/event_imgs/social.jpg';
-import Outreach from '../assets/event_imgs/outreach.JPG';
+import Outreach from '../assets/event_imgs/outreach.jpg';
 
 const Events = [
   {
