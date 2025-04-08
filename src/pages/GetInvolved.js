@@ -2,8 +2,8 @@ import React from 'react';
 import Events from '../data/Events';
 import EventCard from '../components/EventCard';
 import ProgramCard from '../components/ProgramCard';
-import weConference from '../assets/event_imgs/we_conference.jpg';
-import mentorMentee from '../assets/event_imgs/mentor_mentee.jpg';
+import weConference from '../assets/event_imgsA/we_conference.jpg';
+import mentorMentee from '../assets/event_imgsA/mentor_mentee.jpg';
 import purpleBee from '../assets/swe_icons/swe_bee.png';
 import './GetInvolved.css';
 
