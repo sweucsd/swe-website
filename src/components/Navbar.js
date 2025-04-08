@@ -7,7 +7,7 @@ import {
   useLocation,
 } from 'react-router-dom';
 import Pages from '../data/Pages';
-import Logo from '../assets/swe_logo.png';
+import Logo from '../assets/swe_icons/swe_logo.png';
 import Header from './Header';
 import Footer from './Footer';
 import NotFound from '../pages/NotFound';

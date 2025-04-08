@@ -6,9 +6,11 @@ import Outreach from '../pages/Outreach';
 import About from '../pages/About';
 import Projects from '../pages/Projects';
 import AboutImg from '../assets/cover_imgs/about_pic.jpg';
+import EventImg from '../assets/cover_imgs/events_pic.jpg';
 import ProjImg from '../assets/cover_imgs/technical_pic.jpg';
 import BoardImg from '../assets/cover_imgs/board_pic.jpg';
-import GetInvolvedImg from '../assets/cover_imgs/Get_Involved.jpeg';
+import OutreachImg from '../assets/cover_imgs/outreach_pic.jpg';
+import GetInvolvedImg from '../assets/cover_imgs/get_involved_pic.jpg';
 
 const Pages = [
   {
@@ -36,7 +38,7 @@ const Pages = [
     titleTag: 'Calendar – SWE UCSD',
     navLabel: 'Events',
     component: Calendar,
-    image: 'https://i.imgur.com/N7KojTu.jpg',
+    image: EventImg,
   },
   {
     path: '/involvement',
@@ -63,7 +65,7 @@ const Pages = [
     titleTag: 'Outreach – SWE UCSD',
     navLabel: 'Outreach',
     component: Outreach,
-    image: 'https://i.imgur.com/bk3c3nz.jpg',
+    image: OutreachImg,
   },
   {
     path: '/sponsors',

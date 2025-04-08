@@ -3,7 +3,7 @@ import './Projects.css';
 import Projects from '../data/Projects';
 import ProjectCard from '../components/ProjectCard';
 import Button from '../components/Button';
-import Gears from '../assets/swe_gears_2.png';
+import Gears from '../assets/swe_icons/swe_gears.png';
 
 function GetInvolved() {
   return (

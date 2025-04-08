@@ -1,8 +1,8 @@
 import React from 'react';
-import SocialIcon from '../assets/events/social_icon.png';
-import OutreachIcon from '../assets/events/outreach_icon.png';
-import TechnicalIcon from '../assets/events/technical_icon.png';
-import ProfessionalIcon from '../assets/events/professional_icon.png';
+import SocialIcon from '../assets/events_icons/social_icon.png';
+import OutreachIcon from '../assets/events_icons/outreach_icon.png';
+import TechnicalIcon from '../assets/events_icons/technical_icon.png';
+import ProfessionalIcon from '../assets/events_icons/professional_icon.png';
 
 import './Calendar.css';
 
@@ -35,7 +35,7 @@ function Calendar() {
       <div className="margin">
         <h2 className="purple titleText">Our Events</h2>
         <hr className="divider" />
-        <p className="mediumPurple center italic">Bee there or bee square!</p>
+        <p className="mediumPurple center">Bee there or bee square!</p>
         <div className="iconsContainer">
           {eventIcons.map((icon) => (
             <div className="iconContainer">

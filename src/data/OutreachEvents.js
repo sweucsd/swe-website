@@ -1,6 +1,6 @@
-import sweNext from '../assets/outreach/swe_next.jpg';
-import edge from '../assets/outreach/edge.png';
-import envision from '../assets/outreach/envision.png';
+import sweNext from '../assets/outreach_imgs/swe_next.jpg';
+import edge from '../assets/outreach_imgs/edge.jpeg';
+import envision from '../assets/outreach_imgs/envision.jpg';
 
 const OutreachEvents = [
   {

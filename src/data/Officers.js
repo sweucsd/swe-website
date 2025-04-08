@@ -1,18 +1,18 @@
-import PresidentImg from '../assets/officer_images/Valerie.JPG';
-import VPExternalImg from '../assets/officer_images/Jordan.JPG';
-import VPInternalImg from '../assets/officer_images/Melanie.JPG';
-import TreasurerImg from '../assets/officer_images/Hannah.JPG';
-import SecretaryImg from '../assets/officer_images/Yasmin.JPG';
-import EnvisionImg1 from '../assets/officer_images/Selena.JPG';
-import EnvisionImg2 from '../assets/officer_images/Avery.JPG';
-import EDGEImg1 from '../assets/officer_images/Sierra.JPG';
-import EDGEImg2 from '../assets/officer_images/Sriya.JPG';
-import SWENextImg from '../assets/officer_images/Emi.JPG';
-import TechDevImg from '../assets/officer_images/Rachel.JPG';
-import SocialImg from '../assets/officer_images/Roxana.JPG';
-import AcademicImg from '../assets/officer_images/Brooke.JPG';
-import PublicityImg from '../assets/officer_images/Ashley.JPG';
-// import ComingSoon from '../assets/officer_images/coming_soon.png';
+import PresidentImg from '../assets/officer_imgs/Valerie.JPG';
+import VPExternalImg from '../assets/officer_imgs/Jordan.JPG';
+import VPInternalImg from '../assets/officer_imgs/Melanie.JPG';
+import TreasurerImg from '../assets/officer_imgs/Hannah.JPG';
+import SecretaryImg from '../assets/officer_imgs/Yasmin.JPG';
+import EnvisionImg1 from '../assets/officer_imgs/Selena.JPG';
+import EnvisionImg2 from '../assets/officer_imgs/Avery.JPG';
+import EDGEImg1 from '../assets/officer_imgs/Sierra.JPG';
+import EDGEImg2 from '../assets/officer_imgs/Sriya.JPG';
+import SWENextImg from '../assets/officer_imgs/Emi.JPG';
+import TechDevImg from '../assets/officer_imgs/Rachel.JPG';
+import SocialImg from '../assets/officer_imgs/Roxana.JPG';
+import AcademicImg from '../assets/officer_imgs/Brooke.JPG';
+import PublicityImg from '../assets/officer_imgs/Ashley.JPG';
+// import ComingSoon from '../assets/officer_imgs/coming_soon.png';
 
 const Officers = [
   {

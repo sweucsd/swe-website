@@ -1,9 +1,8 @@
 import React from 'react';
-// import Calendar from 'react-google-calendar-events-list';
 import './Home.css';
-import NewsletterIcon from '../assets/icons/newsletter.png';
-import CalendarIcon from '../assets/icons/calendar.png';
-import BeeIcon from '../assets/icons/bee.png';
+import NewsletterIcon from '../assets/home_icons/newsletter.png';
+import CalendarIcon from '../assets/home_icons/calendar.png';
+import BeeIcon from '../assets/home_icons/bee.png';
 import Gallery from '../components/Gallery';
 
 function Home() {
@@ -37,8 +36,6 @@ function Home() {
                 </a>
               </h6>
             </li>
-          </ul>
-          <ul>
             <li>
               <img className="purpleFilter" src={CalendarIcon} alt="" />
               <h6 className="link">
@@ -47,8 +44,6 @@ function Home() {
                 </a>
               </h6>
             </li>
-          </ul>
-          <ul>
             <li>
               <img className="purpleFilter" src={NewsletterIcon} alt="" />
               <h6 className="link">

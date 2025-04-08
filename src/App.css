@@ -171,13 +171,6 @@ p {
   animation: textAnimation 1s linear;
 }
 
-.italic {
-  font-family: "Caveat", cursive;
-  font-size: 2rem;
-  font-weight: 400;
-  animation: textAnimation 1s linear;
-}
-
 .clickableLink {
   color: var(--gold);
 }

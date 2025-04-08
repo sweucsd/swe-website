@@ -15,7 +15,6 @@
  }
 
 .calendarBody {
-  background-image: url("../assets/swe_bug_pattern.png");
   background-position: center;
   background-attachment: fixed;
 }

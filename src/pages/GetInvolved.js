@@ -2,9 +2,9 @@ import React from 'react';
 import Events from '../data/Events';
 import EventCard from '../components/EventCard';
 import ProgramCard from '../components/ProgramCard';
-import weConference from '../assets/Event_Imgs/we_conference.jpg';
-import mentorMentee from '../assets/Event_Imgs/mentor_mentee.jpg';
-import purpleBee from '../assets/swe_bee.png';
+import weConference from '../assets/event_imgs/we_conference.jpg';
+import mentorMentee from '../assets/event_imgs/mentor_mentee.jpg';
+import purpleBee from '../assets/swe_icons/swe_bee.png';
 import './GetInvolved.css';
 
 function GetInvolved() {
@@ -132,7 +132,7 @@ function GetInvolved() {
 
       <div className="margin lightPurpleBg">
         <h2 className="purple">Other Programs</h2>
-        <p className="italic mediumPurple">More ways to get involved!</p>
+        <p className="mediumPurple">More ways to get involved!</p>
         {programs.map((program) => (
           <ProgramCard
             title={program.name}
