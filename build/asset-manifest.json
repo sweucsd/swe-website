@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.80998f30.css",
-    "main.js": "/static/js/main.9ca1e3e0.js",
+    "main.css": "/static/css/main.41bea29e.css",
+    "main.js": "/static/js/main.5fe73736.js",
     "static/media/robotic_bird.png": "/static/media/robotic_bird.2a2de30d0ab1eaf1cdb7.png",
     "static/media/Emi.JPG": "/static/media/Emi.a53fd3077e198aba6aac.JPG",
     "static/media/Brooke.JPG": "/static/media/Brooke.691a4bb897886fb3c9b7.JPG",
@@ -21,23 +21,23 @@
     "static/media/gallery4.jpg": "/static/media/gallery4.2e7b12f2fcb17b0cfb34.jpg",
     "static/media/get_involved_pic.jpg": "/static/media/get_involved_pic.af96f20e24c9a38a770a.jpg",
     "static/media/outreach_pic.jpg": "/static/media/outreach_pic.ab7a13549811064abf5f.jpg",
-    "static/media/social.jpg": "/static/media/social.b4a5afc2ff9053e784e8.jpg",
     "static/media/mentor_mentee.jpg": "/static/media/mentor_mentee.b6b7ceafc04db875ea8d.jpg",
     "static/media/gallery2.jpg": "/static/media/gallery2.5cc8a7e6dac37eee7df0.jpg",
+    "static/media/social.jpg": "/static/media/social.eae20b1eb5ba6552b2b5.jpg",
+    "static/media/outreach.jpg": "/static/media/outreach.40a5e422c9f661c3f619.jpg",
     "static/media/envision.jpg": "/static/media/envision.7ecce9fdda241f063868.jpg",
     "static/media/swe_next.jpg": "/static/media/swe_next.69688c582e0f897ffe26.jpg",
-    "static/media/professional.JPG": "/static/media/professional.88eddb18281c7e12a271.JPG",
+    "static/media/professional.jpg": "/static/media/professional.88eddb18281c7e12a271.jpg",
     "static/media/gallery3.jpg": "/static/media/gallery3.e0a1fe064756cf901b8e.jpg",
     "static/media/events_pic.jpg": "/static/media/events_pic.573af6ea8bb6991c2928.jpg",
     "static/media/gallery1.jpg": "/static/media/gallery1.26f8bfca47d1972dd767.jpg",
-    "static/media/technical.JPG": "/static/media/technical.cbc4e3dbc480b6f7760c.JPG",
+    "static/media/technical.jpg": "/static/media/technical.cbc4e3dbc480b6f7760c.jpg",
     "static/media/gallery6.jpg": "/static/media/gallery6.8ff671dc9d6b49254a3e.jpg",
     "static/media/gallery5.jpg": "/static/media/gallery5.d44ae4cf23904ef511a2.jpg",
-    "static/media/gbm.png": "/static/media/gbm.ab696605035e01b90400.png",
+    "static/media/gbm.jpg": "/static/media/gbm.5d6534b8eeb6583d89b6.jpg",
     "static/media/about_pic.jpg": "/static/media/about_pic.5f9d0ee5e19a2f45f259.jpg",
     "static/media/board_pic.jpg": "/static/media/board_pic.021b0c2abc5c5515be70.jpg",
     "static/media/technical_pic.jpg": "/static/media/technical_pic.d3f5356f4da2aef92a0c.jpg",
-    "static/media/outreach.JPG": "/static/media/outreach.44d833b25252a6816399.JPG",
     "static/media/we_conference.jpg": "/static/media/we_conference.40571fe84b075bdc10c1.jpg",
     "static/media/Anuphan.ttf": "/static/media/Anuphan.3c8014026e4402b29954.ttf",
     "static/media/steam_proj.png": "/static/media/steam_proj.82f4d4916e55883da3a3.png",
@@ -66,11 +66,11 @@
     "static/media/newsletter.png": "/static/media/newsletter.2d795ee352ac7ecb3c75.png",
     "static/media/link.png": "/static/media/link.1b0440572f8735fe4b99.png",
     "index.html": "/index.html",
-    "main.80998f30.css.map": "/static/css/main.80998f30.css.map",
-    "main.9ca1e3e0.js.map": "/static/js/main.9ca1e3e0.js.map"
+    "main.41bea29e.css.map": "/static/css/main.41bea29e.css.map",
+    "main.5fe73736.js.map": "/static/js/main.5fe73736.js.map"
   },
   "entrypoints": [
-    "static/css/main.80998f30.css",
-    "static/js/main.9ca1e3e0.js"
+    "static/css/main.41bea29e.css",
+    "static/js/main.5fe73736.js"
   ]
 }

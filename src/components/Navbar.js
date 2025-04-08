@@ -58,7 +58,7 @@ function Navbar() {
               </div>
             ))}
           </div>
-          <button type="button" className="hamburgerContainer" onClick={() => setShowSideNav(!showSideNav)}>
+          <button type="button" className="hamburgerContainer" onClick={() => setShowSideNav(!showSideNav)} aria-label="toggle nav menu">
             <div className={`hamburger ${showSideNav && 'open'}`}>
               <span />
               <span />
