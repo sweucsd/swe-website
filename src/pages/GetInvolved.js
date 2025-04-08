@@ -16,10 +16,10 @@ function GetInvolved() {
       link: '',
     },
     {
-      name: 'WE21 Conference',
-      description: 'WE21 is SWE\'s annual international conference for women in engineering and technology, held in different cities every year in October or November. The conference features a career fair, keynote speakers, ProDev workshops, and other professional opportunities.',
+      name: 'WE24 Conference',
+      description: 'WE24 is SWE\'s annual international conference for women in engineering and technology, held in different cities every year in October or November. The conference features a career fair, keynote speakers, ProDev workshops, and other professional opportunities.',
       image: weConference,
-      link: 'https://we21.swe.org/',
+      link: 'https://we24.swe.org/',
     },
   ];
 

@@ -10,9 +10,9 @@ function ProgramCard(props) {
 
   return (
     <div className="programContainer shadow">
-      <div className="programText pgLeftText">
+      <div className="pgLeftText">
         <h3 className="mediumPurple">{title}</h3>
-        <hr className="divider" />
+        <hr className="programDivider divider" />
         <p className="darkGray">
           {description}
         </p>

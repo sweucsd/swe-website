@@ -1,4 +1,4 @@
-import GBM from '../assets/event_imgs/gbm.jpg';
+import GBM from '../assets/event_imgs/gbm.png';
 import Technical from '../assets/event_imgs/technical.JPG';
 import Professional from '../assets/event_imgs/professional.JPG';
 import Social from '../assets/event_imgs/social.jpg';
@@ -35,7 +35,6 @@ const Events = [
   {
     title: 'Outreach Events',
     items: [
-      'Get involved with some of our outreach programs',
       'Become a mentor for high school students with EDGE',
       'Participate and help run cool events with Envision',
     ],

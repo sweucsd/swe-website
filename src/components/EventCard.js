@@ -14,7 +14,7 @@ function EventCard(props) {
         <h6 className="darkGray eventCardTitle">{title}</h6>
         <ul>
           {list.map((item) => (
-            <li className="p2 darkGray">{item}</li>
+            <li className="p2 darkGray eventsCardText">{item}</li>
           ))}
         </ul>
       </div>
