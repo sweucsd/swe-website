@@ -2,7 +2,7 @@ import React from 'react';
 import './Projects.css';
 import Projects from '../data/Projects';
 import ProjectCard from '../components/ProjectCard';
-import Button from '../components/Button';
+// import Button from '../components/Button';
 import Gears from '../assets/swe_icons/swe_gears.png';
 
 function GetInvolved() {
@@ -31,7 +31,7 @@ function GetInvolved() {
             right={index % 2 === 1}
           />
         ))}
-        <div className="sweetIdeasContainer">
+        {/* <div className="sweetIdeasContainer">
           <h2 className="purple projTitle">SWE-et Ideas!</h2>
           <p className="darkGray sweetIdeasBody">
             Interested in starting your own project? Fill out the
@@ -43,7 +43,7 @@ function GetInvolved() {
           <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSfnSqAgbqSM9LhiWwLa6g5HYfKgdbCFzLfMuGGP3OcClm6hrw/viewform">
             <Button label="Apply Here" />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
