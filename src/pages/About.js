@@ -29,6 +29,13 @@ function About() {
           students, socials with other women engineers, networking workshops
           with industry, and technical teams, UCSD SWE provides women engineers
           with a welcoming environment to grow professionally and academically.
+          <br />
+          <br />
+          In accordance with applicable Federal and State law and University policy,
+          the Society of Women Engineers does not discriminate, or grant preferences, on the
+          basis of race, color, national origin, religion, sex, disability, and/or other
+          protected categories. All enrolled students are encouraged to participate in
+          SWE&#39;s events and activities
         </p>
       </div>
 
