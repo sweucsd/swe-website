@@ -21,6 +21,13 @@
   max-height: 30vh;
 }
 
+.rightNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 2em;
+}
+
 .navButtons {
   display: flex;
   flex-direction: row;
@@ -79,7 +86,16 @@
   display: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
+  .rightNav {
+    gap: 0.5em;
+  }
+  .navButtons {
+    gap: 0.5em;
+  }
+}
+
+@media screen and (max-width: 1000px) {
   .sideNav {
     background-color: white;
     display: flex;

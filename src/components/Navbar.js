@@ -12,6 +12,7 @@ import Header from './Header';
 import Footer from './Footer';
 import NotFound from '../pages/NotFound';
 import Attributions from '../pages/Attributions';
+import Button from './Button';
 
 function Navbar() {
   const [showSideNav, setShowSideNav] = useState(false);
@@ -51,21 +52,26 @@ function Navbar() {
       <div ref={wrapperRef} className="navContainer">
         <nav className="topNav">
           <NavLink exact to="/"><img className="logo" src={Logo} alt="logo" /></NavLink>
-          <div className="navButtons">
-            {Pages.map((page) => (
-              <div>
-                <NavLink exact className="link" to={page.path}>{page.navLabel}</NavLink>
-              </div>
-            ))}
-          </div>
-          <button type="button" className="hamburgerContainer" onClick={() => setShowSideNav(!showSideNav)} aria-label="toggle nav menu">
-            <div className={`hamburger ${showSideNav && 'open'}`}>
-              <span />
-              <span />
-              <span />
-              <span />
+          <div className="rightNav">
+            <div className="navButtons">
+              {Pages.map((page) => (
+                <div>
+                  <NavLink exact className="link" to={page.path}>{page.navLabel}</NavLink>
+                </div>
+              ))}
             </div>
-          </button>
+            <a className="donateButton" href="https://www.billhighway.com/aph/forChapters/v2/donate.aspx?d=TnuEFPT9K4E%3d" target="_blank" rel="noreferrer">
+              <Button label="Donate!" secondary />
+            </a>
+            <button type="button" className="hamburgerContainer" onClick={() => setShowSideNav(!showSideNav)} aria-label="toggle nav menu">
+              <div className={`hamburger ${showSideNav && 'open'}`}>
+                <span />
+                <span />
+                <span />
+                <span />
+              </div>
+            </button>
+          </div>
         </nav>
         <nav className={`${showSideNav ? 'sideNav' : 'sideNavClosed'}`}>
           {Pages.map((page) => (

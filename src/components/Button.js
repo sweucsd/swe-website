@@ -3,10 +3,11 @@ import PropTypes from 'prop-types';
 import './Button.css';
 
 function Button(props) {
-  const { label } = props;
+  const { label, secondary } = props;
   return (
     <button
       type="button"
+      className={`${secondary ? 'secondaryBtn' : 'primaryBtn'}`}
     >
       {label}
     </button>
@@ -15,6 +16,11 @@ function Button(props) {
 
 Button.propTypes = {
   label: PropTypes.string.isRequired,
+  secondary: PropTypes.bool,
+};
+
+Button.defaultProps = {
+  secondary: false,
 };
 
 export default Button;

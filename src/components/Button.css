@@ -3,17 +3,35 @@ button {
   background-color: var(--light-purple);
   padding: 0.5em 0.8em;
   border-radius: 0.5em;
+  border: none;
   cursor: pointer;
   z-index: 1;
   overflow: hidden;
   position: relative;
   font-family: var(--primary-font);
-  font-size: 1em;
+  font-size: 1.1em;
+  font-weight: 500;
 }
 
-button:hover {
+.primaryBtn {
+  color: var(--medium-purple);
+  background-color: var(--light-purple);
+}
+
+.primaryBtn:hover {
   color: var(--light-purple);
   background-color: var(--purple);
+  transition: all 0.35s;
+}
+
+.secondaryBtn {
+  color: var(--light-purple);
+  background-color: var(--purple);
+}
+
+.secondaryBtn:hover {
+  color: var(--medium-purple);
+  background-color: var(--light-purple);
   transition: all 0.35s;
 }
 
