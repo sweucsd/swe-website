@@ -1,44 +1,36 @@
-import ATandT from '../assets/sponsors_imgs/at&t.png';
-import TrellisWare from '../assets/sponsors_imgs/TrellisWare.jpeg';
-import Navy from '../assets/sponsors_imgs/navy.png';
-import Kite from '../assets/sponsors_imgs/kite.png';
-import LockheedMartinLogo from '../assets/sponsors_imgs/Lockheed_Martin_Logo.jpeg';
-import Meta from '../assets/sponsors_imgs/meta.png';
+import Apple from '../assets/sponsors_imgs/apple.svg';
+import Danaher from '../assets/sponsors_imgs/danaher.png';
 import Edison from '../assets/sponsors_imgs/edison.png';
-import Collins from '../assets/sponsors_imgs/collins_aerospace.png';
-import Gilead from '../assets/sponsors_imgs/gilead.png';
-import Cruise from '../assets/sponsors_imgs/cruise.png';
+import Leidos from '../assets/sponsors_imgs/leidos.svg';
+import Lockheed from '../assets/sponsors_imgs/lockheed.svg';
+import Northrop from '../assets/sponsors_imgs/northrop.png';
+import Roblox from '../assets/sponsors_imgs/roblox.svg';
+import ServiceNow from '../assets/sponsors_imgs/servicenow.png';
 
 const Sponsors = [
   {
-    image: ATandT,
+    image: Apple,
   },
   {
-    image: TrellisWare,
-  },
-  {
-    image: Navy,
-  },
-  {
-    image: Kite,
-  },
-  {
-    image: LockheedMartinLogo,
-  },
-  {
-    image: Meta,
+    image: Danaher,
   },
   {
     image: Edison,
   },
   {
-    image: Collins,
+    image: Leidos,
   },
   {
-    image: Gilead,
+    image: Lockheed,
   },
   {
-    image: Cruise,
+    image: Northrop,
+  },
+  {
+    image: Roblox,
+  },
+  {
+    image: ServiceNow,
   },
 ];
 
