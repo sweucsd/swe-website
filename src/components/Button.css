@@ -21,19 +21,17 @@ button {
 .primaryBtn:hover {
   color: var(--purple);
   background-color: var(--light-purple);
-  border: var(--purple) 0.1em solid;
   transition: all 0.35s;
 }
 
 .secondaryBtn {
-  color: var(--light-purple);
-  background-color: var(--medium-purple);
+  color: var(--medium-purple);
+  background-color: var(--light-purple);
 }
 
 .secondaryBtn:hover {
-  color: var(--medium-purple);
-  background-color: var(--light-purple);
-  border: var(--medium-purple) 0.1em solid;
+  color: var(--light-purple);
+  background-color: var(--medium-purple);
   transition: all 0.35s;
 }
 

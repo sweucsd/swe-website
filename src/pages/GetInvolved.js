@@ -100,9 +100,9 @@ function GetInvolved() {
         </div>
       </div>
 
-      <div className="margin">
-        <h3 className="purple">Outreach Programs</h3>
-        <h5 className="mediumPurple">Give back to K-12 girls in the San Diego community</h5>
+      <div className="margin lightPurpleBg">
+        <h5 className="mediumPurple">Outreach Programs</h5>
+        <p className="darkGray">Give back to K-12 girls in the San Diego community</p>
         {OutreachEvents.map((event, index) => {
           let isRight;
           if (index % 2 === 0) {
@@ -122,7 +122,7 @@ function GetInvolved() {
         })}
       </div>
 
-      <div className="margin lightPurpleBg">
+      <div className="margin">
         <div>
           <h2 className="purple">Resources</h2>
           <div className="resourcesContainer">
