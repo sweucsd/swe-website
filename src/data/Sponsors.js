@@ -15,9 +15,6 @@ const Sponsors = [
     image: Danaher,
   },
   {
-    image: Edison,
-  },
-  {
     image: Leidos,
   },
   {
@@ -31,6 +28,9 @@ const Sponsors = [
   },
   {
     image: ServiceNow,
+  },
+  {
+    image: Edison,
   },
 ];
 

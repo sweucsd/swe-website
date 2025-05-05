@@ -6,7 +6,7 @@ function Sponsors() {
   return (
     <div className="margin">
       <h2 className="purple">Sponsors</h2>
-      <p className="mediumPurple">Our corporate partners</p>
+      <p className="darkGray">Our corporate partners</p>
       <div className="SponsorshipContainer">
         {SponsorsInfo.map((sponsor) => (
           <div className="sponsorImgContainer">

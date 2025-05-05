@@ -2,14 +2,10 @@ import Home from '../pages/Home';
 import GetInvolved from '../pages/GetInvolved';
 import Sponsors from '../pages/Sponsors';
 import Calendar from '../pages/Calendar';
-import Outreach from '../pages/Outreach';
 import About from '../pages/About';
-import Projects from '../pages/Projects';
 import AboutImg from '../assets/cover_imgs/about_pic.jpg';
 import EventImg from '../assets/cover_imgs/events_pic.jpg';
-import ProjImg from '../assets/cover_imgs/technical_pic.jpg';
 import BoardImg from '../assets/cover_imgs/board_pic.jpg';
-import OutreachImg from '../assets/cover_imgs/outreach_pic.jpg';
 import GetInvolvedImg from '../assets/cover_imgs/get_involved_pic.jpg';
 
 const Pages = [
@@ -48,24 +44,6 @@ const Pages = [
     navLabel: 'Get Involved',
     component: GetInvolved,
     image: GetInvolvedImg,
-  },
-  {
-    path: '/projects',
-    title: 'Project Teams',
-    subtitle: 'Learn about our current projects',
-    titleTag: 'Projects – SWE UCSD',
-    navLabel: 'Projects',
-    component: Projects,
-    image: ProjImg,
-  },
-  {
-    path: '/outreach',
-    title: 'Outreach',
-    subtitle: 'Help us inspire young women to pursue engineering',
-    titleTag: 'Outreach – SWE UCSD',
-    navLabel: 'Outreach',
-    component: Outreach,
-    image: OutreachImg,
   },
   {
     path: '/sponsors',

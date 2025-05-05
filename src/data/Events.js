@@ -1,8 +1,10 @@
 import GBM from '../assets/event_imgs/gbm.jpg';
-import Technical from '../assets/event_imgs/technical.jpg';
 import Professional from '../assets/event_imgs/professional.jpg';
-import Social from '../assets/event_imgs/social.jpg';
 import Outreach from '../assets/event_imgs/outreach.jpg';
+import Social from '../assets/event_imgs/social.jpg';
+import Project from '../assets/event_imgs/project.png';
+// import MentorMentee from '../assets/event_imgs/mentor_mentee.jpg';
+import WEConference from '../assets/event_imgs/we_conference.jpg';
 
 const Events = [
   {
@@ -13,15 +15,6 @@ const Events = [
       'Interact with our exciting guest speakers',
     ],
     image: GBM,
-  },
-  {
-    title: 'Technical Events',
-    items: [
-      'Attend workshops to learn technical skills',
-      'Apply your skills outside of the classroom',
-      'Collaborate with other students on a team project',
-    ],
-    image: Technical,
   },
   {
     title: 'Professional Events',
@@ -37,17 +30,44 @@ const Events = [
     items: [
       'Become a mentor for high school students with EDGE',
       'Participate and help run cool events with Envision',
+      'Give back to the engineering community with SWE Next',
     ],
     image: Outreach,
   },
   {
     title: 'Social Events',
     items: [
-      'Participate in bonding events',
-      'Learn how your fellow members navigate through college',
-      'Attend for a chance to win cool giveaways',
+      'Hang out with your fellow SWE-bees',
+      'Relax with arts and crafts activities, beach days, and more!',
     ],
     image: Social,
+  },
+  {
+    title: 'Project Teams',
+    items: [
+      'Gain hands-on technical experience',
+      'Collaborate with other engineering students',
+      'Past projects include: robotic bird, this website, etc',
+    ],
+    image: Project,
+  },
+  // {
+  //   title: 'Mentor/Mentee',
+  //   items: [
+  //     'Build lasting connections with a fellow SWE-bee in your major',
+  //     'Get advice and support from your mentor',
+  //     'Make a positive impact on your mentee',
+  //   ],
+  //   image: MentorMentee,
+  // },
+  {
+    title: 'WE24 Conference',
+    items: [
+      'SWE\'s annual conference for women in engineering',
+      'Attend a career fairs, keynote speeches, professional development workshops',
+      'Held in late October',
+    ],
+    image: WEConference,
   },
 ];
 

@@ -1,28 +1,14 @@
 import React from 'react';
 import Events from '../data/Events';
 import EventCard from '../components/EventCard';
-import ProgramCard from '../components/ProgramCard';
-import WeConference from '../assets/event_imgs/we_conference.jpg';
-import MentorMentee from '../assets/event_imgs/mentor_mentee.jpg';
+// import ProgramCard from '../components/ProgramCard';
+// import WeConference from '../assets/event_imgs/we_conference.jpg';
 import PurpleBee from '../assets/swe_icons/swe_bee.png';
+import OutreachEvents from '../data/OutreachEvents';
+import OutreachCard from '../components/OutreachCard';
 import './GetInvolved.css';
 
 function GetInvolved() {
-  const programs = [
-    {
-      name: 'Mentor/Mentee',
-      description: 'The SWEntorship Program pairs undergraduate upperclassmen at UCSD with lowerclassmen of the same major. Interested in becoming a mentor or mentee? Sign up for our mailing list to join the program and get paired with another student in your major!',
-      image: MentorMentee,
-      link: '',
-    },
-    {
-      name: 'WE24 Conference',
-      description: 'WE24 is SWE\'s annual international conference for women in engineering and technology, held in different cities every year in October or November. The conference features a career fair, keynote speakers, ProDev workshops, and other professional opportunities.',
-      image: WeConference,
-      link: 'https://we24.swe.org/',
-    },
-  ];
-
   const similarOrgs = [
     {
       name: 'National Society of Black Engineers (NSBE)',
@@ -63,7 +49,7 @@ function GetInvolved() {
             <p className="separator">or</p>
           </li>
           <li>
-            <strong>8+ Hours of Participation </strong>
+            <strong>5+ Hours of Participation </strong>
             from joining a SWE project team or attending GBM, workshops, and other SWE events
           </li>
           <p className="separator">or</p>
@@ -114,17 +100,34 @@ function GetInvolved() {
         </div>
       </div>
 
-      <div className="margin lightPurpleBg">
-        <h2 className="purple">Other Programs</h2>
-        <h5 className="mediumPurple">More ways to get involved!</h5>
-        {programs.map((program) => (
+      <div className="margin">
+        <h3 className="purple">Outreach Programs</h3>
+        <h5 className="mediumPurple">Give back to K-12 girls in the San Diego community</h5>
+        {/* {programs.map((program) => (
           <ProgramCard
             title={program.name}
             description={program.description}
             image={program.image}
             link={program.link}
           />
-        ))}
+        ))} */}
+        {OutreachEvents.map((event, index) => {
+          let isRight;
+          if (index % 2 === 0) {
+            isRight = false;
+          } else {
+            isRight = true;
+          }
+          return (
+            <OutreachCard
+              name={event.name}
+              image={event.image}
+              description={event.description}
+              link={event.link}
+              right={isRight}
+            />
+          );
+        })}
       </div>
 
       <div className="margin">
