@@ -1,84 +1,51 @@
-.outreachCardContainerRight {
+.outreachCard {
+  margin: 3em 0px;
+  border-radius: 2em;
+  background-color: var(--light-purple);
+  height: 22em;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+.outreachCard.imageFirst {
   flex-direction: row-reverse;
 }
 
-.outreachCardContainerLeft {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
+.outreachImage {
+  width: 55%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 2em 0 0 2em;
+  flex-shrink: 0;
 }
 
-.outreachCard {
-  margin: 100px 0px;
+.outreachImage.imageFirst {
+  border-radius: 0 2em 2em 0;
 }
 
-.labelLeft {
-  flex: 1;
+.outreachText{
   color: var(--medium-purple);
-  margin: 7px;
-  text-align: left;
-  margin-right: 50px;
-}
-  
-.labelRight {
-  flex: 1;
-  color: var(--medium-purple);
-  margin: 7px;
+  margin: -2em 2em 0;
+  padding: 0;
   text-align: right;
-  margin-left: 50px;
 }
 
-.outreachDividerLeft {
-  margin-left: 0px;
-  margin-bottom: 20px;
+.outreachText.imageFirst {
+  text-align: left;
 }
 
-.outreachDividerRight {
-  margin-right: 0px;
-  margin-bottom: 20px;
+.outreachDivider {
+  margin-top: -1em;
+  margin-right: 0;
 }
 
-.imgContainer {
-  flex: 1;
-  position: relative;
-  display: inline-block;
+.outreachDivider.imageFirst {
+  margin-left: 0;
 }
 
-.Left_gears {
-  width: 17%;
-  position: absolute;
-  top: -13%;
-  left: 96%;
-  z-index: 2;
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-}
-  
-.Right_gears {
-  width: 17%;
-  position: absolute;
-  top: -14%;
-  left: -13%;
-  z-index: 2;
-}
-
-.leftImgDesign {
-  width: 100%;
-  height: auto;
-  border-radius: 15px;
-  box-shadow: -10px -10px var(--purple);
-}
-
-.rightImgDesign {
-  width: 100%;
-  height: auto;
-  border-radius: 15px;
-  box-shadow: 10px -10px var(--purple);
-}
 
 @media screen and (max-width: 600px) {
   .outreachCardContainerRight {
@@ -87,14 +54,6 @@
   
   .outreachCardContainerLeft {
     flex-direction: column;
-  }
-
-  .Left_gears {
-    display: none;
-  }
-
-  .Right_gears {
-    display: none;
   }
 
   .labelLeft { /* edge */

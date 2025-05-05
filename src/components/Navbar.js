@@ -61,7 +61,7 @@ function Navbar() {
               ))}
             </div>
             <a className="donateButton" href="https://www.billhighway.com/aph/forChapters/v2/donate.aspx?d=TnuEFPT9K4E%3d" target="_blank" rel="noreferrer">
-              <Button label="Donate!" secondary />
+              <Button label="Donate!" />
             </a>
             <button type="button" className="hamburgerContainer" onClick={() => setShowSideNav(!showSideNav)} aria-label="toggle nav menu">
               <div className={`hamburger ${showSideNav && 'open'}`}>
