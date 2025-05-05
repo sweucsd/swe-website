@@ -7,9 +7,9 @@
 }
 
 .icon {
-  width: 40px;
+  height: 40px;
   margin: 0 2em 1em 0;
-  height: auto;
+  width: auto;
   filter: invert(100%);
 }
 

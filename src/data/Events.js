@@ -3,7 +3,6 @@ import Professional from '../assets/event_imgs/professional.jpg';
 import Outreach from '../assets/event_imgs/outreach.jpg';
 import Social from '../assets/event_imgs/social.jpg';
 import Project from '../assets/event_imgs/project.png';
-// import MentorMentee from '../assets/event_imgs/mentor_mentee.jpg';
 import WEConference from '../assets/event_imgs/we_conference.jpg';
 
 const Events = [
@@ -51,15 +50,6 @@ const Events = [
     ],
     image: Project,
   },
-  // {
-  //   title: 'Mentor/Mentee',
-  //   items: [
-  //     'Build lasting connections with a fellow SWE-bee in your major',
-  //     'Get advice and support from your mentor',
-  //     'Make a positive impact on your mentee',
-  //   ],
-  //   image: MentorMentee,
-  // },
   {
     title: 'WE24 Conference',
     items: [

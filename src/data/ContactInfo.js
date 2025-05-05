@@ -1,8 +1,7 @@
-import instagram from '../assets/contacts/instagram.png';
-import email from '../assets/contacts/email.png';
-import discord from '../assets/contacts/discord.png';
-import connect from '../assets/contacts/link.png';
-import linkedin from '../assets/contacts/linkedin.png';
+import instagram from '../assets/contacts_imgs/instagram.png';
+import email from '../assets/contacts_imgs/email.png';
+import discord from '../assets/contacts_imgs/discord.png';
+import linkedin from '../assets/contacts_imgs/linkedin.png';
 
 const ContactInfo = [
   {
@@ -21,14 +20,9 @@ const ContactInfo = [
     link: 'https://discord.gg/3HrqkHUzCR',
   },
   {
-    name: 'LinkTree',
-    image: connect,
-    link: 'https://linktr.ee/sweucsd',
-  },
-  {
     name: 'LinkedIn',
     image: linkedin,
-    link: 'https://www.linkedin.com/company/society-of-women-engineers-at-ucsd/',
+    link: 'https://www.linkedin.com/company/society-of-women-engineers-uc-san-diego/',
   },
 ];
 

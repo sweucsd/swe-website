@@ -1,53 +1,10 @@
 import React from 'react';
-import SocialIcon from '../assets/events_icons/social_icon.png';
-import OutreachIcon from '../assets/events_icons/outreach_icon.png';
-import TechnicalIcon from '../assets/events_icons/technical_icon.png';
-import ProfessionalIcon from '../assets/events_icons/professional_icon.png';
 
 import './Calendar.css';
 
 function Calendar() {
-  const eventIcons = [
-    {
-      image: SocialIcon,
-      label: 'Social',
-      link: '/involvement',
-    },
-    {
-      image: OutreachIcon,
-      label: 'Outreach',
-      link: '/outreach',
-    },
-    {
-      image: TechnicalIcon,
-      label: 'Technical',
-      link: '/projects',
-    },
-    {
-      image: ProfessionalIcon,
-      label: 'Professional',
-      link: '/involvement',
-    },
-  ];
-
   return (
     <>
-      <div className="margin">
-        <h2 className="purple titleText">Our Events</h2>
-        <hr className="divider" />
-        <p className="mediumPurple center">Bee there or bee square!</p>
-        <div className="iconsContainer">
-          {eventIcons.map((icon) => (
-            <div className="iconContainer">
-              <a href={icon.link} className="iconLink">
-                <img className="purpleFilter eventIcon" src={icon.image} alt="" />
-                <p className="purple p1 iconLabels">{icon.label}</p>
-              </a>
-            </div>
-          ))}
-        </div>
-      </div>
-
       <div className="margin lightPurpleBg calendarBody">
         <div className="calendarContainer">
           <div className="calendar">
