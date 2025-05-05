@@ -9,7 +9,7 @@ function Button(props) {
       type="button"
       className={`${secondary ? 'secondaryBtn' : 'primaryBtn'}`}
     >
-      {label}
+      <span>{label}</span>
     </button>
   );
 }

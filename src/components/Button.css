@@ -1,16 +1,33 @@
 button {
-  color: var(--medium-purple);
-  background-color: var(--light-purple);
   padding: 0.5em 0.8em;
   border-radius: 0.5em;
   border: none;
   cursor: pointer;
-  z-index: 1;
   overflow: hidden;
   position: relative;
   font-family: var(--primary-font);
   font-size: 1.1em;
   font-weight: 500;
+  transition: all 0.35s;
+
+  span {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+button:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  transition: all 0.35s;
+}
+
+button:hover:after{
+  width: 100%;
 }
 
 .primaryBtn {
@@ -21,7 +38,10 @@ button {
 .primaryBtn:hover {
   color: var(--purple);
   background-color: var(--light-purple);
-  transition: all 0.35s;
+}
+
+.primaryBtn:after{
+  background: var(--light-purple);
 }
 
 .secondaryBtn {
@@ -32,26 +52,8 @@ button {
 .secondaryBtn:hover {
   color: var(--light-purple);
   background-color: var(--medium-purple);
-  transition: all 0.35s;
 }
 
-button::after {
-  transition: all 0.35s;
-  content: "";
-  position: absolute;
-  z-index: -1;
-  padding: 0.5em 0.8em;
-  display: block;
-  top: 0;
-  bottom: 0;
-  left: -100%;
-  right: 100%;
-}
-
-button:hover::after {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  transition: all 0.35s;
+.secondaryBtn:after{
+  background: var(--medium-purple);
 }
