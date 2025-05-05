@@ -14,10 +14,10 @@ function OutreachCard(props) {
     <div className={`outreachCard ${direction}`}>
       <img className={`outreachImage ${direction}`} src={image} alt="" />
       <div className={`outreachText ${direction}`}>
-        <h3 className="mediumPurple">{name}</h3>
+        <h5 className="mediumPurple">{name}</h5>
         <hr className={`divider outreachDivider ${direction}`} />
         <p className="darkGray">{description}</p>
-        <a className="clickableLink" target="_blank" rel="noopener noreferrer" href={link}>
+        <a className="outreachButton clickableLink" target="_blank" rel="noopener noreferrer" href={link}>
           <Button label="Learn More ›" secondary />
         </a>
       </div>

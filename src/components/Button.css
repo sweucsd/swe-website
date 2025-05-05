@@ -57,3 +57,10 @@ button:hover:after{
 .secondaryBtn:after{
   background: var(--medium-purple);
 }
+
+@media screen and (max-width: 1000px) {
+  button {
+    padding: 0.3em 0.5em;
+    font-size: 1em;
+  }
+}

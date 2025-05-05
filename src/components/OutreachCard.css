@@ -1,8 +1,9 @@
 .outreachCard {
   margin: 3em 0px;
-  border-radius: 2em;
+  border-radius: 1em;
   background-color: white;
-  height: 22em;
+  height: 40vh;
+  width: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -18,17 +19,17 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
-  border-radius: 2em 0 0 2em;
+  border-radius: 1em 0 0 1em;
   flex-shrink: 0;
 }
 
 .outreachImage.imageFirst {
-  border-radius: 0 2em 2em 0;
+  border-radius: 0 1em 1em 0;
 }
 
 .outreachText{
   color: var(--medium-purple);
-  margin: -2em 2em 0;
+  margin: 0 2em;
   padding: 0;
   text-align: right;
 }
@@ -38,7 +39,7 @@
 }
 
 .outreachDivider {
-  margin-top: -1em;
+  margin-top: 1em;
   margin-right: 0;
 }
 
@@ -46,32 +47,36 @@
   margin-left: 0;
 }
 
+@media screen and (max-width: 1000px) {
+  .outreachImage {
+    width: 45%;
+  }
+}
 
-@media screen and (max-width: 600px) {
-  .outreachCardContainerRight {
+@media screen and (max-width: 800px) {
+  .outreachCard {
+    flex-direction: column;
+    height: auto;
+    width: 80%;
+  }
+  .outreachCard.imageFirst {
     flex-direction: column;
   }
-  
-  .outreachCardContainerLeft {
-    flex-direction: column;
-  }
-
-  .labelLeft { /* edge */
-    text-align: center;
-    margin-right: 0px;
-  }
-    
-  .labelRight { /* envision */
-    text-align: center;
-    margin-left: 0px;
-  }
-
-  .outreachDividerLeft {
-    margin-left: auto;
+  .outreachImage {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 1em 1em 0 0;
+    flex-shrink: 0;
+    margin-bottom: 1em;
   }
   
-  .outreachDividerRight {
-    margin-right: auto;
+  .outreachImage.imageFirst {
+    border-radius: 1em 1em 0 0;
+  }
+  .outreachText {
+    padding-bottom: 1em;
   }
   
 }

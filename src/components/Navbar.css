@@ -138,9 +138,9 @@
   .hamburgerContainer {
     display: inline-block;
     border: none;
-
     cursor: pointer;
     background-color: white;
+    margin-left: 1em;
   }
 
   .hamburger {

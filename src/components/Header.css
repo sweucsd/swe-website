@@ -34,8 +34,12 @@
   color: #eee;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .headerImg {
     background-attachment: scroll;
   }
+  .textContainer {
+    width: 75vw;
+  }
 }
+
