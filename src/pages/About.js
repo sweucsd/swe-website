@@ -7,12 +7,12 @@ function About() {
   return (
     <>
       <div className="margin">
-        <h2 className="purple aboutTitle">Who We Are</h2>
-        <h3 className="mediumPurple aboutSubtitle">What is SWE?</h3>
-        <p className="darkGray aboutBody">
+        <h2 className="purple">Who We Are</h2>
+        <h3 className="mediumPurple">What is SWE?</h3>
+        <p className="darkGray">
           The
           {' '}
-          <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://swe.org/">Society of Women Engineers (SWE)</a>
+          <a className="linkUnderline" target="_blank" rel="noopener noreferrer" href="https://swe.org/">Society of Women Engineers (SWE)</a>
           {' '}
           is
           a national non-profit organization founded in 1950 that inspires women to
@@ -22,8 +22,8 @@ function About() {
           here at UC San Diego.
         </p>
 
-        <h3 className="mediumPurple aboutSubtitle">UC San Diego Section – Our Mission</h3>
-        <p className="darkGray aboutBody">
+        <h3 className="mediumPurple">Our Mission</h3>
+        <p className="darkGray">
           UC San Diego Society of Women Engineers is a diverse group of passionate
           young engineers excited about women in STEM. Through outreach to K-12
           students, socials with other women engineers, networking workshops
@@ -40,8 +40,8 @@ function About() {
       </div>
 
       <div className="margin lightPurpleBg officersContainer">
-        <h2 className="purple officersTitle">SWE Board 2024-2025</h2>
-        <h3 className="mediumPurple officersSubtitle">Our Officers</h3>
+        <h2 className="purple">SWE Board 2024-2025</h2>
+        <h3 className="mediumPurple">Our Officers</h3>
         <div className="officersGrid">
           {Officers.map((officer) => (
             <OfficerCard

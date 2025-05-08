@@ -11,7 +11,6 @@ import Logo from '../assets/swe_icons/swe_logo.png';
 import Header from './Header';
 import Footer from './Footer';
 import NotFound from '../pages/NotFound';
-import Attributions from '../pages/Attributions';
 import Button from './Button';
 
 function Navbar() {
@@ -88,9 +87,6 @@ function Navbar() {
             {page.component}
           </Route>
         ))}
-        <Route exact path="/attributions">
-          <Attributions />
-        </Route>
         <Route path="*">
           <NotFound />
         </Route>

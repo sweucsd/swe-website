@@ -9,7 +9,8 @@ function NotFound() {
         Try rechecking the url,
         or return to the homepage
         {' '}
-        <a className="clickableLink" href="/">here.</a>
+        <a className="linkUnderline" href="/">here</a>
+        .
       </p>
     </div>
   );

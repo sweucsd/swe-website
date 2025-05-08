@@ -4,6 +4,7 @@ import NewsletterIcon from '../assets/home_icons/newsletter.png';
 import CalendarIcon from '../assets/home_icons/calendar.png';
 import BeeIcon from '../assets/home_icons/bee.png';
 import Gallery from '../components/Gallery';
+import Button from '../components/Button';
 
 function Home() {
   return (
@@ -26,34 +27,23 @@ function Home() {
             </p>
           </header>
         </section>
-        <nav className="linksSection">
-          <ul>
-            <li>
-              <img className="purpleFilter" src={BeeIcon} alt="" />
-              <h6 className="link">
-                <a href="/involvement">
-                  Bee-come a SWE Bee! ›
-                </a>
-              </h6>
-            </li>
-            <li>
-              <img className="purpleFilter" src={CalendarIcon} alt="" />
-              <h6 className="link">
-                <a href="/events">
-                  Upcoming events ›
-                </a>
-              </h6>
-            </li>
-            <li>
-              <img className="purpleFilter" src={NewsletterIcon} alt="" />
-              <h6 className="link">
-                <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScC-Yn0CFXuItVm6ZAKS4cDyqM01tCUY-7jYJhsfq9wRHcB2w/viewform">
-                  Join our mailing list ›
-                </a>
-              </h6>
-            </li>
-          </ul>
-        </nav>
+        <section className="linkSection">
+          <a href="/involvement" target="_blank" rel="noreferrer">
+            <Button label="Bee-come a SWE bee" color="var(--purple)" bgColor="var(--light-purple)">
+              <img src={BeeIcon} alt="Bee Icon" />
+            </Button>
+          </a>
+          <a href="/involvement" target="_blank" rel="noreferrer">
+            <Button label="Upcoming events!" color="var(--purple)" bgColor="var(--light-purple)">
+              <img src={CalendarIcon} alt="" />
+            </Button>
+          </a>
+          <a href="/involvement" target="_blank" rel="noreferrer">
+            <Button label="Join our mailing list!" color="var(--purple)" bgColor="var(--light-purple)">
+              <img src={NewsletterIcon} alt="" />
+            </Button>
+          </a>
+        </section>
       </main>
 
       <Gallery />

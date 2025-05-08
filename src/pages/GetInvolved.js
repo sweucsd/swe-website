@@ -1,8 +1,6 @@
 import React from 'react';
 import Events from '../data/Events';
 import EventCard from '../components/EventCard';
-// import ProgramCard from '../components/ProgramCard';
-// import WeConference from '../assets/event_imgs/we_conference.jpg';
 import PurpleBee from '../assets/swe_icons/swe_bee.png';
 import OutreachEvents from '../data/OutreachEvents';
 import OutreachCard from '../components/OutreachCard';
@@ -12,23 +10,23 @@ function GetInvolved() {
   const similarOrgs = [
     {
       name: 'National Society of Black Engineers (NSBE)',
-      link: 'https://nsbe.ucsd.edu/',
-    },
-    {
-      name: 'Society of Hispanic Professional Engineers (SHPE)',
-      link: 'https://sites.google.com/view/shpeucsd/home',
+      link: 'https://nsbeatucsd.github.io',
     },
     {
       name: 'Out in Science, Technology, Engineering, and Mathematics (OSTEM)',
       link: 'https://ostem.ucsd.edu/',
     },
     {
-      name: 'The Society of Asian Scientists and Engineers (SASE)',
+      name: 'Society of Asian Scientists and Engineers (SASE)',
       link: 'https://saseatucsd.weebly.com/',
     },
     {
+      name: 'Society of Hispanic Professional Engineers (SHPE)',
+      link: 'https://sites.google.com/view/shpeucsd/home',
+    },
+    {
       name: 'Women in Computing (WIC)',
-      link: 'https://wic.ucsd.edu/',
+      link: 'https://ucsdwic.github.io',
     },
   ];
 
@@ -40,9 +38,9 @@ function GetInvolved() {
             <h2 className="purple">SWE Membership</h2>
             <h5 className="mediumPurple">How can I become a section member?</h5>
           </div>
-          <img src={PurpleBee} alt="" />
+          <img className="beeInvolvedImg" src={PurpleBee} alt="" />
         </div>
-        <ul className="darkGray membershipRoutes">
+        <ul className="darkGray">
           <li>
             <strong>$5 Membership Fee </strong>
             paid to our Treasurer
@@ -58,7 +56,7 @@ function GetInvolved() {
             by signing up for one of the following:
             <ul>
               <li>
-                <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://swe.org/">Standard Collegiate Membership</a>
+                <a className="linkNoUnderline" target="_blank" rel="noopener noreferrer" href="https://swe.org/">Standard Collegiate Membership</a>
                 {' '}
                 ($20)
               </li>
@@ -90,7 +88,7 @@ function GetInvolved() {
         <p className="darkGray">
           Find out when these events are happening by checking out our
           {' '}
-          <a className="clickableLink" href="/events">calendar</a>
+          <a className="linkNoUnderline" href="/events">calendar</a>
           .
         </p>
         <div className="eventSection">
@@ -130,24 +128,10 @@ function GetInvolved() {
               <h5 className="mediumPurple">Some Useful Links</h5>
               <ul className="darkGray">
                 <li>
-                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://swe.org/">SWE National Website</a>
+                  <a className="linkNoUnderline" target="_blank" rel="noopener noreferrer" href="https://swe.org/">SWE National Website</a>
                 </li>
                 <li>
-                  Check out the
-                  {' '}
-                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/1sasvFiNAzlbxExNYqOpKBMNCKwQZxqWwinyvpZY_5s0/edit?usp=sharing">SWE Opportunities Sheet</a>
-                  {' '}
-                  for upcoming scholarship opportunities
-                </li>
-                <li>
-                  Join our
-                  {' '}
-                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLScC-Yn0CFXuItVm6ZAKS4cDyqM01tCUY-7jYJhsfq9wRHcB2w/viewform">newsletter</a>
-                  {' '}
-                  for regular updates
-                </li>
-                <li>
-                  <a className="clickableLink" target="_blank" rel="noopener noreferrer" href="http://www.swesandiego.org/">
+                  <a className="linkNoUnderline" target="_blank" rel="noopener noreferrer" href="http://www.swesandiego.org/">
                     SWE San Diego County Section
                   </a>
                 </li>
@@ -159,7 +143,7 @@ function GetInvolved() {
               <ul>
                 {similarOrgs.map((org) => (
                   <li className="darkGray">
-                    <a className="clickableLink" target="_blank" rel="noopener noreferrer" href={org.link}>
+                    <a className="linkNoUnderline" target="_blank" rel="noopener noreferrer" href={org.link}>
                       {org.name}
                     </a>
                   </li>

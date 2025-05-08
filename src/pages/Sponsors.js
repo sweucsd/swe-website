@@ -7,7 +7,7 @@ function Sponsors() {
     <div className="margin">
       <h2 className="purple">Sponsors</h2>
       <p className="darkGray">Our corporate partners</p>
-      <div className="SponsorshipContainer">
+      <div className="sponsorshipContainer">
         {SponsorsInfo.map((sponsor) => (
           <div className="sponsorImgContainer">
             <img src={sponsor.image} style={{ width: 170 }} alt="" />
@@ -18,10 +18,10 @@ function Sponsors() {
       <p className="darkGray">
         Email us at
         {' '}
-        <a className="clickableLink" href="mailto:swe@ucsd.edu">swe@ucsd.edu</a>
+        <a className="linkUnderline" href="mailto:swe@ucsd.edu">swe@ucsd.edu</a>
         {' '}
         to get in contact with our VP External and receive information about how
-        your company can partner with our section.
+        your company can partner with us.
       </p>
     </div>
   );

@@ -3,12 +3,21 @@ import PropTypes from 'prop-types';
 import './Button.css';
 
 function Button(props) {
-  const { label, secondary } = props;
+  const {
+    label,
+    color,
+    bgColor,
+    children,
+  } = props;
   return (
     <button
       type="button"
-      className={`${secondary ? 'secondaryBtn' : 'primaryBtn'}`}
+      style={{
+        '--button-color': color,
+        '--button-bgColor': bgColor,
+      }}
     >
+      {children && <span className="buttonIcon">{children}</span>}
       <span>{label}</span>
     </button>
   );
@@ -16,11 +25,15 @@ function Button(props) {
 
 Button.propTypes = {
   label: PropTypes.string.isRequired,
-  secondary: PropTypes.bool,
+  color: PropTypes.string,
+  bgColor: PropTypes.string,
+  children: PropTypes.node,
 };
 
 Button.defaultProps = {
-  secondary: false,
+  color: 'var(--light-purple)',
+  bgColor: 'var(--purple)',
+  children: null,
 };
 
 export default Button;

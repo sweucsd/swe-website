@@ -18,11 +18,6 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-.purpleFilter {
-  filter: invert(33%) sepia(9%) saturate(1833%) hue-rotate(215deg)
-    brightness(96%) contrast(86%);
-}
-
 .lightPurpleBg {
   background-color: var(--light-purple);
 }
@@ -51,6 +46,63 @@
 .divider {
   border: 1px solid #dbc554;
   width: 150px;
+}
+
+.linkNoUnderline {
+  position: relative;
+  text-decoration: none;
+  color: var(--dark-gray);
+  white-space: nowrap;
+}
+
+.linkNoUnderline::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: var(--medium-purple);
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+
+.linkNoUnderline:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.linkUnderline {
+  position: relative;
+  color: var(--dark-gray);
+  white-space: nowrap;
+  text-decoration-color: var(--medium-purple);
+}
+
+.linkUnderline::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: var(--medium-purple);
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+    text-decoration: none;
+  }
+
+.linkUnderline:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.linkUnderline:hover {
+  text-decoration: none;
 }
 
 @keyframes textAnimation {
@@ -160,9 +212,7 @@ li {
   animation: textAnimation 1s linear;
 }
 
-.clickableLink {
-  color: var(--gold);
-}
+
 
 @media screen and (max-width: 1000px) {
   h1 {

@@ -15,9 +15,7 @@ function Footer() {
         ))}
         <div>
           <p>
-            © Society of Women Engineers at University of California, San Diego |
-            {' '}
-            <a href="/attributions" className="clickableLink attr">Attributions</a>
+            © Society of Women Engineers at University of California, San Diego
           </p>
         </div>
       </div>

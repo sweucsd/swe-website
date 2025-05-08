@@ -15,39 +15,24 @@
   margin: 0 0;
 }
 
-.linksSection {
-  padding: 0;
-  margin-bottom: 5em;
-  ul{
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 2em;
-  }
-  li{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1em;
-    margin-bottom: -2em;
-    img {
-      width: 2em;
-      height: 2em;
-    }
-  }
-  h6 {
-    margin: -2px 0 0 0;
-    display: inline;
-    a {
-      text-decoration: none;
-      color: var(--medium-purple);
-    }
-    a:hover {
-      color: var(--purple);
-    }
+.linkSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+Button {
+  img {
+    filter: invert(57%) sepia(11%) saturate(1833%) hue-rotate(215deg)
+    brightness(96%) contrast(86%);
+    width: 1.3em;
+    height: 1.3em;
   }
 }
 
+Button:hover {
+  img{
+    filter: none;
+  }
+}
 

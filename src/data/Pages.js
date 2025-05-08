@@ -28,11 +28,11 @@ const Pages = [
     image: AboutImg,
   },
   {
-    path: '/events',
+    path: '/calendar',
     title: 'SWE Calendar',
     subtitle: 'Check out our upcoming events!',
     titleTag: 'Calendar – SWE UCSD',
-    navLabel: 'Events',
+    navLabel: 'Calendar',
     component: Calendar,
     image: EventImg,
   },

@@ -9,10 +9,19 @@ button {
   font-size: 1.1em;
   font-weight: 500;
   transition: all 0.35s;
+  color: var(--button-color);
+  background-color: var(--button-bgColor);
 
   span {
     position: relative;
     z-index: 2;
+  }
+
+  img {
+    width: 1em;
+    height: 1em;
+    padding: 0;
+    margin: -2em 0.5em 0 0;
   }
 }
 
@@ -24,39 +33,19 @@ button:after{
   width: 0;
   height: 100%;
   transition: all 0.35s;
+  background-color: var(--button-color);
 }
 
 button:hover:after{
   width: 100%;
 }
 
-.primaryBtn {
-  color: var(--light-purple);
-  background-color: var(--purple);
+
+button:hover {
+  color: var(--button-bgColor);
+  background-color: var(--button-color);
 }
 
-.primaryBtn:hover {
-  color: var(--purple);
-  background-color: var(--light-purple);
-}
-
-.primaryBtn:after{
-  background: var(--light-purple);
-}
-
-.secondaryBtn {
-  color: var(--medium-purple);
-  background-color: var(--light-purple);
-}
-
-.secondaryBtn:hover {
-  color: var(--light-purple);
-  background-color: var(--medium-purple);
-}
-
-.secondaryBtn:after{
-  background: var(--medium-purple);
-}
 
 @media screen and (max-width: 1000px) {
   button {
