@@ -33,12 +33,12 @@ function Home() {
               <img src={BeeIcon} alt="Bee Icon" />
             </Button>
           </a>
-          <a href="/involvement" target="_blank" rel="noreferrer">
+          <a href="/calendar" rel="noreferrer">
             <Button label="Upcoming events!" color="var(--purple)" bgColor="var(--light-purple)">
               <img src={CalendarIcon} alt="" />
             </Button>
           </a>
-          <a href="/involvement" target="_blank" rel="noreferrer">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScC-Yn0CFXuItVm6ZAKS4cDyqM01tCUY-7jYJhsfq9wRHcB2w/viewform?usp=sf_link" target="_blank" rel="noreferrer">
             <Button label="Join our mailing list!" color="var(--purple)" bgColor="var(--light-purple)">
               <img src={NewsletterIcon} alt="" />
             </Button>
