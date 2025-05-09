@@ -28,7 +28,7 @@ function Home() {
           </header>
         </section>
         <section className="linkSection">
-          <a href="/involvement" target="_blank" rel="noreferrer">
+          <a href="/involvement" rel="noreferrer">
             <Button label="Bee-come a SWE bee" color="var(--purple)" bgColor="var(--light-purple)">
               <img src={BeeIcon} alt="Bee Icon" />
             </Button>
