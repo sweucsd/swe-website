@@ -20,7 +20,7 @@ function Home() {
               achievement. Our members serve as role models to pre-college and
               engineering students.
               {' '}
-              <strong>All UCSD students are welcome</strong>
+              <strong>All UC San Diego students are welcome</strong>
               {' '}
               to attend our events and be involved in our organization, regardless of
               gender, major, or membership status.

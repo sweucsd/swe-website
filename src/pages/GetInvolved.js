@@ -14,7 +14,7 @@ function GetInvolved() {
     },
     {
       name: 'Out in Science, Technology, Engineering, and Mathematics (OSTEM)',
-      link: 'https://ostem.ucsd.edu/',
+      link: 'https://ostematucsd.com',
     },
     {
       name: 'Society of Asian Scientists and Engineers (SASE)',
@@ -139,7 +139,7 @@ function GetInvolved() {
             </div>
 
             <div className="otherOrganizations">
-              <h5 className="mediumPurple">Similar UCSD Organizations</h5>
+              <h5 className="mediumPurple">Similar UC San Diego Organizations</h5>
               <ul>
                 {similarOrgs.map((org) => (
                   <li className="darkGray">
