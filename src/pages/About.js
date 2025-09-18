@@ -40,7 +40,7 @@ function About() {
       </div>
 
       <div className="margin lightPurpleBg officersContainer">
-        <h2 className="purple">SWE Board 2024-2025</h2>
+        <h2 className="purple">SWE Board 2025-2026</h2>
         <h3 className="mediumPurple">Our Officers</h3>
         <div className="officersGrid">
           {Officers.map((officer) => (
