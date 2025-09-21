@@ -15,7 +15,7 @@ function Home() {
             <h2 className="purple">Welcome to SWE!</h2>
             <hr className="divider homeDivider" />
             <p className="darkGray">
-              UC San Diego Society of Women Engineers informs, nurtures, and
+              Society of Women Engineers at UC San Diego informs, nurtures, and
               encourages women to attain high levels of education and professional
               achievement. Our members serve as role models to pre-college and
               engineering students.
