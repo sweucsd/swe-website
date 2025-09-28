@@ -70,7 +70,7 @@ const Officers = [
   },
   {
     name: 'Avery Donaldson',
-    position: 'Envision Co-Chair',
+    position: 'Event Coordinator',
     image: EventCoordImg,
     year: '4th Year',
     major: 'Chemical Engineering',
@@ -97,7 +97,7 @@ const Officers = [
   },
   {
     name: 'Emi Takara',
-    position: 'SWENext',
+    position: 'SWENext Chair',
     image: SWENextImg,
     year: '3rd Year',
     major: 'Structural Engineering',
