@@ -129,7 +129,7 @@ const Officers = [
     year: '2nd Year',
     major: 'Computer Science',
     fact: '',
-    college: 'Eigth',
+    college: '',
   },
   {
     name: 'Annie Qian',
