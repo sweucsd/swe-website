@@ -1,18 +1,18 @@
-import CoPresidentImg1 from '../assets/officer_imgs/Jordan.jpg';
-import CoPresidentImg2 from '../assets/officer_imgs/Hannah.jpg';
-import VPExternalImg from '../assets/officer_imgs/Rachel.jpg';
+import CoPresidentImg1 from '../assets/officer_imgs/Jordan.JPG';
+import CoPresidentImg2 from '../assets/officer_imgs/Hannah.JPG';
+import VPExternalImg from '../assets/officer_imgs/Rachel.JPG';
 
-import VPInternalImg from '../assets/officer_imgs/Roxana.jpg';
-import TreasurerImg from '../assets/officer_imgs/Selena.jpg';
-import EventCoordImg from '../assets/officer_imgs/Avery.jpg';
+import VPInternalImg from '../assets/officer_imgs/Roxana.JPG';
+import TreasurerImg from '../assets/officer_imgs/Selena.JPG';
+import EventCoordImg from '../assets/officer_imgs/Avery.JPG';
 
 import SecretaryImg from '../assets/officer_imgs/Marissa.jpg';
-import AcademicImg from '../assets/officer_imgs/Yasmin.jpg';
+import AcademicImg from '../assets/officer_imgs/Yasmin.JPG';
 import TechDevImg1 from '../assets/officer_imgs/Cameryn.jpg';
 
 import TechDevImg2 from '../assets/officer_imgs/Esha.jpg';
-import SWENextImg from '../assets/officer_imgs/Emi.jpg';
-import EDGEImg1 from '../assets/officer_imgs/Sierra.jpg';
+import SWENextImg from '../assets/officer_imgs/Emi.JPG';
+import EDGEImg1 from '../assets/officer_imgs/Sierra.JPG';
 
 import EDGEImg2 from '../assets/officer_imgs/Sofia.jpg';
 import EnvisionImg1 from '../assets/officer_imgs/Aila.jpg';
