@@ -1,26 +1,26 @@
-import CoPresidentImg1 from '../assets/officer_imgs/Jordan.JPG';
-import CoPresidentImg2 from '../assets/officer_imgs/Hannah.JPG';
-import VPExternalImg from '../assets/officer_imgs/Rachel.JPG';
+import CoPresidentImg1 from '../assets/officer_imgs/Jordan.jpg';
+import CoPresidentImg2 from '../assets/officer_imgs/Hannah.jpg';
+import VPExternalImg from '../assets/officer_imgs/Rachel.jpg';
 
-import VPInternalImg from '../assets/officer_imgs/Roxana.JPG';
-import TreasurerImg from '../assets/officer_imgs/Selena.JPG';
-import EventCoordImg from '../assets/officer_imgs/Avery.JPG';
+import VPInternalImg from '../assets/officer_imgs/Roxana.jpg';
+import TreasurerImg from '../assets/officer_imgs/Selena.jpg';
+import EventCoordImg from '../assets/officer_imgs/Avery.jpg';
 
-// import SecretaryImg from '../assets/officer_imgs/Marissa.JPG';
-import AcademicImg from '../assets/officer_imgs/Yasmin.JPG';
-// import TechDevImg1 from '../assets/officer_imgs/Cameryn.JPG';
+import SecretaryImg from '../assets/officer_imgs/Marissa.jpg';
+import AcademicImg from '../assets/officer_imgs/Yasmin.jpg';
+import TechDevImg1 from '../assets/officer_imgs/Cameryn.jpg';
 
-// import TechDevImg2 from '../assets/officer_imgs/Esha.JPG';
-import SWENextImg from '../assets/officer_imgs/Emi.JPG';
-import EDGEImg1 from '../assets/officer_imgs/Sierra.JPG';
+import TechDevImg2 from '../assets/officer_imgs/Esha.jpg';
+import SWENextImg from '../assets/officer_imgs/Emi.jpg';
+import EDGEImg1 from '../assets/officer_imgs/Sierra.jpg';
 
-// import EDGEImg2 from '../assets/officer_imgs/Sofia.JPG';
-// import EnvisionImg1 from '../assets/officer_imgs/Aila.JPG';
-// import EnvisionImg2 from '../assets/officer_imgs/Annie.JPG';
+import EDGEImg2 from '../assets/officer_imgs/Sofia.jpg';
+import EnvisionImg1 from '../assets/officer_imgs/Aila.jpg';
+import EnvisionImg2 from '../assets/officer_imgs/Annie.jpg';
 
-// import SocialImg from '../assets/officer_imgs/Thy.JPG';
-// import PublicityImg from '../assets/officer_imgs/Taryne.JPG';
-import ComingSoon from '../assets/officer_imgs/coming_soon.png';
+import SocialImg from '../assets/officer_imgs/Thy.jpg';
+import PublicityImg from '../assets/officer_imgs/Taryne.jpg';
+// import ComingSoon from '../assets/officer_imgs/coming_soon.png';
 
 const Officers = [
   {
@@ -47,7 +47,7 @@ const Officers = [
     image: VPExternalImg,
     year: '4th Year',
     major: 'Mechanical Engineering',
-    fact: 'I like to make ceramics in my free time!',
+    fact: 'My favorite dessert is pizookies!',
     college: 'Warren',
   },
   {
@@ -80,10 +80,10 @@ const Officers = [
   {
     name: 'Marissa Lee',
     position: 'Secretary',
-    image: ComingSoon,
+    image: SecretaryImg,
     year: '4th Year',
     major: 'Computer Science',
-    fact: '',
+    fact: 'I\'m learning to play the harmonica',
     college: 'Muir',
   },
   {
@@ -116,65 +116,65 @@ const Officers = [
   {
     name: 'Sofia Vendituoli',
     position: 'EDGE Outreach Co-Chair',
-    image: ComingSoon,
+    image: EDGEImg2,
     year: '5th Year',
     major: 'Mechanical Engineering',
-    fact: '',
-    college: '',
+    fact: 'I love to travel',
+    college: 'Seventh',
   },
   {
     name: 'Aila Jahromi',
     position: 'Envision Co-Chair',
-    image: ComingSoon,
+    image: EnvisionImg1,
     year: '2nd Year',
     major: 'Computer Science',
-    fact: '',
-    college: '',
+    fact: 'I was an extra for a show',
+    college: 'Eighth',
   },
   {
     name: 'Annie Qian',
     position: 'Envision Co-Chair',
-    image: ComingSoon,
+    image: EnvisionImg2,
     year: '2nd Year',
     major: 'Chemical Engineering',
-    fact: '',
-    college: '',
+    fact: 'I got my first name legally changed',
+    college: 'Warren',
   },
   {
     name: 'Cameryn Mugol',
     position: 'Technical Development Co-Chair',
-    image: ComingSoon,
+    image: TechDevImg1,
     year: '2nd Year',
     major: 'Computer Engineering',
-    fact: '',
-    college: '',
+    fact: 'I can solve a rubik\'s cube',
+    college: 'Sixth',
   },
   {
     name: 'Esha Rami',
     position: 'Technical Development Co-Chair',
-    image: ComingSoon,
+    image: TechDevImg2,
     year: '3rd Year',
     major: 'Electrical Engineering',
-    fact: '',
-    college: '',
+    fact: 'I love to swim!',
+    college: 'Sixth',
   },
   {
     name: 'Thy Trang',
     position: 'Social Chair',
-    image: ComingSoon,
+    image: SocialImg,
     year: '2nd Year',
     major: 'Structural Engineering',
-    fact: '',
-    college: '',
+    fact: 'I\'m double jointed!',
+    college: 'Muir',
   },
   {
     name: 'Taryne Akemah',
     position: 'Publicity Chair',
-    image: ComingSoon,
+    image: PublicityImg,
     year: '2nd Year',
     major: 'Environmental Systems',
-    fact: '',
-    college: '',
+    fact: 'I can speak 5 languages!',
+    college: 'Revelle',
   },
 ];
 

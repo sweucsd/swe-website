@@ -1,4 +1,4 @@
-import SWENext from '../assets/outreach_imgs/swe_next.jpg';
+import SWENext from '../assets/outreach_imgs/swenext.jpg';
 import EDGE from '../assets/outreach_imgs/edge.jpeg';
 import Envision from '../assets/outreach_imgs/envision.jpg';
 

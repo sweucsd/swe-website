@@ -2,7 +2,7 @@ import GBM from '../assets/event_imgs/gbm.jpg';
 import Professional from '../assets/event_imgs/professional.jpg';
 import Outreach from '../assets/event_imgs/outreach.jpg';
 import Social from '../assets/event_imgs/social.jpg';
-import Project from '../assets/event_imgs/project.png';
+import Project from '../assets/event_imgs/project.jpg';
 import WEConference from '../assets/event_imgs/we_conference.jpg';
 
 const Events = [
@@ -51,7 +51,7 @@ const Events = [
     image: Project,
   },
   {
-    title: 'WE24 Conference',
+    title: 'WE Conference',
     items: [
       'SWE\'s annual conference for women in engineering',
       'Attend a career fairs, keynote speeches, professional development workshops',

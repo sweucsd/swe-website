@@ -4,7 +4,7 @@ import Sponsors from '../pages/Sponsors';
 import Calendar from '../pages/Calendar';
 import About from '../pages/About';
 import AboutImg from '../assets/cover_imgs/about_pic.jpg';
-import EventImg from '../assets/cover_imgs/events_pic.jpg';
+import CalendarImg from '../assets/cover_imgs/calendar_pic.jpg';
 import BoardImg from '../assets/cover_imgs/board_pic.jpg';
 import GetInvolvedImg from '../assets/cover_imgs/get_involved_pic.jpg';
 
@@ -34,7 +34,7 @@ const Pages = [
     titleTag: 'Calendar – SWE UC San Diego',
     navLabel: 'Calendar',
     component: Calendar,
-    image: EventImg,
+    image: CalendarImg,
   },
   {
     path: '/involvement',
