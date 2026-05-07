@@ -39,28 +39,46 @@
   display: none;
 }
 
-/* Style the links inside the navigation bar */
 .link {
   flex: 1;
   white-space: nowrap;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
+
+  position: relative;
+  z-index: 1;
+
   color: var(--purple);
   padding: 14px 10px;
   text-decoration: none;
-  align-items: center;
   font-weight: 600;
 }
 
-/* Change the color of links on hover */
-.link:hover {
-  color: var(--gold);
+.link::before {
+  content: '';
+  position: absolute;
+
+  left: 8px;
+  right: 8px;
+  bottom: 0.8em;
+
+  height: 45%;
+  background-color: var(--light-purple);
+  opacity: 0.35;
+
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease-in-out;
+
+  z-index: -1;
 }
 
-/* Add an active class to highlight the current page */
-.link.active {
-  color: var(--gold);
+.link:hover::before,
+.link.active::before {
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
 .logo {
@@ -116,19 +134,39 @@
     flex: 1;
     display: flex;
     flex-direction: column;
+
+    position: relative;
+    z-index: 1;
+
     color: var(--purple);
     padding: 14px 25px;
     text-decoration: none;
     font-weight: 600;
   }
 
-  .sideLink:hover {
-    color: var(--gold);
+  .sideLink::before {
+    content: '';
+    position: absolute;
+
+    left: 20px;
+    right: 20px;
+    bottom: 0.8em;
+
+    height: 45%;
+    background-color: var(--light-purple);
+    opacity: 0.35;
+
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease-in-out;
+
+    z-index: -1;
   }
 
-  /* Add an active class to highlight the current page */
-  .sideLink.active {
-    color: var(--gold);
+  .sideLink:hover::before,
+  .sideLink.active::before {
+    transform: scaleX(1);
+    transform-origin: left;
   }
 
   .link {

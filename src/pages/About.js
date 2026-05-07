@@ -12,7 +12,9 @@ function About() {
         <p className="darkGray">
           The
           {' '}
-          <a className="linkUnderline" target="_blank" rel="noopener noreferrer" href="https://swe.org/">Society of Women Engineers (SWE)</a>
+          <strong>
+            <a className="linkHighlight" target="_blank" rel="noopener noreferrer" href="https://swe.org/">Society of Women Engineers (SWE)</a>
+          </strong>
           {' '}
           is
           a national non-profit organization founded in 1950 that inspires women to

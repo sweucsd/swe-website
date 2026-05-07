@@ -23,6 +23,7 @@
   .eventCardTitle {
     margin: 10px;
     text-align: left;
+    color: var(--medium-purple)
   }
   .eventsCardText {
     padding-bottom: 10px;

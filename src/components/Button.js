@@ -31,7 +31,7 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
-  color: 'var(--light-purple)',
+  color: 'var(--pale-purple)',
   bgColor: 'var(--purple)',
   children: null,
 };

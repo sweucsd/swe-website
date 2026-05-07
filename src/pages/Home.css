@@ -18,21 +18,21 @@
 .linkSection {
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  margin-top: -1em;
 }
 
 Button {
   img {
-    filter: invert(57%) sepia(11%) saturate(1833%) hue-rotate(215deg)
-    brightness(96%) contrast(86%);
     width: 1.3em;
     height: 1.3em;
+    filter: none;
   }
 }
 
 Button:hover {
   img{
-    filter: none;
+    filter: invert(57%) sepia(11%) saturate(1833%) hue-rotate(215deg)
+    brightness(96%) contrast(86%);
   }
 }
 

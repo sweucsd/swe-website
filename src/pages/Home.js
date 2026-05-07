@@ -1,7 +1,5 @@
 import React from 'react';
 import './Home.css';
-import NewsletterIcon from '../assets/home_icons/newsletter.png';
-import CalendarIcon from '../assets/home_icons/calendar.png';
 import BeeIcon from '../assets/home_icons/bee.png';
 import Gallery from '../components/Gallery';
 import Button from '../components/Button';
@@ -12,7 +10,7 @@ function Home() {
       <main className="margin">
         <section className="welcomeSection">
           <header className="welcomeText">
-            <h2 className="purple">Welcome to SWE!</h2>
+            <h2 className="purple">Welcome to SWE at UCSD!</h2>
             <hr className="divider homeDivider" />
             <p className="darkGray">
               Society of Women Engineers at UC San Diego informs, nurtures, and
@@ -28,19 +26,9 @@ function Home() {
           </header>
         </section>
         <section className="linkSection">
-          <a href="/involvement" rel="noreferrer">
-            <Button label="Bee-come a SWE bee" color="var(--purple)" bgColor="var(--light-purple)">
+          <a href="https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2Fswe.atucsd%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnTtqjAv5bMOlDeJtAKbrKJql4jWxgs56tbqBNw2hDCx7MlV4oYQUjFul5CK4_aem_3mXpQXMu_lIrRVZgZizAUQ&e=AUD_ASHPuVfx01GRyFqevmkEejxbJ72O-LgBwohre4J_zkTRq6ysg-zad2MAr3bsFZ-OX7SiYViqVOz2sejoxtXaFuwYNEBpTK-xtPSOdPxkesgP1IMGqrBGOQ" target="_blank" rel="noreferrer">
+            <Button label="Bee-come a SWE bee" color="var(--pale-purple)" bgColor="var(--purple)">
               <img src={BeeIcon} alt="Bee Icon" />
-            </Button>
-          </a>
-          <a href="/calendar" rel="noreferrer">
-            <Button label="Upcoming events!" color="var(--purple)" bgColor="var(--light-purple)">
-              <img src={CalendarIcon} alt="" />
-            </Button>
-          </a>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLScC-Yn0CFXuItVm6ZAKS4cDyqM01tCUY-7jYJhsfq9wRHcB2w/viewform?usp=sf_link" target="_blank" rel="noreferrer">
-            <Button label="Join our mailing list!" color="var(--purple)" bgColor="var(--light-purple)">
-              <img src={NewsletterIcon} alt="" />
             </Button>
           </a>
         </section>

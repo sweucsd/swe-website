@@ -18,7 +18,7 @@ function OutreachCard(props) {
         <hr className={`divider outreachDivider ${direction}`} />
         <p className="darkGray">{description}</p>
         <a target="_blank" rel="noopener noreferrer" href={link}>
-          <Button label="Learn More ›" color="var(--medium-purple)" bgColor="var(--light-purple)" />
+          <Button label="Learn More ›" color="var(--medium-purple)" bgColor="var(--pale-purple)" />
         </a>
       </div>
     </div>

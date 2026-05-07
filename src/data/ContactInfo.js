@@ -7,7 +7,7 @@ const ContactInfo = [
   {
     name: 'Instagram',
     image: Instagram,
-    link: 'https://www.instagram.com/swe.ucsd/',
+    link: 'https://www.instagram.com/swe.atucsd/',
   },
   {
     name: 'Email',
@@ -22,7 +22,7 @@ const ContactInfo = [
   {
     name: 'LinkedIn',
     image: LinkedIn,
-    link: 'https://www.linkedin.com/company/society-of-women-engineers-uc-san-diego/',
+    link: 'https://www.linkedin.com/company/society-of-women-engineers-at-uc-san-diego/',
   },
 ];
 

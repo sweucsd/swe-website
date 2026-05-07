@@ -6,18 +6,16 @@ function Footer() {
   return (
     <footer className="margin footer">
       <div>
-        <h3>Connect With Us</h3>
+        <h4 className="footerTitle">Connect with us</h4>
         {ContactInfo.map((contact) => (
           <a className="tooltip" target="_blank" rel="noopener noreferrer" href={contact.link}>
             <img className="icon" src={contact.image} alt="" />
             <span className="tooltiptext em">{contact.name}</span>
           </a>
         ))}
-        <div>
-          <p>
-            © Society of Women Engineers at University of California, San Diego
-          </p>
-        </div>
+        <p>
+          © Society of Women Engineers at University of California, San Diego
+        </p>
       </div>
     </footer>
   );

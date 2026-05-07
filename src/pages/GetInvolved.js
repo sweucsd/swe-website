@@ -56,7 +56,7 @@ function GetInvolved() {
             by signing up for one of the following:
             <ul>
               <li>
-                <a className="linkNoUnderline" target="_blank" rel="noopener noreferrer" href="https://swe.org/">Standard Collegiate Membership</a>
+                <a className="linkHighlight" target="_blank" rel="noopener noreferrer" href="https://swe.org/">Standard Collegiate Membership</a>
                 {' '}
                 ($20)
               </li>
@@ -88,7 +88,7 @@ function GetInvolved() {
         <p className="darkGray">
           Find out when these events are happening by checking out our
           {' '}
-          <a className="linkNoUnderline" href="/events">calendar</a>
+          <a className="linkHighlight" href="/events">calendar</a>
           .
         </p>
         <div className="eventSection">
@@ -128,10 +128,10 @@ function GetInvolved() {
               <h5 className="mediumPurple">Some Useful Links</h5>
               <ul className="darkGray">
                 <li>
-                  <a className="linkNoUnderline" target="_blank" rel="noopener noreferrer" href="https://swe.org/">SWE National Website</a>
+                  <a className="linkHighlight" target="_blank" rel="noopener noreferrer" href="https://swe.org/">SWE National Website</a>
                 </li>
                 <li>
-                  <a className="linkNoUnderline" target="_blank" rel="noopener noreferrer" href="http://www.swesandiego.org/">
+                  <a className="linkHighlight" target="_blank" rel="noopener noreferrer" href="http://www.swesandiego.org/">
                     SWE San Diego County Section
                   </a>
                 </li>
@@ -143,7 +143,7 @@ function GetInvolved() {
               <ul>
                 {similarOrgs.map((org) => (
                   <li className="darkGray">
-                    <a className="linkNoUnderline" target="_blank" rel="noopener noreferrer" href={org.link}>
+                    <a className="linkHighlight" target="_blank" rel="noopener noreferrer" href={org.link}>
                       {org.name}
                     </a>
                   </li>
