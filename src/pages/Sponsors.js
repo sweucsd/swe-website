@@ -19,7 +19,7 @@ function Sponsors() {
         Email us at
         {' '}
         <strong>
-          <a className="linkHighlight" href="mailto:swe@ucsd.edu">swe@ucsd.edu</a>
+          <a className="linkHighlight" href="mailto:sweatucsd@swe.org">sweatucsd@swe.org</a>
         </strong>
         {' '}
         to get in contact with our VP External and receive information about how

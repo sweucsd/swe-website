@@ -12,7 +12,7 @@ const ContactInfo = [
   {
     name: 'Email',
     image: Email,
-    link: 'mailto:swe@ucsd.edu',
+    link: 'mailto:sweatucsd@swe.org',
   },
   {
     name: 'Discord',
