@@ -1,4 +1,4 @@
-import JaneStreet from '../assets/sponsors_imgs/janestreet';
+import JaneStreet from '../assets/sponsors_imgs/janestreet.png';
 import Leidos from '../assets/sponsors_imgs/leidos.svg';
 import ASML from '../assets/sponsors_imgs/asml.svg';
 import Visa from '../assets/sponsors_imgs/visa.webp';
