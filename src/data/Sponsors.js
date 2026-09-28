@@ -1,28 +1,28 @@
-import Apple from '../assets/sponsors_imgs/apple.svg';
+import JaneStreet from '../assets/sponsors_imgs/janestreet';
 import Leidos from '../assets/sponsors_imgs/leidos.svg';
-import Lockheed from '../assets/sponsors_imgs/lockheed.svg';
-import Intuit from '../assets/sponsors_imgs/intuit.webp';
-import Roblox from '../assets/sponsors_imgs/roblox.svg';
-import ServiceNow from '../assets/sponsors_imgs/servicenow.png';
+import ASML from '../assets/sponsors_imgs/asml.svg';
+import Visa from '../assets/sponsors_imgs/visa.webp';
+import Apple from '../assets/sponsors_imgs/apple.svg';
+import SouthernCaliforniaEdison from '../assets/sponsors_imgs/sce.png';
 
 const Sponsors = [
   {
-    image: Apple,
-  },
-  {
-    image: Intuit,
+    image: JaneStreet,
   },
   {
     image: Leidos,
   },
   {
-    image: Lockheed,
+    image: ASML,
   },
   {
-    image: Roblox,
+    image: Visa,
   },
   {
-    image: ServiceNow,
+    image: Apple,
+  },
+  {
+    image: SouthernCaliforniaEdison,
   },
 ];
 
