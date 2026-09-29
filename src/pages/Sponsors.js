@@ -5,7 +5,7 @@ import SponsorsInfo from '../data/Sponsors';
 function Sponsors() {
   return (
     <div className="margin">
-      <h2 className="purple">Sponsors</h2>
+      <h2 className="purple">Supported By</h2>
       <p className="darkGray">Our corporate partners</p>
       <div className="sponsorshipContainer">
         {SponsorsInfo.map((sponsor) => (
@@ -14,7 +14,7 @@ function Sponsors() {
           </div>
         ))}
       </div>
-      <h3 className="mediumPurple">Interested in sponsoring us?</h3>
+      <h3 className="mediumPurple">Interested in supporting us?</h3>
       <p className="darkGray">
         Email us at
         {' '}
