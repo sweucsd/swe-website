@@ -47,7 +47,7 @@ const Pages = [
   },
   {
     path: '/sponsors',
-    title: 'Sponsors',
+    title: 'Partners',
     subtitle: 'Thanks to the organizations that conntinue to support and empower our community!',
     titleTag: 'Sponsors – SWE at UCSD',
     navLabel: 'Sponsors',
